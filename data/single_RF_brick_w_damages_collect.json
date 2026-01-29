@@ -1,0 +1,2617 @@
+{
+    "dtype": "assembly_information_model.assembly/Assembly",
+    "data": {
+        "graph": {
+            "attributes": {},
+            "default_node_attributes": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "default_edge_attributes": {},
+            "node": {
+                "0": {
+                    "part": {
+                        "dtype": "assembly_information_model.part/Part",
+                        "data": {
+                            "attributes": {
+                                "name": "brick_full",
+                                "mesh": {
+                                    "dtype": "compas.datastructures/Mesh",
+                                    "data": {
+                                        "attributes": {},
+                                        "default_vertex_attributes": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "z": 0
+                                        },
+                                        "default_edge_attributes": {},
+                                        "default_face_attributes": {},
+                                        "vertex": {
+                                            "0": {
+                                                "x": -0.125,
+                                                "y": 0.06,
+                                                "z": 0.0325
+                                            },
+                                            "1": {
+                                                "x": -0.125,
+                                                "y": -0.06,
+                                                "z": 0.0325
+                                            },
+                                            "2": {
+                                                "x": 0.125,
+                                                "y": -0.06,
+                                                "z": 0.0325
+                                            },
+                                            "3": {
+                                                "x": 0.125,
+                                                "y": 0.06,
+                                                "z": 0.0325
+                                            },
+                                            "4": {
+                                                "x": -0.125,
+                                                "y": 0.06,
+                                                "z": -0.0325
+                                            },
+                                            "5": {
+                                                "x": 0.125,
+                                                "y": 0.06,
+                                                "z": -0.0325
+                                            },
+                                            "6": {
+                                                "x": 0.125,
+                                                "y": -0.06,
+                                                "z": -0.0325
+                                            },
+                                            "7": {
+                                                "x": -0.125,
+                                                "y": -0.06,
+                                                "z": -0.0325
+                                            }
+                                        },
+                                        "face": {
+                                            "0": [
+                                                0,
+                                                1,
+                                                2,
+                                                3
+                                            ],
+                                            "1": [
+                                                0,
+                                                3,
+                                                5,
+                                                4
+                                            ],
+                                            "2": [
+                                                3,
+                                                2,
+                                                6,
+                                                5
+                                            ],
+                                            "3": [
+                                                2,
+                                                1,
+                                                7,
+                                                6
+                                            ],
+                                            "4": [
+                                                1,
+                                                0,
+                                                4,
+                                                7
+                                            ],
+                                            "5": [
+                                                4,
+                                                5,
+                                                6,
+                                                7
+                                            ]
+                                        },
+                                        "facedata": {
+                                            "0": {},
+                                            "1": {},
+                                            "2": {},
+                                            "3": {},
+                                            "4": {},
+                                            "5": {}
+                                        },
+                                        "edgedata": {},
+                                        "max_vertex": 7,
+                                        "max_face": 5
+                                    },
+                                    "inheritance": [],
+                                    "guid": "ab9519a1-d4f8-4947-951a-ec2b267c9117"
+                                },
+                                "shape": {
+                                    "dtype": "compas.geometry/Box",
+                                    "data": {
+                                        "xsize": 0.25,
+                                        "ysize": 0.12,
+                                        "zsize": 0.065,
+                                        "frame": {
+                                            "point": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xaxis": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "yaxis": [
+                                                0,
+                                                -1,
+                                                0
+                                            ]
+                                        }
+                                    },
+                                    "guid": "735e5067-a26b-478e-a1b5-79ca8f780c88"
+                                }
+                            },
+                            "key": 0,
+                            "frame": {
+                                "point": [
+                                    0,
+                                    0,
+                                    0.0325
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    -1,
+                                    1.2246467991473532e-16
+                                ]
+                            }
+                        },
+                        "inheritance": [],
+                        "guid": "ee20c4a1-e18b-4961-b2b3-33a7a79942e5"
+                    },
+                    "x": 0,
+                    "y": 0,
+                    "z": 0.0325,
+                    "built": true,
+                    "damages": {
+                        "0": {
+                            "id": "damage_01",
+                            "type": "vertex",
+                            "vertices": [
+                                2
+                            ],
+                            "status": "Brokenness",
+                            "value": 5,
+                            "description": "Critical material loss at the top-front-right corner (Vertex 2), where a large chunk has broken off, significantly altering the silhouette and bounding profile of the brick.",
+                            "coordinates": {
+                                "point": [
+                                    0.125,
+                                    -0.06,
+                                    0.0325
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    1,
+                                    0
+                                ]
+                            }
+                        },
+                        "1": {
+                            "id": "damage_02",
+                            "type": "edge",
+                            "vertices": [
+                                1,
+                                2
+                            ],
+                            "status": "Brokenness",
+                            "value": 3,
+                            "description": "The top-front long edge exhibits significant chipping and irregular wear along its length, distinct from the main corner damage.",
+                            "coordinates": {
+                                "point": [
+                                    0,
+                                    -0.06,
+                                    0.0325
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    1,
+                                    0
+                                ]
+                            }
+                        }
+                    },
+                    "image_paths": [
+                        "C:\\Users\\saral\\workspace\\projects\\workshop_iaac_2026\\data\\brick_images\\IMG_1249.jpeg"
+                    ]
+                },
+                "1": {
+                    "part": {
+                        "dtype": "assembly_information_model.part/Part",
+                        "data": {
+                            "attributes": {
+                                "name": "brick_full",
+                                "mesh": {
+                                    "dtype": "compas.datastructures/Mesh",
+                                    "data": {
+                                        "attributes": {},
+                                        "default_vertex_attributes": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "z": 0
+                                        },
+                                        "default_edge_attributes": {},
+                                        "default_face_attributes": {},
+                                        "vertex": {
+                                            "0": {
+                                                "x": -0.125,
+                                                "y": 0.06,
+                                                "z": 0.0325
+                                            },
+                                            "1": {
+                                                "x": -0.125,
+                                                "y": -0.06,
+                                                "z": 0.0325
+                                            },
+                                            "2": {
+                                                "x": 0.125,
+                                                "y": -0.06,
+                                                "z": 0.0325
+                                            },
+                                            "3": {
+                                                "x": 0.125,
+                                                "y": 0.06,
+                                                "z": 0.0325
+                                            },
+                                            "4": {
+                                                "x": -0.125,
+                                                "y": 0.06,
+                                                "z": -0.0325
+                                            },
+                                            "5": {
+                                                "x": 0.125,
+                                                "y": 0.06,
+                                                "z": -0.0325
+                                            },
+                                            "6": {
+                                                "x": 0.125,
+                                                "y": -0.06,
+                                                "z": -0.0325
+                                            },
+                                            "7": {
+                                                "x": -0.125,
+                                                "y": -0.06,
+                                                "z": -0.0325
+                                            }
+                                        },
+                                        "face": {
+                                            "0": [
+                                                0,
+                                                1,
+                                                2,
+                                                3
+                                            ],
+                                            "1": [
+                                                0,
+                                                3,
+                                                5,
+                                                4
+                                            ],
+                                            "2": [
+                                                3,
+                                                2,
+                                                6,
+                                                5
+                                            ],
+                                            "3": [
+                                                2,
+                                                1,
+                                                7,
+                                                6
+                                            ],
+                                            "4": [
+                                                1,
+                                                0,
+                                                4,
+                                                7
+                                            ],
+                                            "5": [
+                                                4,
+                                                5,
+                                                6,
+                                                7
+                                            ]
+                                        },
+                                        "facedata": {
+                                            "0": {},
+                                            "1": {},
+                                            "2": {},
+                                            "3": {},
+                                            "4": {},
+                                            "5": {}
+                                        },
+                                        "edgedata": {},
+                                        "max_vertex": 7,
+                                        "max_face": 5
+                                    },
+                                    "inheritance": [],
+                                    "guid": "d8262d1f-e515-4447-ae12-5b9f1d104632"
+                                },
+                                "shape": {
+                                    "dtype": "compas.geometry/Box",
+                                    "data": {
+                                        "xsize": 0.25,
+                                        "ysize": 0.12,
+                                        "zsize": 0.065,
+                                        "frame": {
+                                            "point": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xaxis": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "yaxis": [
+                                                0,
+                                                -1,
+                                                0
+                                            ]
+                                        }
+                                    },
+                                    "guid": "0fa511c9-20c6-4aba-b5bb-6e5085246e73"
+                                }
+                            },
+                            "key": 1,
+                            "frame": {
+                                "point": [
+                                    0,
+                                    0,
+                                    0.0325
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    -1,
+                                    1.2246467991473532e-16
+                                ]
+                            }
+                        },
+                        "inheritance": [],
+                        "guid": "2c285aec-870d-441a-a007-6ee29bc10300"
+                    },
+                    "x": 0,
+                    "y": 0,
+                    "z": 0.0325,
+                    "built": true,
+                    "damages": {
+                        "0": {
+                            "id": "damage_01",
+                            "type": "edge",
+                            "vertices": [
+                                1,
+                                2
+                            ],
+                            "status": "Brokenness",
+                            "value": 4,
+                            "description": "A deep, significant notch/chip exists on the top-front edge, located approximately 50mm from the left corner, penetrating the front face.",
+                            "coordinates": {
+                                "point": [
+                                    -0.075,
+                                    -0.06,
+                                    0.0325
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    1,
+                                    0
+                                ]
+                            }
+                        },
+                        "1": {
+                            "id": "damage_02",
+                            "type": "vertex",
+                            "vertices": [
+                                1
+                            ],
+                            "status": "Brokenness",
+                            "value": 3,
+                            "description": "The top-front-left corner is heavily worn and rounded with noticeable material loss.",
+                            "coordinates": {
+                                "point": [
+                                    -0.125,
+                                    -0.06,
+                                    0.0325
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    1,
+                                    0
+                                ]
+                            }
+                        },
+                        "2": {
+                            "id": "damage_03",
+                            "type": "face",
+                            "vertices": [
+                                3
+                            ],
+                            "status": "Brokenness",
+                            "value": 3,
+                            "description": "The front face exhibits rough texture and spalling, particularly concentrated around the large edge chip on the left side.",
+                            "coordinates": {
+                                "point": [
+                                    -0.075,
+                                    -0.06,
+                                    0.015
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    1,
+                                    0
+                                ]
+                            }
+                        }
+                    },
+                    "image_paths": [
+                        "C:\\Users\\saral\\workspace\\projects\\workshop_iaac_2026\\data\\brick_images\\IMG_1231.jpeg"
+                    ]
+                },
+                "2": {
+                    "part": {
+                        "dtype": "assembly_information_model.part/Part",
+                        "data": {
+                            "attributes": {
+                                "name": "brick_full",
+                                "mesh": {
+                                    "dtype": "compas.datastructures/Mesh",
+                                    "data": {
+                                        "attributes": {},
+                                        "default_vertex_attributes": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "z": 0
+                                        },
+                                        "default_edge_attributes": {},
+                                        "default_face_attributes": {},
+                                        "vertex": {
+                                            "0": {
+                                                "x": -0.125,
+                                                "y": 0.06,
+                                                "z": 0.0325
+                                            },
+                                            "1": {
+                                                "x": -0.125,
+                                                "y": -0.06,
+                                                "z": 0.0325
+                                            },
+                                            "2": {
+                                                "x": 0.125,
+                                                "y": -0.06,
+                                                "z": 0.0325
+                                            },
+                                            "3": {
+                                                "x": 0.125,
+                                                "y": 0.06,
+                                                "z": 0.0325
+                                            },
+                                            "4": {
+                                                "x": -0.125,
+                                                "y": 0.06,
+                                                "z": -0.0325
+                                            },
+                                            "5": {
+                                                "x": 0.125,
+                                                "y": 0.06,
+                                                "z": -0.0325
+                                            },
+                                            "6": {
+                                                "x": 0.125,
+                                                "y": -0.06,
+                                                "z": -0.0325
+                                            },
+                                            "7": {
+                                                "x": -0.125,
+                                                "y": -0.06,
+                                                "z": -0.0325
+                                            }
+                                        },
+                                        "face": {
+                                            "0": [
+                                                0,
+                                                1,
+                                                2,
+                                                3
+                                            ],
+                                            "1": [
+                                                0,
+                                                3,
+                                                5,
+                                                4
+                                            ],
+                                            "2": [
+                                                3,
+                                                2,
+                                                6,
+                                                5
+                                            ],
+                                            "3": [
+                                                2,
+                                                1,
+                                                7,
+                                                6
+                                            ],
+                                            "4": [
+                                                1,
+                                                0,
+                                                4,
+                                                7
+                                            ],
+                                            "5": [
+                                                4,
+                                                5,
+                                                6,
+                                                7
+                                            ]
+                                        },
+                                        "facedata": {
+                                            "0": {},
+                                            "1": {},
+                                            "2": {},
+                                            "3": {},
+                                            "4": {},
+                                            "5": {}
+                                        },
+                                        "edgedata": {},
+                                        "max_vertex": 7,
+                                        "max_face": 5
+                                    },
+                                    "inheritance": [],
+                                    "guid": "f78b611c-7212-42ed-8a31-bc7283ee1c3c"
+                                },
+                                "shape": {
+                                    "dtype": "compas.geometry/Box",
+                                    "data": {
+                                        "xsize": 0.25,
+                                        "ysize": 0.12,
+                                        "zsize": 0.065,
+                                        "frame": {
+                                            "point": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xaxis": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "yaxis": [
+                                                0,
+                                                -1,
+                                                0
+                                            ]
+                                        }
+                                    },
+                                    "guid": "277d18e2-f02e-4210-8606-2a35821c07b9"
+                                }
+                            },
+                            "key": 2,
+                            "frame": {
+                                "point": [
+                                    0,
+                                    0,
+                                    0.0325
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    -1,
+                                    1.2246467991473532e-16
+                                ]
+                            }
+                        },
+                        "inheritance": [],
+                        "guid": "777708bf-93ba-4900-a2a8-a4f57d613970"
+                    },
+                    "x": 0,
+                    "y": 0,
+                    "z": 0.0325,
+                    "built": true,
+                    "damages": {
+                        "0": {
+                            "id": "damage_01",
+                            "type": "edge",
+                            "vertices": [
+                                2,
+                                3
+                            ],
+                            "status": "Brokenness",
+                            "value": 3,
+                            "description": "The top-right short edge is visibly irregular and jagged, with noticeable material chipping along the profile.",
+                            "coordinates": {
+                                "point": [
+                                    0.125,
+                                    0,
+                                    0.0325
+                                ],
+                                "xaxis": [
+                                    0,
+                                    1,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            }
+                        },
+                        "1": {
+                            "id": "damage_02",
+                            "type": "vertex",
+                            "vertices": [
+                                2
+                            ],
+                            "status": "Brokenness",
+                            "value": 2,
+                            "description": "The top-front-right corner is worn, rounded, and blunted due to minor material loss.",
+                            "coordinates": {
+                                "point": [
+                                    0.125,
+                                    -0.06,
+                                    0.0325
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    1,
+                                    0
+                                ]
+                            }
+                        },
+                        "2": {
+                            "id": "damage_03",
+                            "type": "edge",
+                            "vertices": [
+                                1,
+                                2
+                            ],
+                            "status": "Brokenness",
+                            "value": 2,
+                            "description": "The top-front long edge shows signs of moderate wear with small nicks and a rounded profile.",
+                            "coordinates": {
+                                "point": [
+                                    0,
+                                    -0.06,
+                                    0.0325
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            }
+                        }
+                    },
+                    "image_paths": [
+                        "C:\\Users\\saral\\workspace\\projects\\workshop_iaac_2026\\data\\brick_images\\IMG_1224.jpeg"
+                    ]
+                },
+                "3": {
+                    "part": {
+                        "dtype": "assembly_information_model.part/Part",
+                        "data": {
+                            "attributes": {
+                                "name": "brick_full",
+                                "mesh": {
+                                    "dtype": "compas.datastructures/Mesh",
+                                    "data": {
+                                        "attributes": {},
+                                        "default_vertex_attributes": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "z": 0
+                                        },
+                                        "default_edge_attributes": {},
+                                        "default_face_attributes": {},
+                                        "vertex": {
+                                            "0": {
+                                                "x": -0.125,
+                                                "y": 0.06,
+                                                "z": 0.0325
+                                            },
+                                            "1": {
+                                                "x": -0.125,
+                                                "y": -0.06,
+                                                "z": 0.0325
+                                            },
+                                            "2": {
+                                                "x": 0.125,
+                                                "y": -0.06,
+                                                "z": 0.0325
+                                            },
+                                            "3": {
+                                                "x": 0.125,
+                                                "y": 0.06,
+                                                "z": 0.0325
+                                            },
+                                            "4": {
+                                                "x": -0.125,
+                                                "y": 0.06,
+                                                "z": -0.0325
+                                            },
+                                            "5": {
+                                                "x": 0.125,
+                                                "y": 0.06,
+                                                "z": -0.0325
+                                            },
+                                            "6": {
+                                                "x": 0.125,
+                                                "y": -0.06,
+                                                "z": -0.0325
+                                            },
+                                            "7": {
+                                                "x": -0.125,
+                                                "y": -0.06,
+                                                "z": -0.0325
+                                            }
+                                        },
+                                        "face": {
+                                            "0": [
+                                                0,
+                                                1,
+                                                2,
+                                                3
+                                            ],
+                                            "1": [
+                                                0,
+                                                3,
+                                                5,
+                                                4
+                                            ],
+                                            "2": [
+                                                3,
+                                                2,
+                                                6,
+                                                5
+                                            ],
+                                            "3": [
+                                                2,
+                                                1,
+                                                7,
+                                                6
+                                            ],
+                                            "4": [
+                                                1,
+                                                0,
+                                                4,
+                                                7
+                                            ],
+                                            "5": [
+                                                4,
+                                                5,
+                                                6,
+                                                7
+                                            ]
+                                        },
+                                        "facedata": {
+                                            "0": {},
+                                            "1": {},
+                                            "2": {},
+                                            "3": {},
+                                            "4": {},
+                                            "5": {}
+                                        },
+                                        "edgedata": {},
+                                        "max_vertex": 7,
+                                        "max_face": 5
+                                    },
+                                    "inheritance": [],
+                                    "guid": "b49e0b16-0520-4416-93e9-b6e6facd27e4"
+                                },
+                                "shape": {
+                                    "dtype": "compas.geometry/Box",
+                                    "data": {
+                                        "xsize": 0.25,
+                                        "ysize": 0.12,
+                                        "zsize": 0.065,
+                                        "frame": {
+                                            "point": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xaxis": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "yaxis": [
+                                                0,
+                                                -1,
+                                                0
+                                            ]
+                                        }
+                                    },
+                                    "guid": "dd7f789b-6fdc-4685-88c3-0c2607ae43f1"
+                                }
+                            },
+                            "key": 3,
+                            "frame": {
+                                "point": [
+                                    0,
+                                    0,
+                                    0.0325
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    -1,
+                                    1.2246467991473532e-16
+                                ]
+                            }
+                        },
+                        "inheritance": [],
+                        "guid": "a1370dbc-e28e-402d-a340-e5dd58258a54"
+                    },
+                    "x": 0,
+                    "y": 0,
+                    "z": 0.0325,
+                    "built": true,
+                    "damages": {
+                        "0": {
+                            "id": "damage_00",
+                            "type": "edge",
+                            "vertices": [
+                                1,
+                                2
+                            ],
+                            "status": "Brokenness",
+                            "value": 3,
+                            "description": "A significant concave gouge is present on the front long edge, approximately 20-30mm long, penetrating into the side face causing visible material loss.",
+                            "coordinates": {
+                                "point": [
+                                    -0.08,
+                                    -0.06,
+                                    0.025
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    1,
+                                    0
+                                ]
+                            }
+                        },
+                        "1": {
+                            "id": "damage_01",
+                            "type": "vertex",
+                            "vertices": [
+                                1
+                            ],
+                            "status": "Brokenness",
+                            "value": 2,
+                            "description": "The front-left top corner is worn and rounded, losing its sharp geometric definition.",
+                            "coordinates": {
+                                "point": [
+                                    -0.125,
+                                    -0.06,
+                                    0.0325
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    1,
+                                    0
+                                ]
+                            }
+                        },
+                        "2": {
+                            "id": "damage_02",
+                            "type": "face",
+                            "vertices": [
+                                0
+                            ],
+                            "status": "Brokenness",
+                            "value": 1,
+                            "description": "The top face surface is rough and pitted with adhered grey mortar residue.",
+                            "coordinates": {
+                                "point": [
+                                    0,
+                                    0,
+                                    0.0325
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    1,
+                                    0
+                                ]
+                            }
+                        }
+                    },
+                    "image_paths": [
+                        "C:\\Users\\saral\\workspace\\projects\\workshop_iaac_2026\\data\\brick_images\\IMG_4182.jpg"
+                    ]
+                },
+                "4": {
+                    "part": {
+                        "dtype": "assembly_information_model.part/Part",
+                        "data": {
+                            "attributes": {
+                                "name": "brick_full",
+                                "mesh": {
+                                    "dtype": "compas.datastructures/Mesh",
+                                    "data": {
+                                        "attributes": {},
+                                        "default_vertex_attributes": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "z": 0
+                                        },
+                                        "default_edge_attributes": {},
+                                        "default_face_attributes": {},
+                                        "vertex": {
+                                            "0": {
+                                                "x": -0.125,
+                                                "y": 0.06,
+                                                "z": 0.0325
+                                            },
+                                            "1": {
+                                                "x": -0.125,
+                                                "y": -0.06,
+                                                "z": 0.0325
+                                            },
+                                            "2": {
+                                                "x": 0.125,
+                                                "y": -0.06,
+                                                "z": 0.0325
+                                            },
+                                            "3": {
+                                                "x": 0.125,
+                                                "y": 0.06,
+                                                "z": 0.0325
+                                            },
+                                            "4": {
+                                                "x": -0.125,
+                                                "y": 0.06,
+                                                "z": -0.0325
+                                            },
+                                            "5": {
+                                                "x": 0.125,
+                                                "y": 0.06,
+                                                "z": -0.0325
+                                            },
+                                            "6": {
+                                                "x": 0.125,
+                                                "y": -0.06,
+                                                "z": -0.0325
+                                            },
+                                            "7": {
+                                                "x": -0.125,
+                                                "y": -0.06,
+                                                "z": -0.0325
+                                            }
+                                        },
+                                        "face": {
+                                            "0": [
+                                                0,
+                                                1,
+                                                2,
+                                                3
+                                            ],
+                                            "1": [
+                                                0,
+                                                3,
+                                                5,
+                                                4
+                                            ],
+                                            "2": [
+                                                3,
+                                                2,
+                                                6,
+                                                5
+                                            ],
+                                            "3": [
+                                                2,
+                                                1,
+                                                7,
+                                                6
+                                            ],
+                                            "4": [
+                                                1,
+                                                0,
+                                                4,
+                                                7
+                                            ],
+                                            "5": [
+                                                4,
+                                                5,
+                                                6,
+                                                7
+                                            ]
+                                        },
+                                        "facedata": {
+                                            "0": {},
+                                            "1": {},
+                                            "2": {},
+                                            "3": {},
+                                            "4": {},
+                                            "5": {}
+                                        },
+                                        "edgedata": {},
+                                        "max_vertex": 7,
+                                        "max_face": 5
+                                    },
+                                    "inheritance": [],
+                                    "guid": "338109bf-0761-4022-b7ce-4618df8da592"
+                                },
+                                "shape": {
+                                    "dtype": "compas.geometry/Box",
+                                    "data": {
+                                        "xsize": 0.25,
+                                        "ysize": 0.12,
+                                        "zsize": 0.065,
+                                        "frame": {
+                                            "point": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xaxis": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "yaxis": [
+                                                0,
+                                                -1,
+                                                0
+                                            ]
+                                        }
+                                    },
+                                    "guid": "4759bfe7-f8d1-42f9-959f-450879162402"
+                                }
+                            },
+                            "key": 4,
+                            "frame": {
+                                "point": [
+                                    0,
+                                    0,
+                                    0.0325
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    -1,
+                                    1.2246467991473532e-16
+                                ]
+                            }
+                        },
+                        "inheritance": [],
+                        "guid": "ce2a4999-708b-4b5e-bfc3-0e524ea58e77"
+                    },
+                    "x": 0,
+                    "y": 0,
+                    "z": 0.0325,
+                    "built": true,
+                    "damages": {
+                        "0": {
+                            "id": "damage_01",
+                            "type": "face",
+                            "vertices": [
+                                4
+                            ],
+                            "status": "Brokenness",
+                            "value": 5,
+                            "description": "Critical material loss across the entire left short face (Face 4), creating a large step-like fracture that removes the top corners (Vertices 0 and 1).",
+                            "coordinates": {
+                                "point": [
+                                    -0.125,
+                                    0,
+                                    0.015
+                                ],
+                                "xaxis": [
+                                    0,
+                                    0,
+                                    1
+                                ],
+                                "yaxis": [
+                                    0,
+                                    1,
+                                    0
+                                ]
+                            }
+                        },
+                        "1": {
+                            "id": "damage_02",
+                            "type": "edge",
+                            "vertices": [
+                                1,
+                                2
+                            ],
+                            "status": "Brokenness",
+                            "value": 3,
+                            "description": "The top-front long edge is significantly chipped and irregular, particularly in the section adjacent to the major break on the left.",
+                            "coordinates": {
+                                "point": [
+                                    0,
+                                    -0.06,
+                                    0.0325
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    1,
+                                    0
+                                ]
+                            }
+                        },
+                        "2": {
+                            "id": "damage_03",
+                            "type": "vertex",
+                            "vertices": [
+                                2
+                            ],
+                            "status": "Brokenness",
+                            "value": 2,
+                            "description": "Moderate rounding and minor chipping at the top-front-right corner.",
+                            "coordinates": {
+                                "point": [
+                                    0.125,
+                                    -0.06,
+                                    0.0325
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    1,
+                                    0
+                                ]
+                            }
+                        }
+                    },
+                    "image_paths": [
+                        "C:\\Users\\saral\\workspace\\projects\\workshop_iaac_2026\\data\\brick_images\\IMG_4182.jpg"
+                    ]
+                },
+                "5": {
+                    "part": {
+                        "dtype": "assembly_information_model.part/Part",
+                        "data": {
+                            "attributes": {
+                                "name": "brick_full",
+                                "mesh": {
+                                    "dtype": "compas.datastructures/Mesh",
+                                    "data": {
+                                        "attributes": {},
+                                        "default_vertex_attributes": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "z": 0
+                                        },
+                                        "default_edge_attributes": {},
+                                        "default_face_attributes": {},
+                                        "vertex": {
+                                            "0": {
+                                                "x": -0.125,
+                                                "y": 0.06,
+                                                "z": 0.0325
+                                            },
+                                            "1": {
+                                                "x": -0.125,
+                                                "y": -0.06,
+                                                "z": 0.0325
+                                            },
+                                            "2": {
+                                                "x": 0.125,
+                                                "y": -0.06,
+                                                "z": 0.0325
+                                            },
+                                            "3": {
+                                                "x": 0.125,
+                                                "y": 0.06,
+                                                "z": 0.0325
+                                            },
+                                            "4": {
+                                                "x": -0.125,
+                                                "y": 0.06,
+                                                "z": -0.0325
+                                            },
+                                            "5": {
+                                                "x": 0.125,
+                                                "y": 0.06,
+                                                "z": -0.0325
+                                            },
+                                            "6": {
+                                                "x": 0.125,
+                                                "y": -0.06,
+                                                "z": -0.0325
+                                            },
+                                            "7": {
+                                                "x": -0.125,
+                                                "y": -0.06,
+                                                "z": -0.0325
+                                            }
+                                        },
+                                        "face": {
+                                            "0": [
+                                                0,
+                                                1,
+                                                2,
+                                                3
+                                            ],
+                                            "1": [
+                                                0,
+                                                3,
+                                                5,
+                                                4
+                                            ],
+                                            "2": [
+                                                3,
+                                                2,
+                                                6,
+                                                5
+                                            ],
+                                            "3": [
+                                                2,
+                                                1,
+                                                7,
+                                                6
+                                            ],
+                                            "4": [
+                                                1,
+                                                0,
+                                                4,
+                                                7
+                                            ],
+                                            "5": [
+                                                4,
+                                                5,
+                                                6,
+                                                7
+                                            ]
+                                        },
+                                        "facedata": {
+                                            "0": {},
+                                            "1": {},
+                                            "2": {},
+                                            "3": {},
+                                            "4": {},
+                                            "5": {}
+                                        },
+                                        "edgedata": {},
+                                        "max_vertex": 7,
+                                        "max_face": 5
+                                    },
+                                    "inheritance": [],
+                                    "guid": "c455f7ad-a82d-461f-a522-152b479ec23c"
+                                },
+                                "shape": {
+                                    "dtype": "compas.geometry/Box",
+                                    "data": {
+                                        "xsize": 0.25,
+                                        "ysize": 0.12,
+                                        "zsize": 0.065,
+                                        "frame": {
+                                            "point": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xaxis": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "yaxis": [
+                                                0,
+                                                -1,
+                                                0
+                                            ]
+                                        }
+                                    },
+                                    "guid": "bbb4442f-272a-43a9-ad05-c142f680905c"
+                                }
+                            },
+                            "key": 5,
+                            "frame": {
+                                "point": [
+                                    0,
+                                    0,
+                                    0.0325
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    -1,
+                                    1.2246467991473532e-16
+                                ]
+                            }
+                        },
+                        "inheritance": [],
+                        "guid": "72afa0ad-b374-452f-ac02-a1c25e8797fe"
+                    },
+                    "x": 0,
+                    "y": 0,
+                    "z": 0.0325,
+                    "built": true,
+                    "damages": {
+                        "0": {
+                            "id": "damage_01",
+                            "type": "face",
+                            "vertices": [
+                                3
+                            ],
+                            "status": "Brokenness",
+                            "value": 5,
+                            "description": "Critical material loss on the front face, where a large, deep chunk is missing from the central area, destroying the planar surface.",
+                            "coordinates": {
+                                "point": [
+                                    0,
+                                    -0.06,
+                                    0
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            }
+                        },
+                        "1": {
+                            "id": "damage_02",
+                            "type": "edge",
+                            "vertices": [
+                                1,
+                                2
+                            ],
+                            "status": "Brokenness",
+                            "value": 5,
+                            "description": "The top-front long edge has critical damage, with a significant portion completely broken away in the middle, rendering the edge non-existent in that section.",
+                            "coordinates": {
+                                "point": [
+                                    0,
+                                    -0.06,
+                                    0.0325
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    1,
+                                    0
+                                ]
+                            }
+                        },
+                        "2": {
+                            "id": "damage_03",
+                            "type": "face",
+                            "vertices": [
+                                0
+                            ],
+                            "status": "Brokenness",
+                            "value": 4,
+                            "description": "Severe spalling on the top face has created a large, shallow depression, significantly altering the surface texture and flatness.",
+                            "coordinates": {
+                                "point": [
+                                    -0.04,
+                                    0.01,
+                                    0.0325
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    1,
+                                    0
+                                ]
+                            }
+                        }
+                    },
+                    "image_paths": [
+                        "C:\\Users\\saral\\workspace\\projects\\workshop_iaac_2026\\data\\brick_images\\IMG_4182.jpg"
+                    ]
+                },
+                "6": {
+                    "part": {
+                        "dtype": "assembly_information_model.part/Part",
+                        "data": {
+                            "attributes": {
+                                "name": "brick_full",
+                                "mesh": {
+                                    "dtype": "compas.datastructures/Mesh",
+                                    "data": {
+                                        "attributes": {},
+                                        "default_vertex_attributes": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "z": 0
+                                        },
+                                        "default_edge_attributes": {},
+                                        "default_face_attributes": {},
+                                        "vertex": {
+                                            "0": {
+                                                "x": -0.125,
+                                                "y": 0.06,
+                                                "z": 0.0325
+                                            },
+                                            "1": {
+                                                "x": -0.125,
+                                                "y": -0.06,
+                                                "z": 0.0325
+                                            },
+                                            "2": {
+                                                "x": 0.125,
+                                                "y": -0.06,
+                                                "z": 0.0325
+                                            },
+                                            "3": {
+                                                "x": 0.125,
+                                                "y": 0.06,
+                                                "z": 0.0325
+                                            },
+                                            "4": {
+                                                "x": -0.125,
+                                                "y": 0.06,
+                                                "z": -0.0325
+                                            },
+                                            "5": {
+                                                "x": 0.125,
+                                                "y": 0.06,
+                                                "z": -0.0325
+                                            },
+                                            "6": {
+                                                "x": 0.125,
+                                                "y": -0.06,
+                                                "z": -0.0325
+                                            },
+                                            "7": {
+                                                "x": -0.125,
+                                                "y": -0.06,
+                                                "z": -0.0325
+                                            }
+                                        },
+                                        "face": {
+                                            "0": [
+                                                0,
+                                                1,
+                                                2,
+                                                3
+                                            ],
+                                            "1": [
+                                                0,
+                                                3,
+                                                5,
+                                                4
+                                            ],
+                                            "2": [
+                                                3,
+                                                2,
+                                                6,
+                                                5
+                                            ],
+                                            "3": [
+                                                2,
+                                                1,
+                                                7,
+                                                6
+                                            ],
+                                            "4": [
+                                                1,
+                                                0,
+                                                4,
+                                                7
+                                            ],
+                                            "5": [
+                                                4,
+                                                5,
+                                                6,
+                                                7
+                                            ]
+                                        },
+                                        "facedata": {
+                                            "0": {},
+                                            "1": {},
+                                            "2": {},
+                                            "3": {},
+                                            "4": {},
+                                            "5": {}
+                                        },
+                                        "edgedata": {},
+                                        "max_vertex": 7,
+                                        "max_face": 5
+                                    },
+                                    "inheritance": [],
+                                    "guid": "efcd5d66-f1a9-45af-876c-779bb1b94222"
+                                },
+                                "shape": {
+                                    "dtype": "compas.geometry/Box",
+                                    "data": {
+                                        "xsize": 0.25,
+                                        "ysize": 0.12,
+                                        "zsize": 0.065,
+                                        "frame": {
+                                            "point": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xaxis": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "yaxis": [
+                                                0,
+                                                -1,
+                                                0
+                                            ]
+                                        }
+                                    },
+                                    "guid": "7131b1c1-886c-4090-8ca6-035d711756cc"
+                                }
+                            },
+                            "key": 6,
+                            "frame": {
+                                "point": [
+                                    0,
+                                    0,
+                                    0.0325
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    -1,
+                                    1.2246467991473532e-16
+                                ]
+                            }
+                        },
+                        "inheritance": [],
+                        "guid": "2632527b-babd-43e4-9628-bb75f0e74d21"
+                    },
+                    "x": 0,
+                    "y": 0,
+                    "z": 0.0325,
+                    "built": true,
+                    "damages": {
+                        "0": {
+                            "id": "damage_01",
+                            "type": "face",
+                            "vertices": [
+                                0
+                            ],
+                            "status": "Crack",
+                            "value": 4,
+                            "description": "A severe, deep crack originates near the top-front-right corner, extends diagonally across the top face, and continues down the right-short face.",
+                            "coordinates": {
+                                "point": [
+                                    0.06,
+                                    -0.03,
+                                    0.0325
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    1,
+                                    0
+                                ]
+                            }
+                        },
+                        "1": {
+                            "id": "damage_02",
+                            "type": "edge",
+                            "vertices": [
+                                1,
+                                2
+                            ],
+                            "status": "Brokenness",
+                            "value": 4,
+                            "description": "Severe material loss and spalling along the top-front long edge, resulting in a highly irregular and broken profile.",
+                            "coordinates": {
+                                "point": [
+                                    0,
+                                    -0.06,
+                                    0.0325
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    1,
+                                    0
+                                ]
+                            }
+                        },
+                        "2": {
+                            "id": "damage_03",
+                            "type": "vertex",
+                            "vertices": [
+                                0
+                            ],
+                            "status": "Brokenness",
+                            "value": 4,
+                            "description": "Severe loss of material at the top-back-left corner, where a large chunk has broken off, significantly altering the brick's geometry.",
+                            "coordinates": {
+                                "point": [
+                                    -0.125,
+                                    0.06,
+                                    0.0325
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    1,
+                                    0
+                                ]
+                            }
+                        },
+                        "3": {
+                            "id": "damage_04",
+                            "type": "face",
+                            "vertices": [
+                                0
+                            ],
+                            "status": "Brokenness",
+                            "value": 3,
+                            "description": "The top face exhibits significant pitting and is covered with a layer of residual mortar, creating a rough and uneven surface.",
+                            "coordinates": {
+                                "point": [
+                                    0,
+                                    0,
+                                    0.0325
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    1,
+                                    0
+                                ]
+                            }
+                        }
+                    },
+                    "image_paths": [
+                        "C:\\Users\\saral\\workspace\\projects\\workshop_iaac_2026\\data\\brick_images\\IMG_4184.jpg"
+                    ]
+                },
+                "7": {
+                    "part": {
+                        "dtype": "assembly_information_model.part/Part",
+                        "data": {
+                            "attributes": {
+                                "name": "brick_full",
+                                "mesh": {
+                                    "dtype": "compas.datastructures/Mesh",
+                                    "data": {
+                                        "attributes": {},
+                                        "default_vertex_attributes": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "z": 0
+                                        },
+                                        "default_edge_attributes": {},
+                                        "default_face_attributes": {},
+                                        "vertex": {
+                                            "0": {
+                                                "x": -0.125,
+                                                "y": 0.06,
+                                                "z": 0.0325
+                                            },
+                                            "1": {
+                                                "x": -0.125,
+                                                "y": -0.06,
+                                                "z": 0.0325
+                                            },
+                                            "2": {
+                                                "x": 0.125,
+                                                "y": -0.06,
+                                                "z": 0.0325
+                                            },
+                                            "3": {
+                                                "x": 0.125,
+                                                "y": 0.06,
+                                                "z": 0.0325
+                                            },
+                                            "4": {
+                                                "x": -0.125,
+                                                "y": 0.06,
+                                                "z": -0.0325
+                                            },
+                                            "5": {
+                                                "x": 0.125,
+                                                "y": 0.06,
+                                                "z": -0.0325
+                                            },
+                                            "6": {
+                                                "x": 0.125,
+                                                "y": -0.06,
+                                                "z": -0.0325
+                                            },
+                                            "7": {
+                                                "x": -0.125,
+                                                "y": -0.06,
+                                                "z": -0.0325
+                                            }
+                                        },
+                                        "face": {
+                                            "0": [
+                                                0,
+                                                1,
+                                                2,
+                                                3
+                                            ],
+                                            "1": [
+                                                0,
+                                                3,
+                                                5,
+                                                4
+                                            ],
+                                            "2": [
+                                                3,
+                                                2,
+                                                6,
+                                                5
+                                            ],
+                                            "3": [
+                                                2,
+                                                1,
+                                                7,
+                                                6
+                                            ],
+                                            "4": [
+                                                1,
+                                                0,
+                                                4,
+                                                7
+                                            ],
+                                            "5": [
+                                                4,
+                                                5,
+                                                6,
+                                                7
+                                            ]
+                                        },
+                                        "facedata": {
+                                            "0": {},
+                                            "1": {},
+                                            "2": {},
+                                            "3": {},
+                                            "4": {},
+                                            "5": {}
+                                        },
+                                        "edgedata": {},
+                                        "max_vertex": 7,
+                                        "max_face": 5
+                                    },
+                                    "inheritance": [],
+                                    "guid": "954ef795-d30d-4492-81f3-2012f3ecc9ed"
+                                },
+                                "shape": {
+                                    "dtype": "compas.geometry/Box",
+                                    "data": {
+                                        "xsize": 0.25,
+                                        "ysize": 0.12,
+                                        "zsize": 0.065,
+                                        "frame": {
+                                            "point": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xaxis": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "yaxis": [
+                                                0,
+                                                -1,
+                                                0
+                                            ]
+                                        }
+                                    },
+                                    "guid": "d9235446-0a71-4475-8bd4-8d14d32c8f4c"
+                                }
+                            },
+                            "key": 7,
+                            "frame": {
+                                "point": [
+                                    0,
+                                    0,
+                                    0.0325
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    -1,
+                                    1.2246467991473532e-16
+                                ]
+                            }
+                        },
+                        "inheritance": [],
+                        "guid": "0683f258-322d-405f-beab-55d3df7de8d3"
+                    },
+                    "x": 0,
+                    "y": 0,
+                    "z": 0.0325,
+                    "built": true,
+                    "damages": {
+                        "0": {
+                            "id": "damage_01",
+                            "type": "face",
+                            "vertices": [
+                                0
+                            ],
+                            "status": "Crack",
+                            "value": 4,
+                            "description": "A severe crack runs longitudinally across the top face (Face 0) and wraps down onto the right short face (Face 2), originating near the top-front-right corner.",
+                            "coordinates": {
+                                "point": [
+                                    0.06,
+                                    -0.01,
+                                    0.0325
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    1,
+                                    0
+                                ]
+                            }
+                        },
+                        "1": {
+                            "id": "damage_02",
+                            "type": "vertex",
+                            "vertices": [
+                                2
+                            ],
+                            "status": "Brokenness",
+                            "value": 4,
+                            "description": "Severe material loss at the top-front-right corner (Vertex 2), where a large chunk has broken off, significantly altering the brick's geometry.",
+                            "coordinates": {
+                                "point": [
+                                    0.125,
+                                    -0.06,
+                                    0.0325
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    1,
+                                    0
+                                ]
+                            }
+                        },
+                        "2": {
+                            "id": "damage_03",
+                            "type": "edge",
+                            "vertices": [
+                                1,
+                                2
+                            ],
+                            "status": "Brokenness",
+                            "value": 4,
+                            "description": "The top-front long edge (Edge 1-2) shows severe and continuous chipping along its length, resulting in a highly irregular profile.",
+                            "coordinates": {
+                                "point": [
+                                    0,
+                                    -0.06,
+                                    0.0325
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    1,
+                                    0
+                                ]
+                            }
+                        },
+                        "3": {
+                            "id": "damage_04",
+                            "type": "vertex",
+                            "vertices": [
+                                1
+                            ],
+                            "status": "Brokenness",
+                            "value": 3,
+                            "description": "Significant material loss at the top-front-left corner (Vertex 1) with a noticeable chunk missing.",
+                            "coordinates": {
+                                "point": [
+                                    -0.125,
+                                    -0.06,
+                                    0.0325
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    1,
+                                    0
+                                ]
+                            }
+                        }
+                    },
+                    "image_paths": [
+                        "C:\\Users\\saral\\workspace\\projects\\workshop_iaac_2026\\data\\brick_images\\IMG_4184.jpg"
+                    ]
+                },
+                "8": {
+                    "part": {
+                        "dtype": "assembly_information_model.part/Part",
+                        "data": {
+                            "attributes": {
+                                "name": "brick_full",
+                                "mesh": {
+                                    "dtype": "compas.datastructures/Mesh",
+                                    "data": {
+                                        "attributes": {},
+                                        "default_vertex_attributes": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "z": 0
+                                        },
+                                        "default_edge_attributes": {},
+                                        "default_face_attributes": {},
+                                        "vertex": {
+                                            "0": {
+                                                "x": -0.125,
+                                                "y": 0.06,
+                                                "z": 0.0325
+                                            },
+                                            "1": {
+                                                "x": -0.125,
+                                                "y": -0.06,
+                                                "z": 0.0325
+                                            },
+                                            "2": {
+                                                "x": 0.125,
+                                                "y": -0.06,
+                                                "z": 0.0325
+                                            },
+                                            "3": {
+                                                "x": 0.125,
+                                                "y": 0.06,
+                                                "z": 0.0325
+                                            },
+                                            "4": {
+                                                "x": -0.125,
+                                                "y": 0.06,
+                                                "z": -0.0325
+                                            },
+                                            "5": {
+                                                "x": 0.125,
+                                                "y": 0.06,
+                                                "z": -0.0325
+                                            },
+                                            "6": {
+                                                "x": 0.125,
+                                                "y": -0.06,
+                                                "z": -0.0325
+                                            },
+                                            "7": {
+                                                "x": -0.125,
+                                                "y": -0.06,
+                                                "z": -0.0325
+                                            }
+                                        },
+                                        "face": {
+                                            "0": [
+                                                0,
+                                                1,
+                                                2,
+                                                3
+                                            ],
+                                            "1": [
+                                                0,
+                                                3,
+                                                5,
+                                                4
+                                            ],
+                                            "2": [
+                                                3,
+                                                2,
+                                                6,
+                                                5
+                                            ],
+                                            "3": [
+                                                2,
+                                                1,
+                                                7,
+                                                6
+                                            ],
+                                            "4": [
+                                                1,
+                                                0,
+                                                4,
+                                                7
+                                            ],
+                                            "5": [
+                                                4,
+                                                5,
+                                                6,
+                                                7
+                                            ]
+                                        },
+                                        "facedata": {
+                                            "0": {},
+                                            "1": {},
+                                            "2": {},
+                                            "3": {},
+                                            "4": {},
+                                            "5": {}
+                                        },
+                                        "edgedata": {},
+                                        "max_vertex": 7,
+                                        "max_face": 5
+                                    },
+                                    "inheritance": [],
+                                    "guid": "f85137d7-0653-41bb-8a65-fb56d1bfbb18"
+                                },
+                                "shape": {
+                                    "dtype": "compas.geometry/Box",
+                                    "data": {
+                                        "xsize": 0.25,
+                                        "ysize": 0.12,
+                                        "zsize": 0.065,
+                                        "frame": {
+                                            "point": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xaxis": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "yaxis": [
+                                                0,
+                                                -1,
+                                                0
+                                            ]
+                                        }
+                                    },
+                                    "guid": "b69add05-c73e-4ee6-be3e-65c8f933a873"
+                                }
+                            },
+                            "key": 8,
+                            "frame": {
+                                "point": [
+                                    0,
+                                    0,
+                                    0.0325
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    -1,
+                                    1.2246467991473532e-16
+                                ]
+                            }
+                        },
+                        "inheritance": [],
+                        "guid": "0e5c40e9-cb1d-4e1d-86d0-13b55a2c703a"
+                    },
+                    "x": 0,
+                    "y": 0,
+                    "z": 0.0325,
+                    "built": true,
+                    "damages": {
+                        "0": {
+                            "id": "damage_01",
+                            "type": "vertex",
+                            "vertices": [
+                                1
+                            ],
+                            "status": "Brokenness",
+                            "value": 5,
+                            "description": "Critical material loss at the top-front-left corner, where a large portion is completely broken off, making the brick no longer a clean cuboid.",
+                            "coordinates": {
+                                "point": [
+                                    -0.125,
+                                    -0.06,
+                                    0.0325
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    1,
+                                    0
+                                ]
+                            }
+                        },
+                        "1": {
+                            "id": "damage_02",
+                            "type": "edge",
+                            "vertices": [
+                                1,
+                                2
+                            ],
+                            "status": "Brokenness",
+                            "value": 4,
+                            "description": "Severe material loss along the top-front long edge, which is highly irregular and significantly chipped, altering the brick's silhouette.",
+                            "coordinates": {
+                                "point": [
+                                    0,
+                                    -0.06,
+                                    0.0325
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    1,
+                                    0
+                                ]
+                            }
+                        },
+                        "2": {
+                            "id": "damage_03",
+                            "type": "face",
+                            "vertices": [
+                                0
+                            ],
+                            "status": "Crack",
+                            "value": 2,
+                            "description": "A moderate, clearly visible surface crack runs diagonally across the top face.",
+                            "coordinates": {
+                                "point": [
+                                    -0.04,
+                                    0.01,
+                                    0.0325
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    1,
+                                    0
+                                ]
+                            }
+                        },
+                        "3": {
+                            "id": "damage_04",
+                            "type": "face",
+                            "vertices": [
+                                0
+                            ],
+                            "status": "Brokenness",
+                            "value": 3,
+                            "description": "The top face shows significant spalling and pitting, resulting in a rough, uneven surface with residual mortar.",
+                            "coordinates": {
+                                "point": [
+                                    0,
+                                    0,
+                                    0.0325
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    1,
+                                    0
+                                ]
+                            }
+                        }
+                    },
+                    "image_paths": [
+                        "C:\\Users\\saral\\workspace\\projects\\workshop_iaac_2026\\data\\brick_images\\IMG_4184.jpg"
+                    ]
+                },
+                "9": {
+                    "part": {
+                        "dtype": "assembly_information_model.part/Part",
+                        "data": {
+                            "attributes": {
+                                "name": "brick_full",
+                                "mesh": {
+                                    "dtype": "compas.datastructures/Mesh",
+                                    "data": {
+                                        "attributes": {},
+                                        "default_vertex_attributes": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "z": 0
+                                        },
+                                        "default_edge_attributes": {},
+                                        "default_face_attributes": {},
+                                        "vertex": {
+                                            "0": {
+                                                "x": -0.125,
+                                                "y": 0.06,
+                                                "z": 0.0325
+                                            },
+                                            "1": {
+                                                "x": -0.125,
+                                                "y": -0.06,
+                                                "z": 0.0325
+                                            },
+                                            "2": {
+                                                "x": 0.125,
+                                                "y": -0.06,
+                                                "z": 0.0325
+                                            },
+                                            "3": {
+                                                "x": 0.125,
+                                                "y": 0.06,
+                                                "z": 0.0325
+                                            },
+                                            "4": {
+                                                "x": -0.125,
+                                                "y": 0.06,
+                                                "z": -0.0325
+                                            },
+                                            "5": {
+                                                "x": 0.125,
+                                                "y": 0.06,
+                                                "z": -0.0325
+                                            },
+                                            "6": {
+                                                "x": 0.125,
+                                                "y": -0.06,
+                                                "z": -0.0325
+                                            },
+                                            "7": {
+                                                "x": -0.125,
+                                                "y": -0.06,
+                                                "z": -0.0325
+                                            }
+                                        },
+                                        "face": {
+                                            "0": [
+                                                0,
+                                                1,
+                                                2,
+                                                3
+                                            ],
+                                            "1": [
+                                                0,
+                                                3,
+                                                5,
+                                                4
+                                            ],
+                                            "2": [
+                                                3,
+                                                2,
+                                                6,
+                                                5
+                                            ],
+                                            "3": [
+                                                2,
+                                                1,
+                                                7,
+                                                6
+                                            ],
+                                            "4": [
+                                                1,
+                                                0,
+                                                4,
+                                                7
+                                            ],
+                                            "5": [
+                                                4,
+                                                5,
+                                                6,
+                                                7
+                                            ]
+                                        },
+                                        "facedata": {
+                                            "0": {},
+                                            "1": {},
+                                            "2": {},
+                                            "3": {},
+                                            "4": {},
+                                            "5": {}
+                                        },
+                                        "edgedata": {},
+                                        "max_vertex": 7,
+                                        "max_face": 5
+                                    },
+                                    "inheritance": [],
+                                    "guid": "590ae6d8-9632-4991-98ab-7b83d1733614"
+                                },
+                                "shape": {
+                                    "dtype": "compas.geometry/Box",
+                                    "data": {
+                                        "xsize": 0.25,
+                                        "ysize": 0.12,
+                                        "zsize": 0.065,
+                                        "frame": {
+                                            "point": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "xaxis": [
+                                                1,
+                                                0,
+                                                0
+                                            ],
+                                            "yaxis": [
+                                                0,
+                                                -1,
+                                                0
+                                            ]
+                                        }
+                                    },
+                                    "guid": "399181d0-293a-47dd-a6e6-5943a7627e7c"
+                                }
+                            },
+                            "key": 9,
+                            "frame": {
+                                "point": [
+                                    0,
+                                    0,
+                                    0.0325
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    -1,
+                                    1.2246467991473532e-16
+                                ]
+                            }
+                        },
+                        "inheritance": [],
+                        "guid": "82c3f758-5369-488f-a2e1-e3d06a5b3c80"
+                    },
+                    "x": 0,
+                    "y": 0,
+                    "z": 0.0325,
+                    "built": true,
+                    "damages": {
+                        "0": {
+                            "id": "damage_01",
+                            "type": "face",
+                            "vertices": [
+                                0
+                            ],
+                            "status": "Crack",
+                            "value": 4,
+                            "description": "A severe, deep crack runs diagonally across the top face, originating near the front-right corner.",
+                            "coordinates": {
+                                "point": [
+                                    0.05,
+                                    -0.01,
+                                    0.0325
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    1,
+                                    0
+                                ]
+                            }
+                        },
+                        "1": {
+                            "id": "damage_02",
+                            "type": "vertex",
+                            "vertices": [
+                                2
+                            ],
+                            "status": "Brokenness",
+                            "value": 4,
+                            "description": "Severe material loss at the top-front-right corner, with a large chunk broken off, significantly altering the brick's silhouette.",
+                            "coordinates": {
+                                "point": [
+                                    0.125,
+                                    -0.06,
+                                    0.0325
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    1,
+                                    0
+                                ]
+                            }
+                        },
+                        "2": {
+                            "id": "damage_03",
+                            "type": "edge",
+                            "vertices": [
+                                1,
+                                2
+                            ],
+                            "status": "Brokenness",
+                            "value": 3,
+                            "description": "Significant chipping and material loss along the top-front long edge, resulting in an uneven and worn profile.",
+                            "coordinates": {
+                                "point": [
+                                    0,
+                                    -0.06,
+                                    0.0325
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    1,
+                                    0
+                                ]
+                            }
+                        }
+                    },
+                    "image_paths": [
+                        "C:\\Users\\saral\\workspace\\projects\\workshop_iaac_2026\\data\\brick_images\\IMG_4184.jpg"
+                    ]
+                }
+            },
+            "edge": {
+                "0": {},
+                "1": {},
+                "2": {},
+                "3": {},
+                "4": {},
+                "5": {},
+                "6": {},
+                "7": {},
+                "8": {},
+                "9": {}
+            },
+            "max_node": 9
+        },
+        "attributes": {}
+    },
+    "inheritance": [],
+    "guid": "6b455132-1103-4ad3-bbff-836af5d743a3"
+}
