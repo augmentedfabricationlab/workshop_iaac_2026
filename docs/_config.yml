@@ -7,7 +7,7 @@ permalink:        pretty
 #relative_permalinks: true
 
 # Setup
-title:            Machine Reasoned Brickwork
+title:            Robotic Disassembly & Reassembly with Spatial AI
 tagline:          'IAAC 2024'
 description:      'Workshop'
 baseurl: "/workshop_iaac_2026" # the subpath of your site, e.g. /blog
