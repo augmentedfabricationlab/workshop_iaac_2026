@@ -7,7 +7,10 @@ title: About
 Digital fabrication technology has opened the possibility of fabricating directly from design information, promising to transform many design and production disciplines in Architecture, Engineering, and Construction (AEC). However, the unstructured nature of construction sites poses several technical, social, and economic barriers that hinder the AEC sector's direct adoption and integration of such innovations and achieving the vision of fully automated and robotized building construction. Hence, the research presented within this workshop investigates whether the idea of a hybrid, dually augmented human-robot fabrication work could form the basis of a paradigm shift in this field. Human-in-the-loop design and fabrication workflows production chains have the potential to exploit machine intelligence and capacities while incorporating the participatory engagement of builders and fabricators.
 
 <figure>
-  <img src="{{site.baseurl}}images/title_img_2.png" alt="Human-Robot Cooperative Assembly of Spatial Structures." style="width:100%" class="center">
+  <img src="{{ '/images/title_img_2.png' | relative_url }}" 
+      alt="Human-Robot Cooperative Assembly of Spatial Structures." 
+      style="width:100%" 
+      class="center">
   <figcaption>Human-robot cooperative assembly of spatial structures using custom mobile Augmented Reality interface.</figcaption>
 </figure>
 
