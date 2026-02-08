@@ -38,7 +38,7 @@ on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 html_theme = 'alabaster'
 html_theme_options = {
     'logo': 'logo.png',
-    'description': 'workshop_iaac_2026',
+    'description': 'workshop_IAAC_2026',
     'github_user': 'augmentedfabricationlab',
     'github_repo': project,
     'fixed_sidebar': True,
