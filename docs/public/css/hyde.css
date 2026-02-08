@@ -319,3 +319,9 @@ img.drop-corners-left {
 .theme-base-10 .related-posts li a:hover {
   color: #ff7979;
 }
+
+table td:first-child,
+table th:first-child {
+  width: 110px;
+  white-space: nowrap;
+}
