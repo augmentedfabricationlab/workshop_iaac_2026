@@ -3,35 +3,18 @@ layout: page
 title: Team
 ---
 
+<img src="{{ '/images/team-bs.png' | relative_url }}" alt="Begüm Saral" style="width:150px" class="rounded-corners">
+### Begüm Saral  
+Robotic Fabrication & Spatial AI Research  
 
-<img src="{{site.baseurl}}images/team-la.png" alt="Lidia Atanasova" style="width:150px" class="rounded-corners">
-### Lidia Atanasova
-Professorship of Digital Fabrication, TU Munich
+<img src="{{ '/images/team-tr.png' | relative_url }}" alt="Tizian Rein" style="width:150px" class="rounded-corners">
+### Tizian Rein  
+AI-Guided Repair & Digital Fabrication Research  
 
-<img src="{{site.baseurl}}images/team-kd.png" alt="Kathrin Dörfler" style="width:150px" class="rounded-corners">
-### Prof. Kathrin Dörfler
-Professorship of Digital Fabrication, TU Munich
+<img src="{{ '/images/team-ad.png' | relative_url }}" alt="Avishek Das" style="width:150px" class="rounded-corners">
+### Avishek Das  
+Spatial AI & Robotic Systems  
 
-<img src="{{site.baseurl}}images/team-dm.png" alt="Daniela Mitterberger" style="width:150px" class="rounded-corners">
-### Dr. Daniela Mitterberger  
-Gramazio Kohler Research, ETH Zurich  
-
-<img src="{{site.baseurl}}images/team-ea.png" alt="Eleni Alexi" style="width:150px" class="rounded-corners">
-### Eleni Alexi  
-MAS DFAB, Gramazio Kohler Research, ETH Zurich  
-
-<img src="{{site.baseurl}}images/team-jk.png" alt="Joseph Kenny" style="width:150px" class="rounded-corners">
-### Joseph Kenny  
-MAS DFAB, Gramazio Kohler Research, ETH Zurich  
-
-<img src="{{site.baseurl}}images/team-es.png" alt="Eleni Skevaki" style="width:150px" class="rounded-corners">
-### Eleni Skevaki  
-Laboratory for Creative Computation, EPFL  
-
-<img src="{{site.baseurl}}images/team-sp.png" alt="Stefana Parascho" style="width:150px" class="rounded-corners">
-### Prof. Stefana Parascho  
-Laboratory for Creative Computation, EPFL  
-
-
-
-
+<img src="{{ '/images/team-kd.png' | relative_url }}" alt="Kathrin Dörfler" style="width:150px" class="rounded-corners">
+### Prof. Kathrin Dörfler  
+Professorship of Digital Fabrication, TU Munich  
