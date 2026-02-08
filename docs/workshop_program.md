@@ -3,45 +3,35 @@ layout: page
 title: Workshop program
 ---
 
-### Day 1 — Introduction & System Setup
+### Day 1 — Introduction & Presentations
 
-09:00–09:30 | Welcome & Workshop Overview  
-09:30–10:30 | Introduction to Robotic Disassembly & Spatial AI  
-10:30–11:00 | Technical Setup Overview (UR10e, Husky base, RealSense cameras, ROS)  
-11:00–12:30 | System Walkthrough & Safety Briefing  
-13:30–17:00 | Calibration, Scene Capture & Initial Testing  
+10:00–11:00 | Welcome: Workshop Overview & Personal Introduction  
+10:30–14:00 | Session 1: Presentation on Disassembly Workflow  
+15:00–19:00 | Session 2: Presentation on Multi-Level Localisation
 
 
-### Day 2 — Scene Perception & Digital Twin Generation
+### Day 2 — Robotic Disassembly
 
-09:00–10:00 | Scene-level Perception & Fiducial World Tracking  
-10:00–11:00 | Object Detection & Pose Estimation  
-11:00–12:30 | Digital Twin Generation  
-13:30–17:00 | Testing Brick Detection & Data Recording  
+10:00–14:00 | Sessions 3: Robotic Disassembly  
+15:00–19:00 | Sessions 4: Robotic Disassembly  
 
 
-### Day 3 — Robotic Disassembly & Data Extraction
+### Day 3 — Design Exploration & Presentations
 
-09:00–10:00 | Disassembly Strategy & Manipulation Planning  
-10:00–12:30 | Robotic Disassembly of Brick Assembly  
-13:30–15:00 | Material Knowledge Extraction  
-15:00–17:00 | Structuring Object-Level Data for Reuse  
+10:00–14:00 | Sessions 5: Presentation on Multimodal-AI Reasoning
+15:00–19:00 | Sessions 6: Design Explorations and Discussion
 
 
-### Day 4 — Design Integration & Reassembly Logic
+### Day 4 — Robotic Reassembly
 
-09:00–10:30 | From Data to Design Input  
-10:30–12:30 | AI-Supported Design Exploration  
-13:30–15:00 | Reassembly Strategy Development  
-15:00–17:00 | Robotic Reassembly Testing  
+10:00–14:00 | Sessions 7: Robotic Reassembly  
+15:00–19:00 | Sessions 8: Robotic Reassembly  
 
 
-### Day 5 — Final Prototypes & Presentation
+### Day 5 — Conclusion
 
-09:00–11:00 | Refinement of Assembly Logic  
-11:00–13:00 | Final Robotic Demonstrations  
-14:00–16:00 | Documentation & Visualization  
-16:00–17:00 | Presentations & Discussion  
+10:00–14:00 | Sessions 9: Robotic Disassembly & Preparation for Final Presentation
+15:00–19:00 | Sessions 10: Final Presentations & Review
 
 
 ---
@@ -54,7 +44,7 @@ Each team contributes to the full loop:
 • Scene capture  
 • Object understanding  
 • Robotic disassembly  
-• Data-driven reassembly  
 • AI-supported design exploration  
+• Data-driven reassembly  
 
 The final outcome demonstrates a complete robotic disassembly-to-reassembly pipeline informed by extracted material knowledge.
