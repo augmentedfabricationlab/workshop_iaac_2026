@@ -16,7 +16,7 @@ workshop_iaac_2026: workshop_iaac_2026
 
 .. Write project description
 
-**RobArch 2024 Workshop** ...
+**IAAC 2026 Workshop** ...
 
 
 ========
