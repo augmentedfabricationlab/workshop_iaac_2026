@@ -11,7 +11,7 @@ Across five days at IAAC in Barcelona (March 2 to 6, 2026), participants will wo
 
 <figure>
   <img src="{{ '/images/title_img_2.png' | relative_url }}"
-       alt="Robotic Disassembly & Reassembly with Spatial AI."
+       alt="Robotic Disassembly & Reassembly w/ Spatial AI."
        style="width:100%"
        class="center">
   <figcaption>Robotic Disassembly and Reassembly with Spatial AI. The workshop connects scene perception, object understanding, and robotic manipulation with design exploration.</figcaption>
