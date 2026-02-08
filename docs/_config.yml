@@ -11,7 +11,7 @@ title:            Machine Reasoned Brickwork
 tagline:          'IAAC 2024'
 description:      'Workshop'
 baseurl: "/workshop_iaac_2026" # the subpath of your site, e.g. /blog
-url: "https://le-ar-n.github.io/workshop_augmented_collaborative_robotics" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://augmentedfabricationlab.github.io"
 
 paginate:         5
 
