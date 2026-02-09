@@ -3,12 +3,11 @@ layout: page
 title: Learning Objectives
 ---
 
- In this workshop, participants will gain hands-on experience using a custom AR app and two mobile collaborative robot arms, delving into both theoretical concepts and practical applications.
+At course completion, the student will be able to:
 
-The workshop covers the following topics:
-* basic concepts of human-robot collaboration,
-* basics of assembly information modelling,
-* specific workflows for authoring AR content for assembly routines,
-* author and prototype robotic workflows and simulations,
-* implementation of novel robotic workflow concepts,
-* experimental validation through a full-scale prototype.
+* Understand the fundamental software and algorithmic components required for mobile robotic operation in construction environments, including perception, localisation, planning, and manipulation.
+* Explain how spatial AI and deep learning–based object detection and pose estimation enable robotic understanding of existing human-built structures.
+* Understand how photorealistic synthetic data generation can be used to train and evaluate deep learning models for object detection and pose estimation in robotic systems.
+* Understand the principles of graph-based modelling for representing assemblies and supporting robotic disassembly and reassembly workflows.
+* Understand how multimodal AI systems can be used to generate structured, graph-based design proposals by combining spatial data, material constraints, and high-level design intent.
+
