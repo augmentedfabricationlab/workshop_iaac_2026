@@ -6,7 +6,7 @@ title: Workshop program
 ### Day 1 — Introduction & Presentations
 
 10:00–11:00 | Welcome: Workshop Overview & Personal Introduction  
-10:30–14:00 | Session 1: Presentation on Disassembly Workflow  
+11:00–14:00 | Session 1: Presentation on Disassembly Workflow  
 15:00–19:00 | Session 2: Presentation on Multi-Level Localisation
 
 
