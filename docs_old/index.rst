@@ -1,5 +1,5 @@
 ============================
-workshop_iaac_2026: workshop_iaac_2026
+workshop_iaac_2026: workshop_IAAC_2026
 ============================
 
 .. start-badges
@@ -16,7 +16,7 @@ workshop_iaac_2026: workshop_iaac_2026
 
 .. Write project description
 
-**IAAC 2026 Workshop** ...
+**Necessary files for workshop IAAC.** ...
 
 
 ========

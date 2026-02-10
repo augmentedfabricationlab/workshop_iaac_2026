@@ -1,0 +1,29 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+#relative_permalinks: true
+
+# Setup
+title:            Robotic Disassembly & Reassembly w/ Spatial AI
+tagline:          'IAAC 2024'
+description:      'Workshop'
+baseurl: "/workshop_iaac_2026" # the subpath of your site, e.g. /blog
+url: "https://augmentedfabricationlab.github.io"
+
+paginate:         5
+
+# Custom vars
+#version:          2.1.0
+
+github:
+  repo:           https://github.com/augmentedfabricationlab/workshop_iaac_2026
+
+plugins:
+  - jekyll-feed
+
+collections:
+  sessions:
+    output: true
