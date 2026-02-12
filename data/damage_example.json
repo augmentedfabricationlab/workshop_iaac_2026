@@ -1,0 +1,109 @@
+{
+  "nodeKey": "0",
+  "appendDamages": [
+    {
+      "type": "face",
+      "vertices": [
+        0
+      ],
+      "status": "Brokenness",
+      "value": 2,
+      "description": "Orange marker on top face, near left-front edge.",
+      "coordinates": {
+        "point": [
+          0.09,
+          0.04,
+          0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          -1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        0
+      ],
+      "status": "Brokenness",
+      "value": 2,
+      "description": "Orange marker on top face, near left-back edge.",
+      "coordinates": {
+        "point": [
+          0.09,
+          -0.04,
+          0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          -1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        1
+      ],
+      "status": "Brokenness",
+      "value": 2,
+      "description": "Orange marker on long side face.",
+      "coordinates": {
+        "point": [
+          0.09,
+          0.06,
+          0
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          -1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        4
+      ],
+      "status": "Brokenness",
+      "value": 2,
+      "description": "Orange marker on short end face.",
+      "coordinates": {
+        "point": [
+          -0.125,
+          0,
+          0
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          -1,
+          0
+        ]
+      }
+    }
+  ]
+}
