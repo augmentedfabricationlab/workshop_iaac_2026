@@ -1,0 +1,35 @@
+{
+  "nodeKey": "0",
+  "appendDamages": [
+    {
+      "type": "face",
+      "vertices": [
+        1
+      ],
+      "status": "Staining",
+      "value": 5,
+      "uv": [
+        0.31,
+        0.61
+      ],
+      "description": "Extensive staining visible on the front surface.",
+      "coordinates": {
+        "point": [
+          -0.0475,
+          0.06,
+          0.0071
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    }
+  ]
+}

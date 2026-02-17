@@ -1,0 +1,61 @@
+{
+  "nodeKey": "0",
+  "appendDamages": [
+    {
+      "type": "face",
+      "vertices": [
+        1
+      ],
+      "status": "Staining",
+      "value": 4,
+      "uv": [
+        0.59,
+        0.52
+      ],
+      "description": "Extensive staining visible on the front surface.",
+      "coordinates": {
+        "point": [
+          0.0225,
+          0.06,
+          0.0013
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        4
+      ],
+      "status": "Crack",
+      "value": 4,
+      "description": "Crack located at the bottom-front-left corner.",
+      "coordinates": {
+        "point": [
+          -0.125,
+          0.06,
+          -0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "nodeKey": "0",
+  "appendDamages": [
+    {
+      "type": "edge",
+      "vertices": [
+        1,
+        2
+      ],
+      "status": "Spalling",
+      "value": 1,
+      "description": "Noticable spalling along the top-back edge.",
+      "coordinates": {
+        "point": [
+          0.0,
+          -0.06,
+          0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "edge",
+      "vertices": [
+        0,
+        3
+      ],
+      "status": "Spalling",
+      "value": 1,
+      "description": "Noticable spalling along the top-front edge.",
+      "coordinates": {
+        "point": [
+          0.0,
+          0.06,
+          0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "edge",
+      "vertices": [
+        0,
+        1
+      ],
+      "status": "Staining",
+      "value": 4,
+      "description": "Noticable staining along the top-left edge.",
+      "coordinates": {
+        "point": [
+          -0.125,
+          0.0,
+          0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        4
+      ],
+      "status": "Staining",
+      "value": 3,
+      "description": "Staining located at the bottom-front-left corner.",
+      "coordinates": {
+        "point": [
+          -0.125,
+          0.06,
+          -0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        2
+      ],
+      "status": "Chipping",
+      "value": 3,
+      "description": "Chipping located at the top-back-right corner.",
+      "coordinates": {
+        "point": [
+          0.125,
+          -0.06,
+          0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    }
+  ]
+}

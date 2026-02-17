@@ -1,0 +1,31 @@
+{
+  "nodeKey": "0",
+  "appendDamages": [
+    {
+      "type": "vertex",
+      "vertices": [
+        3
+      ],
+      "status": "Chipping",
+      "value": 2,
+      "description": "Chipping located at the top-front-right corner.",
+      "coordinates": {
+        "point": [
+          0.125,
+          0.06,
+          0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    }
+  ]
+}

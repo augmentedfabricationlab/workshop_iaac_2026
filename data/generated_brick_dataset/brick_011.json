@@ -1,0 +1,148 @@
+{
+  "nodeKey": "0",
+  "appendDamages": [
+    {
+      "type": "face",
+      "vertices": [
+        2
+      ],
+      "status": "Staining",
+      "value": 2,
+      "uv": [
+        0.78,
+        0.9
+      ],
+      "description": "Extensive staining visible on the right surface.",
+      "coordinates": {
+        "point": [
+          0.125,
+          0.048,
+          0.026
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        1
+      ],
+      "status": "Material Loss",
+      "value": 5,
+      "uv": [
+        0.83,
+        0.09
+      ],
+      "description": "Extensive material loss visible on the front surface.",
+      "coordinates": {
+        "point": [
+          0.0825,
+          0.06,
+          -0.0267
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        0
+      ],
+      "status": "Staining",
+      "value": 2,
+      "uv": [
+        0.36,
+        0.66
+      ],
+      "description": "Extensive staining visible on the top surface.",
+      "coordinates": {
+        "point": [
+          -0.035,
+          0.0192,
+          0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        0
+      ],
+      "status": "Spalling",
+      "value": 2,
+      "description": "Spalling located at the top-front-left corner.",
+      "coordinates": {
+        "point": [
+          -0.125,
+          0.06,
+          0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "edge",
+      "vertices": [
+        6,
+        7
+      ],
+      "status": "Spalling",
+      "value": 5,
+      "description": "Noticable spalling along the bottom-back edge.",
+      "coordinates": {
+        "point": [
+          0.0,
+          -0.06,
+          -0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    }
+  ]
+}

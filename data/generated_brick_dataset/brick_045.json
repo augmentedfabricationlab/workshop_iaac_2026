@@ -1,0 +1,198 @@
+{
+  "nodeKey": "0",
+  "appendDamages": [
+    {
+      "type": "vertex",
+      "vertices": [
+        4
+      ],
+      "status": "Crack",
+      "value": 3,
+      "description": "Crack located at the bottom-front-left corner.",
+      "coordinates": {
+        "point": [
+          -0.125,
+          0.06,
+          -0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        2
+      ],
+      "status": "Staining",
+      "value": 3,
+      "uv": [
+        0.97,
+        0.43
+      ],
+      "description": "Extensive staining visible on the right surface.",
+      "coordinates": {
+        "point": [
+          0.125,
+          -0.0084,
+          -0.0046
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "edge",
+      "vertices": [
+        2,
+        3
+      ],
+      "status": "Staining",
+      "value": 2,
+      "description": "Noticable staining along the top-right edge.",
+      "coordinates": {
+        "point": [
+          0.125,
+          0.0,
+          0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "edge",
+      "vertices": [
+        0,
+        1
+      ],
+      "status": "Material Loss",
+      "value": 2,
+      "description": "Noticable material loss along the top-left edge.",
+      "coordinates": {
+        "point": [
+          -0.125,
+          0.0,
+          0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        5
+      ],
+      "status": "Material Loss",
+      "value": 2,
+      "uv": [
+        0.86,
+        0.39
+      ],
+      "description": "Extensive material loss visible on the bottom surface.",
+      "coordinates": {
+        "point": [
+          0.09,
+          -0.0132,
+          -0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        1
+      ],
+      "status": "Staining",
+      "value": 2,
+      "description": "Staining located at the top-back-left corner.",
+      "coordinates": {
+        "point": [
+          -0.125,
+          -0.06,
+          0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "edge",
+      "vertices": [
+        0,
+        3
+      ],
+      "status": "Chipping",
+      "value": 5,
+      "description": "Noticable chipping along the top-front edge.",
+      "coordinates": {
+        "point": [
+          0.0,
+          0.06,
+          0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    }
+  ]
+}

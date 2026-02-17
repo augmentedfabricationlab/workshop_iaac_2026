@@ -1,0 +1,87 @@
+{
+  "nodeKey": "0",
+  "appendDamages": [
+    {
+      "type": "face",
+      "vertices": [
+        4
+      ],
+      "status": "Crack",
+      "value": 4,
+      "uv": [
+        0.54,
+        0.97
+      ],
+      "description": "Extensive crack visible on the left surface.",
+      "coordinates": {
+        "point": [
+          -0.125,
+          0.0564,
+          0.0305
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        1
+      ],
+      "status": "Chipping",
+      "value": 4,
+      "description": "Chipping located at the top-back-left corner.",
+      "coordinates": {
+        "point": [
+          -0.125,
+          -0.06,
+          0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        3
+      ],
+      "status": "Crack",
+      "value": 1,
+      "description": "Crack located at the top-front-right corner.",
+      "coordinates": {
+        "point": [
+          0.125,
+          0.06,
+          0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    }
+  ]
+}

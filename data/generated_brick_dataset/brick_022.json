@@ -1,0 +1,91 @@
+{
+  "nodeKey": "0",
+  "appendDamages": [
+    {
+      "type": "vertex",
+      "vertices": [
+        0
+      ],
+      "status": "Spalling",
+      "value": 3,
+      "description": "Spalling located at the top-front-left corner.",
+      "coordinates": {
+        "point": [
+          -0.125,
+          0.06,
+          0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        0
+      ],
+      "status": "Staining",
+      "value": 3,
+      "uv": [
+        0.22,
+        0.21
+      ],
+      "description": "Extensive staining visible on the top surface.",
+      "coordinates": {
+        "point": [
+          -0.07,
+          -0.0348,
+          0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        1
+      ],
+      "status": "Staining",
+      "value": 2,
+      "uv": [
+        0.47,
+        0.14
+      ],
+      "description": "Extensive staining visible on the front surface.",
+      "coordinates": {
+        "point": [
+          -0.0075,
+          0.06,
+          -0.0234
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    }
+  ]
+}

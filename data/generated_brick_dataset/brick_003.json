@@ -1,0 +1,35 @@
+{
+  "nodeKey": "0",
+  "appendDamages": [
+    {
+      "type": "face",
+      "vertices": [
+        1
+      ],
+      "status": "Chipping",
+      "value": 1,
+      "uv": [
+        0.84,
+        0.18
+      ],
+      "description": "Extensive chipping visible on the front surface.",
+      "coordinates": {
+        "point": [
+          0.085,
+          0.06,
+          -0.0208
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "nodeKey": "0",
+  "appendDamages": [
+    {
+      "type": "vertex",
+      "vertices": [
+        5
+      ],
+      "status": "Chipping",
+      "value": 4,
+      "description": "Chipping located at the bottom-front-right corner.",
+      "coordinates": {
+        "point": [
+          0.125,
+          0.06,
+          -0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        5
+      ],
+      "status": "Chipping",
+      "value": 1,
+      "uv": [
+        0.55,
+        0.93
+      ],
+      "description": "Extensive chipping visible on the bottom surface.",
+      "coordinates": {
+        "point": [
+          0.0125,
+          0.0516,
+          -0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        0
+      ],
+      "status": "Material Loss",
+      "value": 5,
+      "description": "Material Loss located at the top-front-left corner.",
+      "coordinates": {
+        "point": [
+          -0.125,
+          0.06,
+          0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        2
+      ],
+      "status": "Material Loss",
+      "value": 1,
+      "uv": [
+        0.19,
+        0.78
+      ],
+      "description": "Extensive material loss visible on the right surface.",
+      "coordinates": {
+        "point": [
+          0.125,
+          0.0336,
+          0.0182
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        7
+      ],
+      "status": "Staining",
+      "value": 5,
+      "description": "Staining located at the bottom-back-left corner.",
+      "coordinates": {
+        "point": [
+          -0.125,
+          -0.06,
+          -0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        0
+      ],
+      "status": "Staining",
+      "value": 1,
+      "uv": [
+        0.94,
+        0.32
+      ],
+      "description": "Extensive staining visible on the top surface.",
+      "coordinates": {
+        "point": [
+          0.11,
+          -0.0216,
+          0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    }
+  ]
+}

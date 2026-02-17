@@ -1,0 +1,61 @@
+{
+  "nodeKey": "0",
+  "appendDamages": [
+    {
+      "type": "face",
+      "vertices": [
+        3
+      ],
+      "status": "Staining",
+      "value": 2,
+      "uv": [
+        0.36,
+        0.98
+      ],
+      "description": "Extensive staining visible on the back surface.",
+      "coordinates": {
+        "point": [
+          -0.035,
+          -0.06,
+          0.0312
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        6
+      ],
+      "status": "Chipping",
+      "value": 5,
+      "description": "Chipping located at the bottom-back-right corner.",
+      "coordinates": {
+        "point": [
+          0.125,
+          -0.06,
+          -0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    }
+  ]
+}

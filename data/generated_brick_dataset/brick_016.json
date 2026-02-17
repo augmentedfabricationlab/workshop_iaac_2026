@@ -1,0 +1,257 @@
+{
+  "nodeKey": "0",
+  "appendDamages": [
+    {
+      "type": "face",
+      "vertices": [
+        3
+      ],
+      "status": "Staining",
+      "value": 4,
+      "uv": [
+        0.96,
+        0.8
+      ],
+      "description": "Extensive staining visible on the back surface.",
+      "coordinates": {
+        "point": [
+          0.115,
+          -0.06,
+          0.0195
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        0
+      ],
+      "status": "Chipping",
+      "value": 3,
+      "uv": [
+        0.56,
+        0.65
+      ],
+      "description": "Extensive chipping visible on the top surface.",
+      "coordinates": {
+        "point": [
+          0.015,
+          0.018,
+          0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        0
+      ],
+      "status": "Material Loss",
+      "value": 4,
+      "uv": [
+        0.73,
+        0.16
+      ],
+      "description": "Extensive material loss visible on the top surface.",
+      "coordinates": {
+        "point": [
+          0.0575,
+          -0.0408,
+          0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        3
+      ],
+      "status": "Chipping",
+      "value": 3,
+      "description": "Chipping located at the top-front-right corner.",
+      "coordinates": {
+        "point": [
+          0.125,
+          0.06,
+          0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "edge",
+      "vertices": [
+        2,
+        3
+      ],
+      "status": "Staining",
+      "value": 5,
+      "description": "Noticable staining along the top-right edge.",
+      "coordinates": {
+        "point": [
+          0.125,
+          0.0,
+          0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "edge",
+      "vertices": [
+        2,
+        3
+      ],
+      "status": "Material Loss",
+      "value": 3,
+      "description": "Noticable material loss along the top-right edge.",
+      "coordinates": {
+        "point": [
+          0.125,
+          0.0,
+          0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        6
+      ],
+      "status": "Material Loss",
+      "value": 1,
+      "description": "Material Loss located at the bottom-back-right corner.",
+      "coordinates": {
+        "point": [
+          0.125,
+          -0.06,
+          -0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        7
+      ],
+      "status": "Material Loss",
+      "value": 4,
+      "description": "Material Loss located at the bottom-back-left corner.",
+      "coordinates": {
+        "point": [
+          -0.125,
+          -0.06,
+          -0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        0
+      ],
+      "status": "Staining",
+      "value": 5,
+      "uv": [
+        0.56,
+        0.07
+      ],
+      "description": "Extensive staining visible on the top surface.",
+      "coordinates": {
+        "point": [
+          0.015,
+          -0.0516,
+          0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    }
+  ]
+}

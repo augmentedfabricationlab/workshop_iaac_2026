@@ -1,0 +1,197 @@
+{
+  "nodeKey": "0",
+  "appendDamages": [
+    {
+      "type": "edge",
+      "vertices": [
+        2,
+        3
+      ],
+      "status": "Staining",
+      "value": 1,
+      "description": "Noticable staining along the top-right edge.",
+      "coordinates": {
+        "point": [
+          0.125,
+          0.0,
+          0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        4
+      ],
+      "status": "Material Loss",
+      "value": 2,
+      "description": "Material Loss located at the bottom-front-left corner.",
+      "coordinates": {
+        "point": [
+          -0.125,
+          0.06,
+          -0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        4
+      ],
+      "status": "Staining",
+      "value": 5,
+      "uv": [
+        0.57,
+        0.19
+      ],
+      "description": "Extensive staining visible on the left surface.",
+      "coordinates": {
+        "point": [
+          -0.125,
+          -0.0372,
+          -0.0202
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "edge",
+      "vertices": [
+        2,
+        3
+      ],
+      "status": "Material Loss",
+      "value": 2,
+      "description": "Noticable material loss along the top-right edge.",
+      "coordinates": {
+        "point": [
+          0.125,
+          0.0,
+          0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        2
+      ],
+      "status": "Crack",
+      "value": 3,
+      "uv": [
+        0.47,
+        0.36
+      ],
+      "description": "Extensive crack visible on the right surface.",
+      "coordinates": {
+        "point": [
+          0.125,
+          -0.0168,
+          -0.0091
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        3
+      ],
+      "status": "Staining",
+      "value": 1,
+      "description": "Staining located at the top-front-right corner.",
+      "coordinates": {
+        "point": [
+          0.125,
+          0.06,
+          0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        6
+      ],
+      "status": "Staining",
+      "value": 3,
+      "description": "Staining located at the bottom-back-right corner.",
+      "coordinates": {
+        "point": [
+          0.125,
+          -0.06,
+          -0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "nodeKey": "0",
+  "appendDamages": [
+    {
+      "type": "face",
+      "vertices": [
+        2
+      ],
+      "status": "Staining",
+      "value": 5,
+      "uv": [
+        0.34,
+        0.82
+      ],
+      "description": "Extensive staining visible on the right surface.",
+      "coordinates": {
+        "point": [
+          0.125,
+          0.0384,
+          0.0208
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        5
+      ],
+      "status": "Material Loss",
+      "value": 5,
+      "uv": [
+        0.79,
+        0.92
+      ],
+      "description": "Extensive material loss visible on the bottom surface.",
+      "coordinates": {
+        "point": [
+          0.0725,
+          0.0504,
+          -0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        0
+      ],
+      "status": "Chipping",
+      "value": 2,
+      "description": "Chipping located at the top-front-left corner.",
+      "coordinates": {
+        "point": [
+          -0.125,
+          0.06,
+          0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        7
+      ],
+      "status": "Crack",
+      "value": 3,
+      "description": "Crack located at the bottom-back-left corner.",
+      "coordinates": {
+        "point": [
+          -0.125,
+          -0.06,
+          -0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        2
+      ],
+      "status": "Spalling",
+      "value": 1,
+      "uv": [
+        0.18,
+        0.87
+      ],
+      "description": "Extensive spalling visible on the right surface.",
+      "coordinates": {
+        "point": [
+          0.125,
+          0.0444,
+          0.0241
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        0
+      ],
+      "status": "Chipping",
+      "value": 4,
+      "uv": [
+        0.29,
+        0.47
+      ],
+      "description": "Extensive chipping visible on the top surface.",
+      "coordinates": {
+        "point": [
+          -0.0525,
+          -0.0036,
+          0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        4
+      ],
+      "status": "Staining",
+      "value": 2,
+      "uv": [
+        0.3,
+        0.86
+      ],
+      "description": "Extensive staining visible on the left surface.",
+      "coordinates": {
+        "point": [
+          -0.125,
+          0.0432,
+          0.0234
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        5
+      ],
+      "status": "Crack",
+      "value": 3,
+      "uv": [
+        0.19,
+        0.72
+      ],
+      "description": "Extensive crack visible on the bottom surface.",
+      "coordinates": {
+        "point": [
+          -0.0775,
+          0.0264,
+          -0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    }
+  ]
+}

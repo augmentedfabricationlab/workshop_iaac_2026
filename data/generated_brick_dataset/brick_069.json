@@ -1,0 +1,117 @@
+{
+  "nodeKey": "0",
+  "appendDamages": [
+    {
+      "type": "face",
+      "vertices": [
+        2
+      ],
+      "status": "Chipping",
+      "value": 1,
+      "uv": [
+        0.6,
+        0.69
+      ],
+      "description": "Extensive chipping visible on the right surface.",
+      "coordinates": {
+        "point": [
+          0.125,
+          0.0228,
+          0.0123
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        5
+      ],
+      "status": "Chipping",
+      "value": 4,
+      "description": "Chipping located at the bottom-front-right corner.",
+      "coordinates": {
+        "point": [
+          0.125,
+          0.06,
+          -0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        2
+      ],
+      "status": "Chipping",
+      "value": 3,
+      "description": "Chipping located at the top-back-right corner.",
+      "coordinates": {
+        "point": [
+          0.125,
+          -0.06,
+          0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        3
+      ],
+      "status": "Chipping",
+      "value": 5,
+      "uv": [
+        0.62,
+        0.46
+      ],
+      "description": "Extensive chipping visible on the back surface.",
+      "coordinates": {
+        "point": [
+          0.03,
+          -0.06,
+          -0.0026
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "nodeKey": "0",
+  "appendDamages": [
+    {
+      "type": "edge",
+      "vertices": [
+        0,
+        3
+      ],
+      "status": "Material Loss",
+      "value": 5,
+      "description": "Noticable material loss along the top-front edge.",
+      "coordinates": {
+        "point": [
+          0.0,
+          0.06,
+          0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        0
+      ],
+      "status": "Spalling",
+      "value": 4,
+      "uv": [
+        0.18,
+        0.13
+      ],
+      "description": "Extensive spalling visible on the top surface.",
+      "coordinates": {
+        "point": [
+          -0.08,
+          -0.0444,
+          0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "edge",
+      "vertices": [
+        1,
+        2
+      ],
+      "status": "Spalling",
+      "value": 1,
+      "description": "Noticable spalling along the top-back edge.",
+      "coordinates": {
+        "point": [
+          0.0,
+          -0.06,
+          0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        0
+      ],
+      "status": "Chipping",
+      "value": 2,
+      "uv": [
+        0.8,
+        0.57
+      ],
+      "description": "Extensive chipping visible on the top surface.",
+      "coordinates": {
+        "point": [
+          0.075,
+          0.0084,
+          0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    }
+  ]
+}

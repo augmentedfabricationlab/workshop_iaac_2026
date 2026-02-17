@@ -1,0 +1,65 @@
+{
+  "nodeKey": "0",
+  "appendDamages": [
+    {
+      "type": "face",
+      "vertices": [
+        2
+      ],
+      "status": "Crack",
+      "value": 1,
+      "uv": [
+        0.63,
+        0.25
+      ],
+      "description": "Extensive crack visible on the right surface.",
+      "coordinates": {
+        "point": [
+          0.125,
+          -0.03,
+          -0.0163
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        0
+      ],
+      "status": "Crack",
+      "value": 3,
+      "uv": [
+        0.53,
+        0.32
+      ],
+      "description": "Extensive crack visible on the top surface.",
+      "coordinates": {
+        "point": [
+          0.0075,
+          -0.0216,
+          0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "nodeKey": "0",
+  "appendDamages": [
+    {
+      "type": "vertex",
+      "vertices": [
+        5
+      ],
+      "status": "Material Loss",
+      "value": 3,
+      "description": "Material Loss located at the bottom-front-right corner.",
+      "coordinates": {
+        "point": [
+          0.125,
+          0.06,
+          -0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "edge",
+      "vertices": [
+        2,
+        3
+      ],
+      "status": "Chipping",
+      "value": 5,
+      "description": "Noticable chipping along the top-right edge.",
+      "coordinates": {
+        "point": [
+          0.125,
+          0.0,
+          0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    }
+  ]
+}

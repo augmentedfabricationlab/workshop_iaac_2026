@@ -1,0 +1,282 @@
+{
+  "nodeKey": "0",
+  "appendDamages": [
+    {
+      "type": "vertex",
+      "vertices": [
+        6
+      ],
+      "status": "Spalling",
+      "value": 1,
+      "description": "Spalling located at the bottom-back-right corner.",
+      "coordinates": {
+        "point": [
+          0.125,
+          -0.06,
+          -0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        2
+      ],
+      "status": "Material Loss",
+      "value": 4,
+      "description": "Material Loss located at the top-back-right corner.",
+      "coordinates": {
+        "point": [
+          0.125,
+          -0.06,
+          0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        4
+      ],
+      "status": "Staining",
+      "value": 4,
+      "uv": [
+        0.36,
+        0.17
+      ],
+      "description": "Extensive staining visible on the left surface.",
+      "coordinates": {
+        "point": [
+          -0.125,
+          -0.0396,
+          -0.0215
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        7
+      ],
+      "status": "Spalling",
+      "value": 5,
+      "description": "Spalling located at the bottom-back-left corner.",
+      "coordinates": {
+        "point": [
+          -0.125,
+          -0.06,
+          -0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        1
+      ],
+      "status": "Spalling",
+      "value": 3,
+      "description": "Spalling located at the top-back-left corner.",
+      "coordinates": {
+        "point": [
+          -0.125,
+          -0.06,
+          0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "edge",
+      "vertices": [
+        0,
+        3
+      ],
+      "status": "Crack",
+      "value": 3,
+      "description": "Noticable crack along the top-front edge.",
+      "coordinates": {
+        "point": [
+          0.0,
+          0.06,
+          0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        5
+      ],
+      "status": "Spalling",
+      "value": 5,
+      "uv": [
+        0.2,
+        0.35
+      ],
+      "description": "Extensive spalling visible on the bottom surface.",
+      "coordinates": {
+        "point": [
+          -0.075,
+          -0.018,
+          -0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        3
+      ],
+      "status": "Spalling",
+      "value": 1,
+      "uv": [
+        0.54,
+        0.19
+      ],
+      "description": "Extensive spalling visible on the back surface.",
+      "coordinates": {
+        "point": [
+          0.01,
+          -0.06,
+          -0.0202
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        0
+      ],
+      "status": "Material Loss",
+      "value": 4,
+      "description": "Material Loss located at the top-front-left corner.",
+      "coordinates": {
+        "point": [
+          -0.125,
+          0.06,
+          0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        2
+      ],
+      "status": "Staining",
+      "value": 5,
+      "uv": [
+        0.36,
+        0.69
+      ],
+      "description": "Extensive staining visible on the right surface.",
+      "coordinates": {
+        "point": [
+          0.125,
+          0.0228,
+          0.0123
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    }
+  ]
+}

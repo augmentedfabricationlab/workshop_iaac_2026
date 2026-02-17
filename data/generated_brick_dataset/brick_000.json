@@ -1,0 +1,117 @@
+{
+  "nodeKey": "0",
+  "appendDamages": [
+    {
+      "type": "vertex",
+      "vertices": [
+        0
+      ],
+      "status": "Material Loss",
+      "value": 3,
+      "description": "Material Loss located at the top-front-left corner.",
+      "coordinates": {
+        "point": [
+          -0.125,
+          0.06,
+          0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        7
+      ],
+      "status": "Staining",
+      "value": 4,
+      "description": "Staining located at the bottom-back-left corner.",
+      "coordinates": {
+        "point": [
+          -0.125,
+          -0.06,
+          -0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        5
+      ],
+      "status": "Staining",
+      "value": 1,
+      "uv": [
+        0.95,
+        0.87
+      ],
+      "description": "Extensive staining visible on the bottom surface.",
+      "coordinates": {
+        "point": [
+          0.1125,
+          0.0444,
+          -0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        5
+      ],
+      "status": "Material Loss",
+      "value": 4,
+      "uv": [
+        0.52,
+        0.21
+      ],
+      "description": "Extensive material loss visible on the bottom surface.",
+      "coordinates": {
+        "point": [
+          0.005,
+          -0.0348,
+          -0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    }
+  ]
+}

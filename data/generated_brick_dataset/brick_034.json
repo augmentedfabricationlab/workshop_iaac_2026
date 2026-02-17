@@ -1,0 +1,253 @@
+{
+  "nodeKey": "0",
+  "appendDamages": [
+    {
+      "type": "edge",
+      "vertices": [
+        2,
+        3
+      ],
+      "status": "Spalling",
+      "value": 1,
+      "description": "Noticable spalling along the top-right edge.",
+      "coordinates": {
+        "point": [
+          0.125,
+          0.0,
+          0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        3
+      ],
+      "status": "Crack",
+      "value": 1,
+      "uv": [
+        0.23,
+        0.18
+      ],
+      "description": "Extensive crack visible on the back surface.",
+      "coordinates": {
+        "point": [
+          -0.0675,
+          -0.06,
+          -0.0208
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        0
+      ],
+      "status": "Material Loss",
+      "value": 1,
+      "uv": [
+        0.62,
+        0.69
+      ],
+      "description": "Extensive material loss visible on the top surface.",
+      "coordinates": {
+        "point": [
+          0.03,
+          0.0228,
+          0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        2
+      ],
+      "status": "Spalling",
+      "value": 1,
+      "uv": [
+        0.78,
+        0.44
+      ],
+      "description": "Extensive spalling visible on the right surface.",
+      "coordinates": {
+        "point": [
+          0.125,
+          -0.0072,
+          -0.0039
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "edge",
+      "vertices": [
+        0,
+        1
+      ],
+      "status": "Material Loss",
+      "value": 5,
+      "description": "Noticable material loss along the top-left edge.",
+      "coordinates": {
+        "point": [
+          -0.125,
+          0.0,
+          0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        1
+      ],
+      "status": "Chipping",
+      "value": 1,
+      "description": "Chipping located at the top-back-left corner.",
+      "coordinates": {
+        "point": [
+          -0.125,
+          -0.06,
+          0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        3
+      ],
+      "status": "Crack",
+      "value": 2,
+      "description": "Crack located at the top-front-right corner.",
+      "coordinates": {
+        "point": [
+          0.125,
+          0.06,
+          0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        5
+      ],
+      "status": "Material Loss",
+      "value": 2,
+      "description": "Material Loss located at the bottom-front-right corner.",
+      "coordinates": {
+        "point": [
+          0.125,
+          0.06,
+          -0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        0
+      ],
+      "status": "Spalling",
+      "value": 4,
+      "description": "Spalling located at the top-front-left corner.",
+      "coordinates": {
+        "point": [
+          -0.125,
+          0.06,
+          0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    }
+  ]
+}

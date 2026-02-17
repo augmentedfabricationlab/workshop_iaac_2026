@@ -1,0 +1,32 @@
+{
+  "nodeKey": "0",
+  "appendDamages": [
+    {
+      "type": "edge",
+      "vertices": [
+        1,
+        2
+      ],
+      "status": "Staining",
+      "value": 2,
+      "description": "Noticable staining along the top-back edge.",
+      "coordinates": {
+        "point": [
+          0.0,
+          -0.06,
+          0.0325
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    }
+  ]
+}
