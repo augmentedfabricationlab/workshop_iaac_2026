@@ -1,0 +1,90 @@
+{
+  "nodeKey": "0",
+  "brickId": "stack2_brick12",
+  "brickSize": {
+    "x": 0.24,
+    "y": 0.12,
+    "z": 0.045
+  },
+  "appendDamages": [
+    {
+      "type": "edge",
+      "vertices": [
+        2,
+        3
+      ],
+      "status": "Chipping",
+      "value": 1,
+      "description": "Noticable chipping along the top-right edge.",
+      "coordinates": {
+        "point": [
+          0.12,
+          0.0,
+          0.0225
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        1
+      ],
+      "status": "Spalling",
+      "value": 1,
+      "description": "Spalling located at the top-back-left corner.",
+      "coordinates": {
+        "point": [
+          -0.12,
+          -0.06,
+          0.0225
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        4
+      ],
+      "status": "Staining",
+      "value": 5,
+      "description": "Staining located at the bottom-front-left corner.",
+      "coordinates": {
+        "point": [
+          -0.12,
+          0.06,
+          -0.0225
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "nodeKey": "0",
+  "brickId": "stack2_brick13",
+  "brickSize": {
+    "x": 0.24,
+    "y": 0.12,
+    "z": 0.045
+  },
+  "appendDamages": []
+}

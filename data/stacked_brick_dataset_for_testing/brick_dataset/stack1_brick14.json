@@ -1,0 +1,279 @@
+{
+  "nodeKey": "0",
+  "brickId": "stack1_brick14",
+  "brickSize": {
+    "x": 0.24,
+    "y": 0.12,
+    "z": 0.045
+  },
+  "appendDamages": [
+    {
+      "type": "face",
+      "vertices": [
+        3
+      ],
+      "status": "Staining",
+      "value": 1,
+      "uv": [
+        0.74,
+        0.57
+      ],
+      "description": "Extensive staining visible on the back surface.",
+      "coordinates": {
+        "point": [
+          0.0576,
+          -0.06,
+          0.0031
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "edge",
+      "vertices": [
+        3,
+        5
+      ],
+      "status": "Crack",
+      "value": 2,
+      "description": "Noticable crack along the front-right vertical edge.",
+      "coordinates": {
+        "point": [
+          0.12,
+          0.06,
+          0.0
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "edge",
+      "vertices": [
+        3,
+        5
+      ],
+      "status": "Staining",
+      "value": 5,
+      "description": "Noticable staining along the front-right vertical edge.",
+      "coordinates": {
+        "point": [
+          0.12,
+          0.06,
+          0.0
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        1
+      ],
+      "status": "Staining",
+      "value": 5,
+      "description": "Staining located at the top-back-left corner.",
+      "coordinates": {
+        "point": [
+          -0.12,
+          -0.06,
+          0.0225
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        5
+      ],
+      "status": "Chipping",
+      "value": 1,
+      "description": "Chipping located at the bottom-front-right corner.",
+      "coordinates": {
+        "point": [
+          0.12,
+          0.06,
+          -0.0225
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "edge",
+      "vertices": [
+        3,
+        5
+      ],
+      "status": "Spalling",
+      "value": 5,
+      "description": "Noticable spalling along the front-right vertical edge.",
+      "coordinates": {
+        "point": [
+          0.12,
+          0.06,
+          0.0
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        3
+      ],
+      "status": "Chipping",
+      "value": 3,
+      "description": "Chipping located at the top-front-right corner.",
+      "coordinates": {
+        "point": [
+          0.12,
+          0.06,
+          0.0225
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "edge",
+      "vertices": [
+        2,
+        3
+      ],
+      "status": "Material Loss",
+      "value": 1,
+      "description": "Noticable material loss along the top-right edge.",
+      "coordinates": {
+        "point": [
+          0.12,
+          0.0,
+          0.0225
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        2
+      ],
+      "status": "Crack",
+      "value": 4,
+      "description": "Crack located at the top-back-right corner.",
+      "coordinates": {
+        "point": [
+          0.12,
+          -0.06,
+          0.0225
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        5
+      ],
+      "status": "Chipping",
+      "value": 5,
+      "description": "Chipping located at the bottom-front-right corner.",
+      "coordinates": {
+        "point": [
+          0.12,
+          0.06,
+          -0.0225
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    }
+  ]
+}

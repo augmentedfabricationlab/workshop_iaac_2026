@@ -1,0 +1,94 @@
+{
+  "nodeKey": "0",
+  "brickId": "stack1_brick20",
+  "brickSize": {
+    "x": 0.24,
+    "y": 0.12,
+    "z": 0.045
+  },
+  "appendDamages": [
+    {
+      "type": "edge",
+      "vertices": [
+        0,
+        1
+      ],
+      "status": "Crack",
+      "value": 4,
+      "description": "Noticable crack along the top-left edge.",
+      "coordinates": {
+        "point": [
+          -0.12,
+          0.0,
+          0.0225
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        5
+      ],
+      "status": "Crack",
+      "value": 2,
+      "uv": [
+        0.4,
+        0.52
+      ],
+      "description": "Extensive crack visible on the bottom surface.",
+      "coordinates": {
+        "point": [
+          -0.024,
+          0.0024,
+          -0.0225
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        7
+      ],
+      "status": "Spalling",
+      "value": 4,
+      "description": "Spalling located at the bottom-back-left corner.",
+      "coordinates": {
+        "point": [
+          -0.12,
+          -0.06,
+          -0.0225
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    }
+  ]
+}

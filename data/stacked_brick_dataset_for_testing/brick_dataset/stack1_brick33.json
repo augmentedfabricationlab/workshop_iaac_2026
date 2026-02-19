@@ -1,0 +1,124 @@
+{
+  "nodeKey": "0",
+  "brickId": "stack1_brick33",
+  "brickSize": {
+    "x": 0.24,
+    "y": 0.12,
+    "z": 0.045
+  },
+  "appendDamages": [
+    {
+      "type": "face",
+      "vertices": [
+        3
+      ],
+      "status": "Spalling",
+      "value": 3,
+      "uv": [
+        0.0,
+        0.83
+      ],
+      "description": "Extensive spalling visible on the back surface.",
+      "coordinates": {
+        "point": [
+          -0.12,
+          -0.06,
+          0.0148
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        4
+      ],
+      "status": "Spalling",
+      "value": 3,
+      "uv": [
+        0.11,
+        0.06
+      ],
+      "description": "Extensive spalling visible on the left surface.",
+      "coordinates": {
+        "point": [
+          -0.12,
+          -0.0468,
+          -0.0198
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "edge",
+      "vertices": [
+        4,
+        5
+      ],
+      "status": "Crack",
+      "value": 2,
+      "description": "Noticable crack along the bottom-front edge.",
+      "coordinates": {
+        "point": [
+          0.0,
+          0.06,
+          -0.0225
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        0
+      ],
+      "status": "Crack",
+      "value": 5,
+      "description": "Crack located at the top-front-left corner.",
+      "coordinates": {
+        "point": [
+          -0.12,
+          0.06,
+          0.0225
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    }
+  ]
+}

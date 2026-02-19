@@ -1,0 +1,240 @@
+{
+  "nodeKey": "0",
+  "brickId": "stack1_brick41",
+  "brickSize": {
+    "x": 0.24,
+    "y": 0.12,
+    "z": 0.045
+  },
+  "appendDamages": [
+    {
+      "type": "edge",
+      "vertices": [
+        0,
+        4
+      ],
+      "status": "Staining",
+      "value": 3,
+      "description": "Noticable staining along the front-left vertical edge.",
+      "coordinates": {
+        "point": [
+          -0.12,
+          0.06,
+          0.0
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        2
+      ],
+      "status": "Chipping",
+      "value": 2,
+      "description": "Chipping located at the top-back-right corner.",
+      "coordinates": {
+        "point": [
+          0.12,
+          -0.06,
+          0.0225
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        7
+      ],
+      "status": "Spalling",
+      "value": 5,
+      "description": "Spalling located at the bottom-back-left corner.",
+      "coordinates": {
+        "point": [
+          -0.12,
+          -0.06,
+          -0.0225
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        5
+      ],
+      "status": "Chipping",
+      "value": 1,
+      "uv": [
+        0.28,
+        0.67
+      ],
+      "description": "Extensive chipping visible on the bottom surface.",
+      "coordinates": {
+        "point": [
+          -0.0528,
+          0.0204,
+          -0.0225
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        0
+      ],
+      "status": "Staining",
+      "value": 5,
+      "uv": [
+        0.32,
+        0.63
+      ],
+      "description": "Extensive staining visible on the top surface.",
+      "coordinates": {
+        "point": [
+          -0.0432,
+          0.0156,
+          0.0225
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        3
+      ],
+      "status": "Staining",
+      "value": 1,
+      "uv": [
+        0.61,
+        0.4
+      ],
+      "description": "Extensive staining visible on the back surface.",
+      "coordinates": {
+        "point": [
+          0.0264,
+          -0.06,
+          -0.0045
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        3
+      ],
+      "status": "Material Loss",
+      "value": 3,
+      "uv": [
+        0.67,
+        0.42
+      ],
+      "description": "Extensive material loss visible on the back surface.",
+      "coordinates": {
+        "point": [
+          0.0408,
+          -0.06,
+          -0.0036
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        3
+      ],
+      "status": "Crack",
+      "value": 1,
+      "uv": [
+        0.15,
+        0.98
+      ],
+      "description": "Extensive crack visible on the back surface.",
+      "coordinates": {
+        "point": [
+          -0.084,
+          -0.06,
+          0.0216
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    }
+  ]
+}

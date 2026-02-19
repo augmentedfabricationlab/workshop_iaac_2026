@@ -1,0 +1,253 @@
+{
+  "nodeKey": "0",
+  "brickId": "stack2_brick47",
+  "brickSize": {
+    "x": 0.24,
+    "y": 0.12,
+    "z": 0.045
+  },
+  "appendDamages": [
+    {
+      "type": "vertex",
+      "vertices": [
+        6
+      ],
+      "status": "Chipping",
+      "value": 2,
+      "description": "Chipping located at the bottom-back-right corner.",
+      "coordinates": {
+        "point": [
+          0.12,
+          -0.06,
+          -0.0225
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "edge",
+      "vertices": [
+        2,
+        3
+      ],
+      "status": "Spalling",
+      "value": 2,
+      "description": "Noticable spalling along the top-right edge.",
+      "coordinates": {
+        "point": [
+          0.12,
+          0.0,
+          0.0225
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        0
+      ],
+      "status": "Crack",
+      "value": 4,
+      "description": "Crack located at the top-front-left corner.",
+      "coordinates": {
+        "point": [
+          -0.12,
+          0.06,
+          0.0225
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "edge",
+      "vertices": [
+        6,
+        7
+      ],
+      "status": "Staining",
+      "value": 1,
+      "description": "Noticable staining along the bottom-back edge.",
+      "coordinates": {
+        "point": [
+          0.0,
+          -0.06,
+          -0.0225
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        2
+      ],
+      "status": "Crack",
+      "value": 3,
+      "description": "Crack located at the top-back-right corner.",
+      "coordinates": {
+        "point": [
+          0.12,
+          -0.06,
+          0.0225
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        4
+      ],
+      "status": "Spalling",
+      "value": 5,
+      "uv": [
+        0.71,
+        0.34
+      ],
+      "description": "Extensive spalling visible on the left surface.",
+      "coordinates": {
+        "point": [
+          -0.12,
+          0.0252,
+          -0.0072
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        3
+      ],
+      "status": "Spalling",
+      "value": 4,
+      "description": "Spalling located at the top-front-right corner.",
+      "coordinates": {
+        "point": [
+          0.12,
+          0.06,
+          0.0225
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "edge",
+      "vertices": [
+        0,
+        1
+      ],
+      "status": "Staining",
+      "value": 2,
+      "description": "Noticable staining along the top-left edge.",
+      "coordinates": {
+        "point": [
+          -0.12,
+          0.0,
+          0.0225
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "edge",
+      "vertices": [
+        0,
+        4
+      ],
+      "status": "Staining",
+      "value": 3,
+      "description": "Noticable staining along the front-left vertical edge.",
+      "coordinates": {
+        "point": [
+          -0.12,
+          0.06,
+          0.0
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    }
+  ]
+}
