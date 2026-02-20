@@ -1,0 +1,123 @@
+{
+  "nodeKey": "0",
+  "brickId": "stack1_brick37",
+  "brickSize": {
+    "x": 0.24,
+    "y": 0.12,
+    "z": 0.045
+  },
+  "appendDamages": [
+    {
+      "type": "vertex",
+      "vertices": [
+        0
+      ],
+      "status": "Crack",
+      "value": 3,
+      "description": "Crack located at the top-front-left corner.",
+      "coordinates": {
+        "point": [
+          -0.12,
+          0.06,
+          0.0225
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        5
+      ],
+      "status": "Chipping",
+      "value": 4,
+      "description": "Chipping located at the bottom-front-right corner.",
+      "coordinates": {
+        "point": [
+          0.12,
+          0.06,
+          -0.0225
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        2
+      ],
+      "status": "Material Loss",
+      "value": 2,
+      "uv": [
+        0.95,
+        0.79
+      ],
+      "description": "Extensive material loss visible on the right surface.",
+      "coordinates": {
+        "point": [
+          0.12,
+          0.054,
+          0.013
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        4
+      ],
+      "status": "Material Loss",
+      "value": 5,
+      "uv": [
+        0.17,
+        0.33
+      ],
+      "description": "Extensive material loss visible on the left surface.",
+      "coordinates": {
+        "point": [
+          -0.12,
+          -0.0396,
+          -0.0076
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    }
+  ]
+}

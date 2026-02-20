@@ -1,0 +1,67 @@
+{
+  "nodeKey": "0",
+  "brickId": "stack2_brick42",
+  "brickSize": {
+    "x": 0.24,
+    "y": 0.12,
+    "z": 0.045
+  },
+  "appendDamages": [
+    {
+      "type": "face",
+      "vertices": [
+        5
+      ],
+      "status": "Crack",
+      "value": 1,
+      "uv": [
+        0.82,
+        0.91
+      ],
+      "description": "Extensive crack visible on the bottom surface.",
+      "coordinates": {
+        "point": [
+          0.0768,
+          0.0492,
+          -0.0225
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        7
+      ],
+      "status": "Crack",
+      "value": 3,
+      "description": "Crack located at the bottom-back-left corner.",
+      "coordinates": {
+        "point": [
+          -0.12,
+          -0.06,
+          -0.0225
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    }
+  ]
+}

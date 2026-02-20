@@ -1,0 +1,232 @@
+{
+  "nodeKey": "0",
+  "brickId": "stack1_brick23",
+  "brickSize": {
+    "x": 0.24,
+    "y": 0.12,
+    "z": 0.045
+  },
+  "appendDamages": [
+    {
+      "type": "vertex",
+      "vertices": [
+        6
+      ],
+      "status": "Material Loss",
+      "value": 1,
+      "description": "Material Loss located at the bottom-back-right corner.",
+      "coordinates": {
+        "point": [
+          0.12,
+          -0.06,
+          -0.0225
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        5
+      ],
+      "status": "Spalling",
+      "value": 5,
+      "description": "Spalling located at the bottom-front-right corner.",
+      "coordinates": {
+        "point": [
+          0.12,
+          0.06,
+          -0.0225
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        6
+      ],
+      "status": "Material Loss",
+      "value": 4,
+      "description": "Material Loss located at the bottom-back-right corner.",
+      "coordinates": {
+        "point": [
+          0.12,
+          -0.06,
+          -0.0225
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        4
+      ],
+      "status": "Staining",
+      "value": 1,
+      "uv": [
+        0.01,
+        0.64
+      ],
+      "description": "Extensive staining visible on the left surface.",
+      "coordinates": {
+        "point": [
+          -0.12,
+          -0.0588,
+          0.0063
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "edge",
+      "vertices": [
+        4,
+        5
+      ],
+      "status": "Staining",
+      "value": 3,
+      "description": "Noticable staining along the bottom-front edge.",
+      "coordinates": {
+        "point": [
+          0.0,
+          0.06,
+          -0.0225
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        0
+      ],
+      "status": "Crack",
+      "value": 2,
+      "description": "Crack located at the top-front-left corner.",
+      "coordinates": {
+        "point": [
+          -0.12,
+          0.06,
+          0.0225
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        1
+      ],
+      "status": "Spalling",
+      "value": 1,
+      "uv": [
+        0.67,
+        0.81
+      ],
+      "description": "Extensive spalling visible on the front surface.",
+      "coordinates": {
+        "point": [
+          0.0408,
+          0.06,
+          0.014
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        2
+      ],
+      "status": "Chipping",
+      "value": 1,
+      "uv": [
+        0.85,
+        0.28
+      ],
+      "description": "Extensive chipping visible on the right surface.",
+      "coordinates": {
+        "point": [
+          0.12,
+          0.042,
+          -0.0099
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    }
+  ]
+}

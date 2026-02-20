@@ -1,0 +1,151 @@
+{
+  "nodeKey": "0",
+  "brickId": "stack1_brick42",
+  "brickSize": {
+    "x": 0.24,
+    "y": 0.12,
+    "z": 0.045
+  },
+  "appendDamages": [
+    {
+      "type": "face",
+      "vertices": [
+        0
+      ],
+      "status": "Chipping",
+      "value": 2,
+      "uv": [
+        0.87,
+        0.05
+      ],
+      "description": "Extensive chipping visible on the top surface.",
+      "coordinates": {
+        "point": [
+          0.0888,
+          -0.054,
+          0.0225
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        0
+      ],
+      "status": "Spalling",
+      "value": 1,
+      "description": "Spalling located at the top-front-left corner.",
+      "coordinates": {
+        "point": [
+          -0.12,
+          0.06,
+          0.0225
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "edge",
+      "vertices": [
+        0,
+        3
+      ],
+      "status": "Staining",
+      "value": 4,
+      "description": "Noticable staining along the top-front edge.",
+      "coordinates": {
+        "point": [
+          0.0,
+          0.06,
+          0.0225
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "edge",
+      "vertices": [
+        0,
+        3
+      ],
+      "status": "Spalling",
+      "value": 3,
+      "description": "Noticable spalling along the top-front edge.",
+      "coordinates": {
+        "point": [
+          0.0,
+          0.06,
+          0.0225
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        2
+      ],
+      "status": "Crack",
+      "value": 4,
+      "uv": [
+        0.47,
+        0.86
+      ],
+      "description": "Extensive crack visible on the right surface.",
+      "coordinates": {
+        "point": [
+          0.12,
+          -0.0036,
+          0.0162
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "nodeKey": "0",
+  "brickId": "stack2_brick17",
+  "brickSize": {
+    "x": 0.24,
+    "y": 0.12,
+    "z": 0.045
+  },
+  "appendDamages": [
+    {
+      "type": "edge",
+      "vertices": [
+        6,
+        7
+      ],
+      "status": "Material Loss",
+      "value": 2,
+      "description": "Noticable material loss along the bottom-back edge.",
+      "coordinates": {
+        "point": [
+          0.0,
+          -0.06,
+          -0.0225
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        5
+      ],
+      "status": "Crack",
+      "value": 3,
+      "uv": [
+        0.19,
+        0.75
+      ],
+      "description": "Extensive crack visible on the bottom surface.",
+      "coordinates": {
+        "point": [
+          -0.0744,
+          0.03,
+          -0.0225
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        1
+      ],
+      "status": "Chipping",
+      "value": 1,
+      "description": "Chipping located at the top-back-left corner.",
+      "coordinates": {
+        "point": [
+          -0.12,
+          -0.06,
+          0.0225
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        4
+      ],
+      "status": "Chipping",
+      "value": 2,
+      "description": "Chipping located at the bottom-front-left corner.",
+      "coordinates": {
+        "point": [
+          -0.12,
+          0.06,
+          -0.0225
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "edge",
+      "vertices": [
+        1,
+        2
+      ],
+      "status": "Material Loss",
+      "value": 3,
+      "description": "Noticable material loss along the top-back edge.",
+      "coordinates": {
+        "point": [
+          0.0,
+          -0.06,
+          0.0225
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "edge",
+      "vertices": [
+        0,
+        3
+      ],
+      "status": "Chipping",
+      "value": 5,
+      "description": "Noticable chipping along the top-front edge.",
+      "coordinates": {
+        "point": [
+          0.0,
+          0.06,
+          0.0225
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "edge",
+      "vertices": [
+        0,
+        1
+      ],
+      "status": "Material Loss",
+      "value": 4,
+      "description": "Noticable material loss along the top-left edge.",
+      "coordinates": {
+        "point": [
+          -0.12,
+          0.0,
+          0.0225
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "edge",
+      "vertices": [
+        4,
+        5
+      ],
+      "status": "Material Loss",
+      "value": 1,
+      "description": "Noticable material loss along the bottom-front edge.",
+      "coordinates": {
+        "point": [
+          0.0,
+          0.06,
+          -0.0225
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    }
+  ]
+}

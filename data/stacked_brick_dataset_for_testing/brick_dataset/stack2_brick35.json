@@ -1,0 +1,65 @@
+{
+  "nodeKey": "0",
+  "brickId": "stack2_brick35",
+  "brickSize": {
+    "x": 0.24,
+    "y": 0.12,
+    "z": 0.045
+  },
+  "appendDamages": [
+    {
+      "type": "edge",
+      "vertices": [
+        3,
+        5
+      ],
+      "status": "Staining",
+      "value": 5,
+      "description": "Noticable staining along the front-right vertical edge.",
+      "coordinates": {
+        "point": [
+          0.12,
+          0.06,
+          0.0
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "edge",
+      "vertices": [
+        0,
+        1
+      ],
+      "status": "Spalling",
+      "value": 3,
+      "description": "Noticable spalling along the top-left edge.",
+      "coordinates": {
+        "point": [
+          -0.12,
+          0.0,
+          0.0225
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    }
+  ]
+}

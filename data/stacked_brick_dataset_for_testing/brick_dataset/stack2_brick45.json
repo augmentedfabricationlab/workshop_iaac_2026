@@ -1,0 +1,121 @@
+{
+  "nodeKey": "0",
+  "brickId": "stack2_brick45",
+  "brickSize": {
+    "x": 0.24,
+    "y": 0.12,
+    "z": 0.045
+  },
+  "appendDamages": [
+    {
+      "type": "edge",
+      "vertices": [
+        6,
+        7
+      ],
+      "status": "Material Loss",
+      "value": 1,
+      "description": "Noticable material loss along the bottom-back edge.",
+      "coordinates": {
+        "point": [
+          0.0,
+          -0.06,
+          -0.0225
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "vertex",
+      "vertices": [
+        7
+      ],
+      "status": "Chipping",
+      "value": 3,
+      "description": "Chipping located at the bottom-back-left corner.",
+      "coordinates": {
+        "point": [
+          -0.12,
+          -0.06,
+          -0.0225
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "edge",
+      "vertices": [
+        3,
+        5
+      ],
+      "status": "Staining",
+      "value": 4,
+      "description": "Noticable staining along the front-right vertical edge.",
+      "coordinates": {
+        "point": [
+          0.12,
+          0.06,
+          0.0
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "face",
+      "vertices": [
+        4
+      ],
+      "status": "Material Loss",
+      "value": 1,
+      "uv": [
+        0.99,
+        0.15
+      ],
+      "description": "Extensive material loss visible on the left surface.",
+      "coordinates": {
+        "point": [
+          -0.12,
+          0.0588,
+          -0.0158
+        ],
+        "xaxis": [
+          1,
+          0,
+          0
+        ],
+        "yaxis": [
+          0,
+          1,
+          0
+        ]
+      }
+    }
+  ]
+}
