@@ -1,0 +1,3956 @@
+{
+    "dtype": "assembly_information_model.assembly/Assembly",
+    "data": {
+        "graph": {
+            "attributes": {
+                "stack_key": 1,
+                "marker_frames_WCF": {
+                    "0": {
+                        "dtype": "compas.geometry/Frame",
+                        "data": {
+                            "point": [
+                                0.07626025884086601,
+                                1.215581032192287,
+                                0.004894143590212728
+                            ],
+                            "xaxis": [
+                                0.010752598096994694,
+                                0.9998973350728153,
+                                -0.00947105846496515
+                            ],
+                            "yaxis": [
+                                -0.9999421891460352,
+                                0.01075211577128869,
+                                -0.00010184437293708083
+                            ]
+                        },
+                        "guid": "ac404a31-ed55-4716-9013-4c78ea787aeb"
+                    }
+                }
+            },
+            "default_node_attributes": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "default_edge_attributes": {},
+            "node": {
+                "0": {
+                    "part": {
+                        "dtype": "assembly_information_model.part/Part",
+                        "data": {
+                            "attributes": {
+                                "name": "brick_full",
+                                "mesh": {
+                                    "dtype": "compas.datastructures/Mesh",
+                                    "data": {
+                                        "attributes": {},
+                                        "default_vertex_attributes": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "z": 0
+                                        },
+                                        "default_edge_attributes": {},
+                                        "default_face_attributes": {},
+                                        "vertex": {
+                                            "0": {
+                                                "x": -0.12,
+                                                "y": 0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "1": {
+                                                "x": -0.12,
+                                                "y": -0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "2": {
+                                                "x": 0.12,
+                                                "y": -0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "3": {
+                                                "x": 0.12,
+                                                "y": 0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "4": {
+                                                "x": -0.12,
+                                                "y": 0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "5": {
+                                                "x": 0.12,
+                                                "y": 0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "6": {
+                                                "x": 0.12,
+                                                "y": -0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "7": {
+                                                "x": -0.12,
+                                                "y": -0.0575,
+                                                "z": -0.0225
+                                            }
+                                        },
+                                        "face": {
+                                            "0": [
+                                                0,
+                                                1,
+                                                2,
+                                                3
+                                            ],
+                                            "1": [
+                                                0,
+                                                3,
+                                                5,
+                                                4
+                                            ],
+                                            "2": [
+                                                3,
+                                                2,
+                                                6,
+                                                5
+                                            ],
+                                            "3": [
+                                                2,
+                                                1,
+                                                7,
+                                                6
+                                            ],
+                                            "4": [
+                                                1,
+                                                0,
+                                                4,
+                                                7
+                                            ],
+                                            "5": [
+                                                4,
+                                                5,
+                                                6,
+                                                7
+                                            ]
+                                        },
+                                        "facedata": {
+                                            "0": {},
+                                            "1": {},
+                                            "2": {},
+                                            "3": {},
+                                            "4": {},
+                                            "5": {}
+                                        },
+                                        "edgedata": {},
+                                        "max_vertex": 7,
+                                        "max_face": 5
+                                    },
+                                    "inheritance": [],
+                                    "name": "box",
+                                    "guid": "88421d24-d010-452f-9646-6a5615c40e98"
+                                },
+                                "shape": {
+                                    "dtype": "compas.geometry/Box",
+                                    "data": {
+                                        "xsize": 0.24,
+                                        "ysize": 0.115,
+                                        "zsize": 0.045,
+                                        "frame": {
+                                            "point": [
+                                                0.0,
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "xaxis": [
+                                                1.0,
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "yaxis": [
+                                                0.0,
+                                                -1.0,
+                                                0.0
+                                            ]
+                                        }
+                                    },
+                                    "name": "box",
+                                    "guid": "19b7653c-07a2-43d3-a294-700e89295701"
+                                }
+                            },
+                            "key": 0,
+                            "frame": {
+                                "point": [
+                                    -0.06,
+                                    0.18000000000000002,
+                                    0.0225
+                                ],
+                                "xaxis": [
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "yaxis": [
+                                    0.0,
+                                    -1.0,
+                                    1.2246467991473532e-16
+                                ]
+                            }
+                        },
+                        "inheritance": [],
+                        "guid": "71899837-1292-45ca-a8e8-36f25a61ca75"
+                    },
+                    "x": 0,
+                    "y": 0.15000000000000002,
+                    "z": 0.0225,
+                    "course": 0,
+                    "built": true,
+                    "available": true,
+                    "qcode": "Q40089"
+                },
+                "1": {
+                    "part": {
+                        "dtype": "assembly_information_model.part/Part",
+                        "data": {
+                            "attributes": {
+                                "name": "brick_full",
+                                "mesh": {
+                                    "dtype": "compas.datastructures/Mesh",
+                                    "data": {
+                                        "attributes": {},
+                                        "default_vertex_attributes": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "z": 0
+                                        },
+                                        "default_edge_attributes": {},
+                                        "default_face_attributes": {},
+                                        "vertex": {
+                                            "0": {
+                                                "x": -0.12,
+                                                "y": 0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "1": {
+                                                "x": -0.12,
+                                                "y": -0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "2": {
+                                                "x": 0.12,
+                                                "y": -0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "3": {
+                                                "x": 0.12,
+                                                "y": 0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "4": {
+                                                "x": -0.12,
+                                                "y": 0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "5": {
+                                                "x": 0.12,
+                                                "y": 0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "6": {
+                                                "x": 0.12,
+                                                "y": -0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "7": {
+                                                "x": -0.12,
+                                                "y": -0.0575,
+                                                "z": -0.0225
+                                            }
+                                        },
+                                        "face": {
+                                            "0": [
+                                                0,
+                                                1,
+                                                2,
+                                                3
+                                            ],
+                                            "1": [
+                                                0,
+                                                3,
+                                                5,
+                                                4
+                                            ],
+                                            "2": [
+                                                3,
+                                                2,
+                                                6,
+                                                5
+                                            ],
+                                            "3": [
+                                                2,
+                                                1,
+                                                7,
+                                                6
+                                            ],
+                                            "4": [
+                                                1,
+                                                0,
+                                                4,
+                                                7
+                                            ],
+                                            "5": [
+                                                4,
+                                                5,
+                                                6,
+                                                7
+                                            ]
+                                        },
+                                        "facedata": {
+                                            "0": {},
+                                            "1": {},
+                                            "2": {},
+                                            "3": {},
+                                            "4": {},
+                                            "5": {}
+                                        },
+                                        "edgedata": {},
+                                        "max_vertex": 7,
+                                        "max_face": 5
+                                    },
+                                    "inheritance": [],
+                                    "name": "box",
+                                    "guid": "b10bb81d-0d72-49e8-8062-cffe06c389fa"
+                                },
+                                "shape": {
+                                    "dtype": "compas.geometry/Box",
+                                    "data": {
+                                        "xsize": 0.24,
+                                        "ysize": 0.115,
+                                        "zsize": 0.045,
+                                        "frame": {
+                                            "point": [
+                                                0.0,
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "xaxis": [
+                                                1.0,
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "yaxis": [
+                                                0.0,
+                                                -1.0,
+                                                0.0
+                                            ]
+                                        }
+                                    },
+                                    "name": "box",
+                                    "guid": "c730597b-77e7-46ef-8e20-15b97df02e85"
+                                }
+                            },
+                            "key": 1,
+                            "frame": {
+                                "point": [
+                                    -0.06,
+                                    0.33000000000000007,
+                                    0.0225
+                                ],
+                                "xaxis": [
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "yaxis": [
+                                    0.0,
+                                    -1.0,
+                                    1.2246467991473532e-16
+                                ]
+                            }
+                        },
+                        "inheritance": [],
+                        "guid": "fe5a4249-2f48-44a1-b46f-d0ad298ba2d6"
+                    },
+                    "x": 0,
+                    "y": 0.30000000000000004,
+                    "z": 0.0225,
+                    "course": 0,
+                    "built": true,
+                    "available": true,
+                    "qcode": "Q40089",
+                    "damages": {
+                        "0": {
+                            "type": "vertex",
+                            "vertices": [
+                                3
+                            ],
+                            "status": "Material Loss",
+                            "value": 3,
+                            "description": "Significant material loss is present at the top-front-right corner.",
+                            "coordinates": {
+                                "point": [
+                                    0.12,
+                                    0.0575,
+                                    0.0225
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    -1,
+                                    0
+                                ]
+                            },
+                            "id": "damage_01"
+                        },
+                        "1": {
+                            "type": "face",
+                            "vertices": [
+                                0
+                            ],
+                            "status": "Crack",
+                            "value": 2,
+                            "uv": [
+                                0.5,
+                                0.5
+                            ],
+                            "description": "A thin crack runs across the width of the top face.",
+                            "coordinates": {
+                                "point": [
+                                    0.0,
+                                    0.0,
+                                    0.0225
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    -1,
+                                    0
+                                ]
+                            },
+                            "id": "damage_02"
+                        },
+                        "2": {
+                            "type": "face",
+                            "vertices": [
+                                0
+                            ],
+                            "status": "Chipping",
+                            "value": 1,
+                            "uv": [
+                                0.8,
+                                0.7
+                            ],
+                            "description": "A small chip is visible on the top face near the front-right corner.",
+                            "coordinates": {
+                                "point": [
+                                    0.07200000000000001,
+                                    0.023,
+                                    0.0225
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    -1,
+                                    0
+                                ]
+                            },
+                            "id": "damage_03"
+                        },
+                        "3": {
+                            "type": "face",
+                            "vertices": [
+                                0
+                            ],
+                            "status": "Chipping",
+                            "value": 1,
+                            "uv": [
+                                0.4,
+                                0.6
+                            ],
+                            "description": "A small chip is visible on the top face toward the left side.",
+                            "coordinates": {
+                                "point": [
+                                    -0.023999999999999994,
+                                    0.011500000000000003,
+                                    0.0225
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    -1,
+                                    0
+                                ]
+                            },
+                            "id": "damage_04"
+                        },
+                        "4": {
+                            "type": "face",
+                            "vertices": [
+                                3
+                            ],
+                            "status": "Spalling",
+                            "value": 3,
+                            "uv": [
+                                0.65,
+                                0.37
+                            ],
+                            "description": "Significant spalling and white staining covers the lower right portion of the back face.",
+                            "coordinates": {
+                                "point": [
+                                    0.036000000000000004,
+                                    -0.0575,
+                                    -0.005850000000000001
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    -1,
+                                    0
+                                ]
+                            },
+                            "id": "damage_05"
+                        },
+                        "5": {
+                            "type": "vertex",
+                            "vertices": [
+                                2
+                            ],
+                            "status": "Chipping",
+                            "value": 2,
+                            "description": "Chipping is present on the corner where the top, back, and right faces meet.",
+                            "coordinates": {
+                                "point": [
+                                    0.12,
+                                    -0.0575,
+                                    0.0225
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    -1,
+                                    0
+                                ]
+                            },
+                            "id": "damage_06"
+                        },
+                        "6": {
+                            "type": "edge",
+                            "vertices": [
+                                1,
+                                2
+                            ],
+                            "status": "Chipping",
+                            "value": 1,
+                            "description": "Minor chipping is visible along the edge between the top and back faces.",
+                            "coordinates": {
+                                "point": [
+                                    -0.05,
+                                    -0.0575,
+                                    0.0225
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    -1,
+                                    0
+                                ]
+                            },
+                            "id": "damage_07"
+                        }
+                    }
+                },
+                "2": {
+                    "part": {
+                        "dtype": "assembly_information_model.part/Part",
+                        "data": {
+                            "attributes": {
+                                "name": "brick_full",
+                                "mesh": {
+                                    "dtype": "compas.datastructures/Mesh",
+                                    "data": {
+                                        "attributes": {},
+                                        "default_vertex_attributes": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "z": 0
+                                        },
+                                        "default_edge_attributes": {},
+                                        "default_face_attributes": {},
+                                        "vertex": {
+                                            "0": {
+                                                "x": -0.12,
+                                                "y": 0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "1": {
+                                                "x": -0.12,
+                                                "y": -0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "2": {
+                                                "x": 0.12,
+                                                "y": -0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "3": {
+                                                "x": 0.12,
+                                                "y": 0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "4": {
+                                                "x": -0.12,
+                                                "y": 0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "5": {
+                                                "x": 0.12,
+                                                "y": 0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "6": {
+                                                "x": 0.12,
+                                                "y": -0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "7": {
+                                                "x": -0.12,
+                                                "y": -0.0575,
+                                                "z": -0.0225
+                                            }
+                                        },
+                                        "face": {
+                                            "0": [
+                                                0,
+                                                1,
+                                                2,
+                                                3
+                                            ],
+                                            "1": [
+                                                0,
+                                                3,
+                                                5,
+                                                4
+                                            ],
+                                            "2": [
+                                                3,
+                                                2,
+                                                6,
+                                                5
+                                            ],
+                                            "3": [
+                                                2,
+                                                1,
+                                                7,
+                                                6
+                                            ],
+                                            "4": [
+                                                1,
+                                                0,
+                                                4,
+                                                7
+                                            ],
+                                            "5": [
+                                                4,
+                                                5,
+                                                6,
+                                                7
+                                            ]
+                                        },
+                                        "facedata": {
+                                            "0": {},
+                                            "1": {},
+                                            "2": {},
+                                            "3": {},
+                                            "4": {},
+                                            "5": {}
+                                        },
+                                        "edgedata": {},
+                                        "max_vertex": 7,
+                                        "max_face": 5
+                                    },
+                                    "inheritance": [],
+                                    "name": "box",
+                                    "guid": "d0311493-9797-493a-a492-f0a3bad131d9"
+                                },
+                                "shape": {
+                                    "dtype": "compas.geometry/Box",
+                                    "data": {
+                                        "xsize": 0.24,
+                                        "ysize": 0.115,
+                                        "zsize": 0.045,
+                                        "frame": {
+                                            "point": [
+                                                0.0,
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "xaxis": [
+                                                1.0,
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "yaxis": [
+                                                0.0,
+                                                -1.0,
+                                                0.0
+                                            ]
+                                        }
+                                    },
+                                    "name": "box",
+                                    "guid": "b0b5fe0d-3107-4d42-86c9-f68b15e30752"
+                                }
+                            },
+                            "key": 2,
+                            "frame": {
+                                "point": [
+                                    -0.06,
+                                    0.4800000000000001,
+                                    0.0225
+                                ],
+                                "xaxis": [
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "yaxis": [
+                                    0.0,
+                                    -1.0,
+                                    1.2246467991473532e-16
+                                ]
+                            }
+                        },
+                        "inheritance": [],
+                        "guid": "baa148b7-483a-4b07-bb57-3cb029b661e5"
+                    },
+                    "x": 0,
+                    "y": 0.45000000000000007,
+                    "z": 0.0225,
+                    "course": 0,
+                    "built": true,
+                    "available": true,
+                    "qcode": "Q40089"
+                },
+                "3": {
+                    "part": {
+                        "dtype": "assembly_information_model.part/Part",
+                        "data": {
+                            "attributes": {
+                                "name": "brick_full",
+                                "mesh": {
+                                    "dtype": "compas.datastructures/Mesh",
+                                    "data": {
+                                        "attributes": {},
+                                        "default_vertex_attributes": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "z": 0
+                                        },
+                                        "default_edge_attributes": {},
+                                        "default_face_attributes": {},
+                                        "vertex": {
+                                            "0": {
+                                                "x": -0.12,
+                                                "y": 0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "1": {
+                                                "x": -0.12,
+                                                "y": -0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "2": {
+                                                "x": 0.12,
+                                                "y": -0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "3": {
+                                                "x": 0.12,
+                                                "y": 0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "4": {
+                                                "x": -0.12,
+                                                "y": 0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "5": {
+                                                "x": 0.12,
+                                                "y": 0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "6": {
+                                                "x": 0.12,
+                                                "y": -0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "7": {
+                                                "x": -0.12,
+                                                "y": -0.0575,
+                                                "z": -0.0225
+                                            }
+                                        },
+                                        "face": {
+                                            "0": [
+                                                0,
+                                                1,
+                                                2,
+                                                3
+                                            ],
+                                            "1": [
+                                                0,
+                                                3,
+                                                5,
+                                                4
+                                            ],
+                                            "2": [
+                                                3,
+                                                2,
+                                                6,
+                                                5
+                                            ],
+                                            "3": [
+                                                2,
+                                                1,
+                                                7,
+                                                6
+                                            ],
+                                            "4": [
+                                                1,
+                                                0,
+                                                4,
+                                                7
+                                            ],
+                                            "5": [
+                                                4,
+                                                5,
+                                                6,
+                                                7
+                                            ]
+                                        },
+                                        "facedata": {
+                                            "0": {},
+                                            "1": {},
+                                            "2": {},
+                                            "3": {},
+                                            "4": {},
+                                            "5": {}
+                                        },
+                                        "edgedata": {},
+                                        "max_vertex": 7,
+                                        "max_face": 5
+                                    },
+                                    "inheritance": [],
+                                    "name": "box",
+                                    "guid": "e3c078ea-fd1e-453e-b0f4-41bed61ad585"
+                                },
+                                "shape": {
+                                    "dtype": "compas.geometry/Box",
+                                    "data": {
+                                        "xsize": 0.24,
+                                        "ysize": 0.115,
+                                        "zsize": 0.045,
+                                        "frame": {
+                                            "point": [
+                                                0.0,
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "xaxis": [
+                                                1.0,
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "yaxis": [
+                                                0.0,
+                                                -1.0,
+                                                0.0
+                                            ]
+                                        }
+                                    },
+                                    "name": "box",
+                                    "guid": "03758d3b-68d9-4b8c-a347-e0ab217d3103"
+                                }
+                            },
+                            "key": 3,
+                            "frame": {
+                                "point": [
+                                    -0.06,
+                                    0.6300000000000001,
+                                    0.0225
+                                ],
+                                "xaxis": [
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "yaxis": [
+                                    0.0,
+                                    -1.0,
+                                    1.2246467991473532e-16
+                                ]
+                            }
+                        },
+                        "inheritance": [],
+                        "guid": "3e646f07-4ce2-409a-9b5b-cabe04d6925f"
+                    },
+                    "x": 0,
+                    "y": 0.6000000000000001,
+                    "z": 0.0225,
+                    "course": 0,
+                    "built": true,
+                    "available": true,
+                    "qcode": "Q40089"
+                },
+                "4": {
+                    "part": {
+                        "dtype": "assembly_information_model.part/Part",
+                        "data": {
+                            "attributes": {
+                                "name": "brick_full",
+                                "mesh": {
+                                    "dtype": "compas.datastructures/Mesh",
+                                    "data": {
+                                        "attributes": {},
+                                        "default_vertex_attributes": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "z": 0
+                                        },
+                                        "default_edge_attributes": {},
+                                        "default_face_attributes": {},
+                                        "vertex": {
+                                            "0": {
+                                                "x": -0.12,
+                                                "y": 0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "1": {
+                                                "x": -0.12,
+                                                "y": -0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "2": {
+                                                "x": 0.12,
+                                                "y": -0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "3": {
+                                                "x": 0.12,
+                                                "y": 0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "4": {
+                                                "x": -0.12,
+                                                "y": 0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "5": {
+                                                "x": 0.12,
+                                                "y": 0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "6": {
+                                                "x": 0.12,
+                                                "y": -0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "7": {
+                                                "x": -0.12,
+                                                "y": -0.0575,
+                                                "z": -0.0225
+                                            }
+                                        },
+                                        "face": {
+                                            "0": [
+                                                0,
+                                                1,
+                                                2,
+                                                3
+                                            ],
+                                            "1": [
+                                                0,
+                                                3,
+                                                5,
+                                                4
+                                            ],
+                                            "2": [
+                                                3,
+                                                2,
+                                                6,
+                                                5
+                                            ],
+                                            "3": [
+                                                2,
+                                                1,
+                                                7,
+                                                6
+                                            ],
+                                            "4": [
+                                                1,
+                                                0,
+                                                4,
+                                                7
+                                            ],
+                                            "5": [
+                                                4,
+                                                5,
+                                                6,
+                                                7
+                                            ]
+                                        },
+                                        "facedata": {
+                                            "0": {},
+                                            "1": {},
+                                            "2": {},
+                                            "3": {},
+                                            "4": {},
+                                            "5": {}
+                                        },
+                                        "edgedata": {},
+                                        "max_vertex": 7,
+                                        "max_face": 5
+                                    },
+                                    "inheritance": [],
+                                    "name": "box",
+                                    "guid": "2f3d8b8c-69aa-4e1b-abbf-196d94795bca"
+                                },
+                                "shape": {
+                                    "dtype": "compas.geometry/Box",
+                                    "data": {
+                                        "xsize": 0.24,
+                                        "ysize": 0.115,
+                                        "zsize": 0.045,
+                                        "frame": {
+                                            "point": [
+                                                0.0,
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "xaxis": [
+                                                1.0,
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "yaxis": [
+                                                0.0,
+                                                -1.0,
+                                                0.0
+                                            ]
+                                        }
+                                    },
+                                    "name": "box",
+                                    "guid": "c487271f-a194-48aa-ac31-e74a2044eabb"
+                                }
+                            },
+                            "key": 4,
+                            "frame": {
+                                "point": [
+                                    -0.06,
+                                    0.7800000000000001,
+                                    0.0225
+                                ],
+                                "xaxis": [
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "yaxis": [
+                                    0.0,
+                                    -1.0,
+                                    1.2246467991473532e-16
+                                ]
+                            }
+                        },
+                        "inheritance": [],
+                        "guid": "736957b4-31e2-4e18-b5d4-b41f56fac627"
+                    },
+                    "x": 0,
+                    "y": 0.7500000000000001,
+                    "z": 0.0225,
+                    "course": 0,
+                    "built": true,
+                    "available": true,
+                    "qcode": "Q40089"
+                },
+                "5": {
+                    "part": {
+                        "dtype": "assembly_information_model.part/Part",
+                        "data": {
+                            "attributes": {
+                                "name": "brick_full",
+                                "mesh": {
+                                    "dtype": "compas.datastructures/Mesh",
+                                    "data": {
+                                        "attributes": {},
+                                        "default_vertex_attributes": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "z": 0
+                                        },
+                                        "default_edge_attributes": {},
+                                        "default_face_attributes": {},
+                                        "vertex": {
+                                            "0": {
+                                                "x": -0.12,
+                                                "y": 0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "1": {
+                                                "x": -0.12,
+                                                "y": -0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "2": {
+                                                "x": 0.12,
+                                                "y": -0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "3": {
+                                                "x": 0.12,
+                                                "y": 0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "4": {
+                                                "x": -0.12,
+                                                "y": 0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "5": {
+                                                "x": 0.12,
+                                                "y": 0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "6": {
+                                                "x": 0.12,
+                                                "y": -0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "7": {
+                                                "x": -0.12,
+                                                "y": -0.0575,
+                                                "z": -0.0225
+                                            }
+                                        },
+                                        "face": {
+                                            "0": [
+                                                0,
+                                                1,
+                                                2,
+                                                3
+                                            ],
+                                            "1": [
+                                                0,
+                                                3,
+                                                5,
+                                                4
+                                            ],
+                                            "2": [
+                                                3,
+                                                2,
+                                                6,
+                                                5
+                                            ],
+                                            "3": [
+                                                2,
+                                                1,
+                                                7,
+                                                6
+                                            ],
+                                            "4": [
+                                                1,
+                                                0,
+                                                4,
+                                                7
+                                            ],
+                                            "5": [
+                                                4,
+                                                5,
+                                                6,
+                                                7
+                                            ]
+                                        },
+                                        "facedata": {
+                                            "0": {},
+                                            "1": {},
+                                            "2": {},
+                                            "3": {},
+                                            "4": {},
+                                            "5": {}
+                                        },
+                                        "edgedata": {},
+                                        "max_vertex": 7,
+                                        "max_face": 5
+                                    },
+                                    "inheritance": [],
+                                    "name": "box",
+                                    "guid": "2118f5f2-82ec-4116-8373-34e6d94ce91b"
+                                },
+                                "shape": {
+                                    "dtype": "compas.geometry/Box",
+                                    "data": {
+                                        "xsize": 0.24,
+                                        "ysize": 0.115,
+                                        "zsize": 0.045,
+                                        "frame": {
+                                            "point": [
+                                                0.0,
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "xaxis": [
+                                                1.0,
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "yaxis": [
+                                                0.0,
+                                                -1.0,
+                                                0.0
+                                            ]
+                                        }
+                                    },
+                                    "name": "box",
+                                    "guid": "9ee8a0bf-88df-4f49-ace6-39c6e4aa2bac"
+                                }
+                            },
+                            "key": 5,
+                            "frame": {
+                                "point": [
+                                    -0.06,
+                                    0.9300000000000002,
+                                    0.0225
+                                ],
+                                "xaxis": [
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "yaxis": [
+                                    0.0,
+                                    -1.0,
+                                    1.2246467991473532e-16
+                                ]
+                            }
+                        },
+                        "inheritance": [],
+                        "guid": "24523223-31ad-4786-974b-3003fc9a1815"
+                    },
+                    "x": 0,
+                    "y": 0.9000000000000001,
+                    "z": 0.0225,
+                    "course": 0,
+                    "built": true,
+                    "available": true,
+                    "qcode": "Q40089"
+                },
+                "6": {
+                    "part": {
+                        "dtype": "assembly_information_model.part/Part",
+                        "data": {
+                            "attributes": {
+                                "name": "brick_full",
+                                "mesh": {
+                                    "dtype": "compas.datastructures/Mesh",
+                                    "data": {
+                                        "attributes": {},
+                                        "default_vertex_attributes": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "z": 0
+                                        },
+                                        "default_edge_attributes": {},
+                                        "default_face_attributes": {},
+                                        "vertex": {
+                                            "0": {
+                                                "x": -0.12,
+                                                "y": 0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "1": {
+                                                "x": -0.12,
+                                                "y": -0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "2": {
+                                                "x": 0.12,
+                                                "y": -0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "3": {
+                                                "x": 0.12,
+                                                "y": 0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "4": {
+                                                "x": -0.12,
+                                                "y": 0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "5": {
+                                                "x": 0.12,
+                                                "y": 0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "6": {
+                                                "x": 0.12,
+                                                "y": -0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "7": {
+                                                "x": -0.12,
+                                                "y": -0.0575,
+                                                "z": -0.0225
+                                            }
+                                        },
+                                        "face": {
+                                            "0": [
+                                                0,
+                                                1,
+                                                2,
+                                                3
+                                            ],
+                                            "1": [
+                                                0,
+                                                3,
+                                                5,
+                                                4
+                                            ],
+                                            "2": [
+                                                3,
+                                                2,
+                                                6,
+                                                5
+                                            ],
+                                            "3": [
+                                                2,
+                                                1,
+                                                7,
+                                                6
+                                            ],
+                                            "4": [
+                                                1,
+                                                0,
+                                                4,
+                                                7
+                                            ],
+                                            "5": [
+                                                4,
+                                                5,
+                                                6,
+                                                7
+                                            ]
+                                        },
+                                        "facedata": {
+                                            "0": {},
+                                            "1": {},
+                                            "2": {},
+                                            "3": {},
+                                            "4": {},
+                                            "5": {}
+                                        },
+                                        "edgedata": {},
+                                        "max_vertex": 7,
+                                        "max_face": 5
+                                    },
+                                    "inheritance": [],
+                                    "name": "box",
+                                    "guid": "beb46445-5f86-47cc-9018-711f85d6dccf"
+                                },
+                                "shape": {
+                                    "dtype": "compas.geometry/Box",
+                                    "data": {
+                                        "xsize": 0.24,
+                                        "ysize": 0.115,
+                                        "zsize": 0.045,
+                                        "frame": {
+                                            "point": [
+                                                0.0,
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "xaxis": [
+                                                1.0,
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "yaxis": [
+                                                0.0,
+                                                -1.0,
+                                                0.0
+                                            ]
+                                        }
+                                    },
+                                    "name": "box",
+                                    "guid": "56e5bee9-0135-42fe-9959-04067ec095b1"
+                                }
+                            },
+                            "key": 6,
+                            "frame": {
+                                "point": [
+                                    -0.32,
+                                    0.03,
+                                    0.0225
+                                ],
+                                "xaxis": [
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "yaxis": [
+                                    0.0,
+                                    -1.0,
+                                    1.2246467991473532e-16
+                                ]
+                            }
+                        },
+                        "inheritance": [],
+                        "guid": "0d1c2854-754d-4935-8789-4b3bc8e24af2"
+                    },
+                    "x": -0.26,
+                    "y": 0,
+                    "z": 0.0225,
+                    "course": 0,
+                    "built": true,
+                    "available": true,
+                    "qcode": "Q40089"
+                },
+                "7": {
+                    "part": {
+                        "dtype": "assembly_information_model.part/Part",
+                        "data": {
+                            "attributes": {
+                                "name": "brick_full",
+                                "mesh": {
+                                    "dtype": "compas.datastructures/Mesh",
+                                    "data": {
+                                        "attributes": {},
+                                        "default_vertex_attributes": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "z": 0
+                                        },
+                                        "default_edge_attributes": {},
+                                        "default_face_attributes": {},
+                                        "vertex": {
+                                            "0": {
+                                                "x": -0.12,
+                                                "y": 0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "1": {
+                                                "x": -0.12,
+                                                "y": -0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "2": {
+                                                "x": 0.12,
+                                                "y": -0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "3": {
+                                                "x": 0.12,
+                                                "y": 0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "4": {
+                                                "x": -0.12,
+                                                "y": 0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "5": {
+                                                "x": 0.12,
+                                                "y": 0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "6": {
+                                                "x": 0.12,
+                                                "y": -0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "7": {
+                                                "x": -0.12,
+                                                "y": -0.0575,
+                                                "z": -0.0225
+                                            }
+                                        },
+                                        "face": {
+                                            "0": [
+                                                0,
+                                                1,
+                                                2,
+                                                3
+                                            ],
+                                            "1": [
+                                                0,
+                                                3,
+                                                5,
+                                                4
+                                            ],
+                                            "2": [
+                                                3,
+                                                2,
+                                                6,
+                                                5
+                                            ],
+                                            "3": [
+                                                2,
+                                                1,
+                                                7,
+                                                6
+                                            ],
+                                            "4": [
+                                                1,
+                                                0,
+                                                4,
+                                                7
+                                            ],
+                                            "5": [
+                                                4,
+                                                5,
+                                                6,
+                                                7
+                                            ]
+                                        },
+                                        "facedata": {
+                                            "0": {},
+                                            "1": {},
+                                            "2": {},
+                                            "3": {},
+                                            "4": {},
+                                            "5": {}
+                                        },
+                                        "edgedata": {},
+                                        "max_vertex": 7,
+                                        "max_face": 5
+                                    },
+                                    "inheritance": [],
+                                    "name": "box",
+                                    "guid": "3d402669-e932-42d7-ad4f-174168d19fdd"
+                                },
+                                "shape": {
+                                    "dtype": "compas.geometry/Box",
+                                    "data": {
+                                        "xsize": 0.24,
+                                        "ysize": 0.115,
+                                        "zsize": 0.045,
+                                        "frame": {
+                                            "point": [
+                                                0.0,
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "xaxis": [
+                                                1.0,
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "yaxis": [
+                                                0.0,
+                                                -1.0,
+                                                0.0
+                                            ]
+                                        }
+                                    },
+                                    "name": "box",
+                                    "guid": "0591d2c8-0e1e-45ab-ade7-e047b6717178"
+                                }
+                            },
+                            "key": 7,
+                            "frame": {
+                                "point": [
+                                    -0.32,
+                                    0.18000000000000002,
+                                    0.0225
+                                ],
+                                "xaxis": [
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "yaxis": [
+                                    0.0,
+                                    -1.0,
+                                    1.2246467991473532e-16
+                                ]
+                            }
+                        },
+                        "inheritance": [],
+                        "guid": "1b348b01-6c46-4217-a247-e2459685551a"
+                    },
+                    "x": -0.26,
+                    "y": 0.15000000000000002,
+                    "z": 0.0225,
+                    "course": 0,
+                    "built": true,
+                    "available": true,
+                    "qcode": "Q40089"
+                },
+                "8": {
+                    "part": {
+                        "dtype": "assembly_information_model.part/Part",
+                        "data": {
+                            "attributes": {
+                                "name": "brick_full",
+                                "mesh": {
+                                    "dtype": "compas.datastructures/Mesh",
+                                    "data": {
+                                        "attributes": {},
+                                        "default_vertex_attributes": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "z": 0
+                                        },
+                                        "default_edge_attributes": {},
+                                        "default_face_attributes": {},
+                                        "vertex": {
+                                            "0": {
+                                                "x": -0.12,
+                                                "y": 0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "1": {
+                                                "x": -0.12,
+                                                "y": -0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "2": {
+                                                "x": 0.12,
+                                                "y": -0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "3": {
+                                                "x": 0.12,
+                                                "y": 0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "4": {
+                                                "x": -0.12,
+                                                "y": 0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "5": {
+                                                "x": 0.12,
+                                                "y": 0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "6": {
+                                                "x": 0.12,
+                                                "y": -0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "7": {
+                                                "x": -0.12,
+                                                "y": -0.0575,
+                                                "z": -0.0225
+                                            }
+                                        },
+                                        "face": {
+                                            "0": [
+                                                0,
+                                                1,
+                                                2,
+                                                3
+                                            ],
+                                            "1": [
+                                                0,
+                                                3,
+                                                5,
+                                                4
+                                            ],
+                                            "2": [
+                                                3,
+                                                2,
+                                                6,
+                                                5
+                                            ],
+                                            "3": [
+                                                2,
+                                                1,
+                                                7,
+                                                6
+                                            ],
+                                            "4": [
+                                                1,
+                                                0,
+                                                4,
+                                                7
+                                            ],
+                                            "5": [
+                                                4,
+                                                5,
+                                                6,
+                                                7
+                                            ]
+                                        },
+                                        "facedata": {
+                                            "0": {},
+                                            "1": {},
+                                            "2": {},
+                                            "3": {},
+                                            "4": {},
+                                            "5": {}
+                                        },
+                                        "edgedata": {},
+                                        "max_vertex": 7,
+                                        "max_face": 5
+                                    },
+                                    "inheritance": [],
+                                    "name": "box",
+                                    "guid": "7eb097e3-4354-4daa-bfe7-c6cb957d3aae"
+                                },
+                                "shape": {
+                                    "dtype": "compas.geometry/Box",
+                                    "data": {
+                                        "xsize": 0.24,
+                                        "ysize": 0.115,
+                                        "zsize": 0.045,
+                                        "frame": {
+                                            "point": [
+                                                0.0,
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "xaxis": [
+                                                1.0,
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "yaxis": [
+                                                0.0,
+                                                -1.0,
+                                                0.0
+                                            ]
+                                        }
+                                    },
+                                    "name": "box",
+                                    "guid": "6e20a7a9-cba9-43af-ad35-47b9e00eeea2"
+                                }
+                            },
+                            "key": 8,
+                            "frame": {
+                                "point": [
+                                    -0.32,
+                                    0.33000000000000007,
+                                    0.0225
+                                ],
+                                "xaxis": [
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "yaxis": [
+                                    0.0,
+                                    -1.0,
+                                    1.2246467991473532e-16
+                                ]
+                            }
+                        },
+                        "inheritance": [],
+                        "guid": "25a692f1-5326-4410-a3a0-797a79dbc8bf"
+                    },
+                    "x": -0.26,
+                    "y": 0.30000000000000004,
+                    "z": 0.0225,
+                    "course": 0,
+                    "built": true,
+                    "available": true,
+                    "qcode": "Q40089"
+                },
+                "9": {
+                    "part": {
+                        "dtype": "assembly_information_model.part/Part",
+                        "data": {
+                            "attributes": {
+                                "name": "brick_full",
+                                "mesh": {
+                                    "dtype": "compas.datastructures/Mesh",
+                                    "data": {
+                                        "attributes": {},
+                                        "default_vertex_attributes": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "z": 0
+                                        },
+                                        "default_edge_attributes": {},
+                                        "default_face_attributes": {},
+                                        "vertex": {
+                                            "0": {
+                                                "x": -0.12,
+                                                "y": 0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "1": {
+                                                "x": -0.12,
+                                                "y": -0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "2": {
+                                                "x": 0.12,
+                                                "y": -0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "3": {
+                                                "x": 0.12,
+                                                "y": 0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "4": {
+                                                "x": -0.12,
+                                                "y": 0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "5": {
+                                                "x": 0.12,
+                                                "y": 0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "6": {
+                                                "x": 0.12,
+                                                "y": -0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "7": {
+                                                "x": -0.12,
+                                                "y": -0.0575,
+                                                "z": -0.0225
+                                            }
+                                        },
+                                        "face": {
+                                            "0": [
+                                                0,
+                                                1,
+                                                2,
+                                                3
+                                            ],
+                                            "1": [
+                                                0,
+                                                3,
+                                                5,
+                                                4
+                                            ],
+                                            "2": [
+                                                3,
+                                                2,
+                                                6,
+                                                5
+                                            ],
+                                            "3": [
+                                                2,
+                                                1,
+                                                7,
+                                                6
+                                            ],
+                                            "4": [
+                                                1,
+                                                0,
+                                                4,
+                                                7
+                                            ],
+                                            "5": [
+                                                4,
+                                                5,
+                                                6,
+                                                7
+                                            ]
+                                        },
+                                        "facedata": {
+                                            "0": {},
+                                            "1": {},
+                                            "2": {},
+                                            "3": {},
+                                            "4": {},
+                                            "5": {}
+                                        },
+                                        "edgedata": {},
+                                        "max_vertex": 7,
+                                        "max_face": 5
+                                    },
+                                    "inheritance": [],
+                                    "name": "box",
+                                    "guid": "69053846-179c-423e-a4d3-22a921e8a2fb"
+                                },
+                                "shape": {
+                                    "dtype": "compas.geometry/Box",
+                                    "data": {
+                                        "xsize": 0.24,
+                                        "ysize": 0.115,
+                                        "zsize": 0.045,
+                                        "frame": {
+                                            "point": [
+                                                0.0,
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "xaxis": [
+                                                1.0,
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "yaxis": [
+                                                0.0,
+                                                -1.0,
+                                                0.0
+                                            ]
+                                        }
+                                    },
+                                    "name": "box",
+                                    "guid": "157d0555-07e8-4553-bbfa-ac01ccf08b10"
+                                }
+                            },
+                            "key": 9,
+                            "frame": {
+                                "point": [
+                                    -0.32,
+                                    0.4800000000000001,
+                                    0.0225
+                                ],
+                                "xaxis": [
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "yaxis": [
+                                    0.0,
+                                    -1.0,
+                                    1.2246467991473532e-16
+                                ]
+                            }
+                        },
+                        "inheritance": [],
+                        "guid": "eef136d3-54a9-4f2e-81c5-2853f7cd234c"
+                    },
+                    "x": -0.26,
+                    "y": 0.45000000000000007,
+                    "z": 0.0225,
+                    "course": 0,
+                    "built": true,
+                    "available": true,
+                    "qcode": "Q40089"
+                },
+                "10": {
+                    "part": {
+                        "dtype": "assembly_information_model.part/Part",
+                        "data": {
+                            "attributes": {
+                                "name": "brick_full",
+                                "mesh": {
+                                    "dtype": "compas.datastructures/Mesh",
+                                    "data": {
+                                        "attributes": {},
+                                        "default_vertex_attributes": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "z": 0
+                                        },
+                                        "default_edge_attributes": {},
+                                        "default_face_attributes": {},
+                                        "vertex": {
+                                            "0": {
+                                                "x": -0.12,
+                                                "y": 0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "1": {
+                                                "x": -0.12,
+                                                "y": -0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "2": {
+                                                "x": 0.12,
+                                                "y": -0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "3": {
+                                                "x": 0.12,
+                                                "y": 0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "4": {
+                                                "x": -0.12,
+                                                "y": 0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "5": {
+                                                "x": 0.12,
+                                                "y": 0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "6": {
+                                                "x": 0.12,
+                                                "y": -0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "7": {
+                                                "x": -0.12,
+                                                "y": -0.0575,
+                                                "z": -0.0225
+                                            }
+                                        },
+                                        "face": {
+                                            "0": [
+                                                0,
+                                                1,
+                                                2,
+                                                3
+                                            ],
+                                            "1": [
+                                                0,
+                                                3,
+                                                5,
+                                                4
+                                            ],
+                                            "2": [
+                                                3,
+                                                2,
+                                                6,
+                                                5
+                                            ],
+                                            "3": [
+                                                2,
+                                                1,
+                                                7,
+                                                6
+                                            ],
+                                            "4": [
+                                                1,
+                                                0,
+                                                4,
+                                                7
+                                            ],
+                                            "5": [
+                                                4,
+                                                5,
+                                                6,
+                                                7
+                                            ]
+                                        },
+                                        "facedata": {
+                                            "0": {},
+                                            "1": {},
+                                            "2": {},
+                                            "3": {},
+                                            "4": {},
+                                            "5": {}
+                                        },
+                                        "edgedata": {},
+                                        "max_vertex": 7,
+                                        "max_face": 5
+                                    },
+                                    "inheritance": [],
+                                    "name": "box",
+                                    "guid": "1de9dd76-6bdb-4711-ac20-c5b5391ee64d"
+                                },
+                                "shape": {
+                                    "dtype": "compas.geometry/Box",
+                                    "data": {
+                                        "xsize": 0.24,
+                                        "ysize": 0.115,
+                                        "zsize": 0.045,
+                                        "frame": {
+                                            "point": [
+                                                0.0,
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "xaxis": [
+                                                1.0,
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "yaxis": [
+                                                0.0,
+                                                -1.0,
+                                                0.0
+                                            ]
+                                        }
+                                    },
+                                    "name": "box",
+                                    "guid": "eb826fed-5ab9-45de-b045-0f70054095fc"
+                                }
+                            },
+                            "key": 10,
+                            "frame": {
+                                "point": [
+                                    -0.32,
+                                    0.6300000000000001,
+                                    0.0225
+                                ],
+                                "xaxis": [
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "yaxis": [
+                                    0.0,
+                                    -1.0,
+                                    1.2246467991473532e-16
+                                ]
+                            }
+                        },
+                        "inheritance": [],
+                        "guid": "80587fde-82ce-46bd-a31a-96cac0150a70"
+                    },
+                    "x": -0.26,
+                    "y": 0.6000000000000001,
+                    "z": 0.0225,
+                    "course": 0,
+                    "built": true,
+                    "available": true,
+                    "qcode": "Q40089"
+                },
+                "11": {
+                    "part": {
+                        "dtype": "assembly_information_model.part/Part",
+                        "data": {
+                            "attributes": {
+                                "name": "brick_full",
+                                "mesh": {
+                                    "dtype": "compas.datastructures/Mesh",
+                                    "data": {
+                                        "attributes": {},
+                                        "default_vertex_attributes": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "z": 0
+                                        },
+                                        "default_edge_attributes": {},
+                                        "default_face_attributes": {},
+                                        "vertex": {
+                                            "0": {
+                                                "x": -0.12,
+                                                "y": 0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "1": {
+                                                "x": -0.12,
+                                                "y": -0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "2": {
+                                                "x": 0.12,
+                                                "y": -0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "3": {
+                                                "x": 0.12,
+                                                "y": 0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "4": {
+                                                "x": -0.12,
+                                                "y": 0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "5": {
+                                                "x": 0.12,
+                                                "y": 0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "6": {
+                                                "x": 0.12,
+                                                "y": -0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "7": {
+                                                "x": -0.12,
+                                                "y": -0.0575,
+                                                "z": -0.0225
+                                            }
+                                        },
+                                        "face": {
+                                            "0": [
+                                                0,
+                                                1,
+                                                2,
+                                                3
+                                            ],
+                                            "1": [
+                                                0,
+                                                3,
+                                                5,
+                                                4
+                                            ],
+                                            "2": [
+                                                3,
+                                                2,
+                                                6,
+                                                5
+                                            ],
+                                            "3": [
+                                                2,
+                                                1,
+                                                7,
+                                                6
+                                            ],
+                                            "4": [
+                                                1,
+                                                0,
+                                                4,
+                                                7
+                                            ],
+                                            "5": [
+                                                4,
+                                                5,
+                                                6,
+                                                7
+                                            ]
+                                        },
+                                        "facedata": {
+                                            "0": {},
+                                            "1": {},
+                                            "2": {},
+                                            "3": {},
+                                            "4": {},
+                                            "5": {}
+                                        },
+                                        "edgedata": {},
+                                        "max_vertex": 7,
+                                        "max_face": 5
+                                    },
+                                    "inheritance": [],
+                                    "name": "box",
+                                    "guid": "d89da232-191a-4e35-95c6-f97acc70d7ef"
+                                },
+                                "shape": {
+                                    "dtype": "compas.geometry/Box",
+                                    "data": {
+                                        "xsize": 0.24,
+                                        "ysize": 0.115,
+                                        "zsize": 0.045,
+                                        "frame": {
+                                            "point": [
+                                                0.0,
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "xaxis": [
+                                                1.0,
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "yaxis": [
+                                                0.0,
+                                                -1.0,
+                                                0.0
+                                            ]
+                                        }
+                                    },
+                                    "name": "box",
+                                    "guid": "761d487c-300d-4ed0-bac2-d4c00fb61f44"
+                                }
+                            },
+                            "key": 11,
+                            "frame": {
+                                "point": [
+                                    -0.32,
+                                    0.7800000000000001,
+                                    0.0225
+                                ],
+                                "xaxis": [
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "yaxis": [
+                                    0.0,
+                                    -1.0,
+                                    1.2246467991473532e-16
+                                ]
+                            }
+                        },
+                        "inheritance": [],
+                        "guid": "568e5b9f-49a8-4936-976c-5997389b5835"
+                    },
+                    "x": -0.26,
+                    "y": 0.7500000000000001,
+                    "z": 0.0225,
+                    "course": 0,
+                    "built": true,
+                    "available": true,
+                    "qcode": "Q40089",
+                    "damages": {
+                        "0": {
+                            "type": "face",
+                            "vertices": [
+                                0
+                            ],
+                            "status": "Staining",
+                            "value": 2,
+                            "uv": [
+                                0.65,
+                                0.45
+                            ],
+                            "description": "Multiple yellow stains are present on the top face of the brick.",
+                            "coordinates": {
+                                "point": [
+                                    0.036000000000000004,
+                                    -0.005749999999999998,
+                                    0.0225
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    -1,
+                                    0
+                                ]
+                            },
+                            "id": "damage_01"
+                        },
+                        "1": {
+                            "type": "vertex",
+                            "vertices": [
+                                0
+                            ],
+                            "status": "Material Loss",
+                            "value": 3,
+                            "description": "Significant material loss is visible at the top-front-left corner.",
+                            "coordinates": {
+                                "point": [
+                                    -0.12,
+                                    0.0575,
+                                    0.0225
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    -1,
+                                    0
+                                ]
+                            },
+                            "id": "damage_02"
+                        },
+                        "2": {
+                            "type": "edge",
+                            "vertices": [
+                                0,
+                                3
+                            ],
+                            "status": "Chipping",
+                            "value": 3,
+                            "description": "The top front edge is heavily chipped and irregular.",
+                            "coordinates": {
+                                "point": [
+                                    0.0,
+                                    0.0575,
+                                    0.0225
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    -1,
+                                    0
+                                ]
+                            },
+                            "id": "damage_03"
+                        },
+                        "3": {
+                            "type": "edge",
+                            "vertices": [
+                                0,
+                                1
+                            ],
+                            "status": "Chipping",
+                            "value": 2,
+                            "description": "The top left edge is moderately chipped.",
+                            "coordinates": {
+                                "point": [
+                                    -0.12,
+                                    0.0,
+                                    0.0225
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    -1,
+                                    0
+                                ]
+                            },
+                            "id": "damage_04"
+                        },
+                        "4": {
+                            "type": "face",
+                            "vertices": [
+                                0
+                            ],
+                            "status": "Staining",
+                            "value": 1,
+                            "uv": [
+                                0.65,
+                                0.4
+                            ],
+                            "description": "There is minor yellow staining on the top face.",
+                            "coordinates": {
+                                "point": [
+                                    0.036000000000000004,
+                                    -0.011500000000000003,
+                                    0.0225
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    -1,
+                                    0
+                                ]
+                            },
+                            "id": "damage_05"
+                        },
+                        "5": {
+                            "type": "face",
+                            "vertices": [
+                                0
+                            ],
+                            "status": "Staining",
+                            "value": 2,
+                            "uv": [
+                                0.75,
+                                0.25
+                            ],
+                            "description": "There is moderate white staining across the top face, concentrated near the back right corner.",
+                            "coordinates": {
+                                "point": [
+                                    0.06,
+                                    -0.028750000000000005,
+                                    0.0225
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    -1,
+                                    0
+                                ]
+                            },
+                            "id": "damage_06"
+                        },
+                        "6": {
+                            "type": "edge",
+                            "vertices": [
+                                1,
+                                2
+                            ],
+                            "status": "Material Loss",
+                            "value": 2,
+                            "description": "There is moderate material loss along the top back edge.",
+                            "coordinates": {
+                                "point": [
+                                    0.0,
+                                    -0.0575,
+                                    0.0225
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    -1,
+                                    0
+                                ]
+                            },
+                            "id": "damage_07"
+                        },
+                        "7": {
+                            "type": "edge",
+                            "vertices": [
+                                2,
+                                3
+                            ],
+                            "status": "Material Loss",
+                            "value": 2,
+                            "description": "There is moderate material loss along the top right edge.",
+                            "coordinates": {
+                                "point": [
+                                    0.12,
+                                    0.0,
+                                    0.0225
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    -1,
+                                    0
+                                ]
+                            },
+                            "id": "damage_08"
+                        },
+                        "8": {
+                            "type": "vertex",
+                            "vertices": [
+                                2
+                            ],
+                            "status": "Chipping",
+                            "value": 3,
+                            "description": "There is significant chipping at the top back right corner.",
+                            "coordinates": {
+                                "point": [
+                                    0.12,
+                                    -0.0575,
+                                    0.0225
+                                ],
+                                "xaxis": [
+                                    1,
+                                    0,
+                                    0
+                                ],
+                                "yaxis": [
+                                    0,
+                                    -1,
+                                    0
+                                ]
+                            },
+                            "id": "damage_09"
+                        }
+                    }
+                },
+                "12": {
+                    "part": {
+                        "dtype": "assembly_information_model.part/Part",
+                        "data": {
+                            "attributes": {
+                                "name": "brick_full",
+                                "mesh": {
+                                    "dtype": "compas.datastructures/Mesh",
+                                    "data": {
+                                        "attributes": {},
+                                        "default_vertex_attributes": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "z": 0
+                                        },
+                                        "default_edge_attributes": {},
+                                        "default_face_attributes": {},
+                                        "vertex": {
+                                            "0": {
+                                                "x": -0.12,
+                                                "y": 0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "1": {
+                                                "x": -0.12,
+                                                "y": -0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "2": {
+                                                "x": 0.12,
+                                                "y": -0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "3": {
+                                                "x": 0.12,
+                                                "y": 0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "4": {
+                                                "x": -0.12,
+                                                "y": 0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "5": {
+                                                "x": 0.12,
+                                                "y": 0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "6": {
+                                                "x": 0.12,
+                                                "y": -0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "7": {
+                                                "x": -0.12,
+                                                "y": -0.0575,
+                                                "z": -0.0225
+                                            }
+                                        },
+                                        "face": {
+                                            "0": [
+                                                0,
+                                                1,
+                                                2,
+                                                3
+                                            ],
+                                            "1": [
+                                                0,
+                                                3,
+                                                5,
+                                                4
+                                            ],
+                                            "2": [
+                                                3,
+                                                2,
+                                                6,
+                                                5
+                                            ],
+                                            "3": [
+                                                2,
+                                                1,
+                                                7,
+                                                6
+                                            ],
+                                            "4": [
+                                                1,
+                                                0,
+                                                4,
+                                                7
+                                            ],
+                                            "5": [
+                                                4,
+                                                5,
+                                                6,
+                                                7
+                                            ]
+                                        },
+                                        "facedata": {
+                                            "0": {},
+                                            "1": {},
+                                            "2": {},
+                                            "3": {},
+                                            "4": {},
+                                            "5": {}
+                                        },
+                                        "edgedata": {},
+                                        "max_vertex": 7,
+                                        "max_face": 5
+                                    },
+                                    "inheritance": [],
+                                    "name": "box",
+                                    "guid": "1a3b6f6c-1ed8-4c21-b8dc-a4c19018e6f6"
+                                },
+                                "shape": {
+                                    "dtype": "compas.geometry/Box",
+                                    "data": {
+                                        "xsize": 0.24,
+                                        "ysize": 0.115,
+                                        "zsize": 0.045,
+                                        "frame": {
+                                            "point": [
+                                                0.0,
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "xaxis": [
+                                                1.0,
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "yaxis": [
+                                                0.0,
+                                                -1.0,
+                                                0.0
+                                            ]
+                                        }
+                                    },
+                                    "name": "box",
+                                    "guid": "5a43d99e-7cf4-440b-a416-c09d34d4adb5"
+                                }
+                            },
+                            "key": 12,
+                            "frame": {
+                                "point": [
+                                    -0.32,
+                                    0.9300000000000002,
+                                    0.0225
+                                ],
+                                "xaxis": [
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "yaxis": [
+                                    0.0,
+                                    -1.0,
+                                    1.2246467991473532e-16
+                                ]
+                            }
+                        },
+                        "inheritance": [],
+                        "guid": "be1a7f1e-4793-4dc7-bf72-a792eb0e848d"
+                    },
+                    "x": -0.26,
+                    "y": 0.9000000000000001,
+                    "z": 0.0225,
+                    "course": 0,
+                    "built": true,
+                    "available": true,
+                    "qcode": "Q40089"
+                },
+                "13": {
+                    "part": {
+                        "dtype": "assembly_information_model.part/Part",
+                        "data": {
+                            "attributes": {
+                                "name": "brick_full",
+                                "mesh": {
+                                    "dtype": "compas.datastructures/Mesh",
+                                    "data": {
+                                        "attributes": {},
+                                        "default_vertex_attributes": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "z": 0
+                                        },
+                                        "default_edge_attributes": {},
+                                        "default_face_attributes": {},
+                                        "vertex": {
+                                            "0": {
+                                                "x": -0.12,
+                                                "y": 0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "1": {
+                                                "x": -0.12,
+                                                "y": -0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "2": {
+                                                "x": 0.12,
+                                                "y": -0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "3": {
+                                                "x": 0.12,
+                                                "y": 0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "4": {
+                                                "x": -0.12,
+                                                "y": 0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "5": {
+                                                "x": 0.12,
+                                                "y": 0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "6": {
+                                                "x": 0.12,
+                                                "y": -0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "7": {
+                                                "x": -0.12,
+                                                "y": -0.0575,
+                                                "z": -0.0225
+                                            }
+                                        },
+                                        "face": {
+                                            "0": [
+                                                0,
+                                                1,
+                                                2,
+                                                3
+                                            ],
+                                            "1": [
+                                                0,
+                                                3,
+                                                5,
+                                                4
+                                            ],
+                                            "2": [
+                                                3,
+                                                2,
+                                                6,
+                                                5
+                                            ],
+                                            "3": [
+                                                2,
+                                                1,
+                                                7,
+                                                6
+                                            ],
+                                            "4": [
+                                                1,
+                                                0,
+                                                4,
+                                                7
+                                            ],
+                                            "5": [
+                                                4,
+                                                5,
+                                                6,
+                                                7
+                                            ]
+                                        },
+                                        "facedata": {
+                                            "0": {},
+                                            "1": {},
+                                            "2": {},
+                                            "3": {},
+                                            "4": {},
+                                            "5": {}
+                                        },
+                                        "edgedata": {},
+                                        "max_vertex": 7,
+                                        "max_face": 5
+                                    },
+                                    "inheritance": [],
+                                    "name": "box",
+                                    "guid": "4d5c9144-4f0e-457f-9c28-823c9fe36223"
+                                },
+                                "shape": {
+                                    "dtype": "compas.geometry/Box",
+                                    "data": {
+                                        "xsize": 0.24,
+                                        "ysize": 0.115,
+                                        "zsize": 0.045,
+                                        "frame": {
+                                            "point": [
+                                                0.0,
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "xaxis": [
+                                                1.0,
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "yaxis": [
+                                                0.0,
+                                                -1.0,
+                                                0.0
+                                            ]
+                                        }
+                                    },
+                                    "name": "box",
+                                    "guid": "3f3f3466-b445-4dc9-b35d-ca51df2a2f5b"
+                                }
+                            },
+                            "key": 13,
+                            "frame": {
+                                "point": [
+                                    -0.5800000000000001,
+                                    0.03,
+                                    0.0225
+                                ],
+                                "xaxis": [
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "yaxis": [
+                                    0.0,
+                                    -1.0,
+                                    1.2246467991473532e-16
+                                ]
+                            }
+                        },
+                        "inheritance": [],
+                        "guid": "5a5729b8-261f-485f-9c0e-3ac518ebc688"
+                    },
+                    "x": -0.52,
+                    "y": 0,
+                    "z": 0.0225,
+                    "course": 0,
+                    "built": true,
+                    "available": true,
+                    "qcode": "Q40089"
+                },
+                "14": {
+                    "part": {
+                        "dtype": "assembly_information_model.part/Part",
+                        "data": {
+                            "attributes": {
+                                "name": "brick_full",
+                                "mesh": {
+                                    "dtype": "compas.datastructures/Mesh",
+                                    "data": {
+                                        "attributes": {},
+                                        "default_vertex_attributes": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "z": 0
+                                        },
+                                        "default_edge_attributes": {},
+                                        "default_face_attributes": {},
+                                        "vertex": {
+                                            "0": {
+                                                "x": -0.12,
+                                                "y": 0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "1": {
+                                                "x": -0.12,
+                                                "y": -0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "2": {
+                                                "x": 0.12,
+                                                "y": -0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "3": {
+                                                "x": 0.12,
+                                                "y": 0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "4": {
+                                                "x": -0.12,
+                                                "y": 0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "5": {
+                                                "x": 0.12,
+                                                "y": 0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "6": {
+                                                "x": 0.12,
+                                                "y": -0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "7": {
+                                                "x": -0.12,
+                                                "y": -0.0575,
+                                                "z": -0.0225
+                                            }
+                                        },
+                                        "face": {
+                                            "0": [
+                                                0,
+                                                1,
+                                                2,
+                                                3
+                                            ],
+                                            "1": [
+                                                0,
+                                                3,
+                                                5,
+                                                4
+                                            ],
+                                            "2": [
+                                                3,
+                                                2,
+                                                6,
+                                                5
+                                            ],
+                                            "3": [
+                                                2,
+                                                1,
+                                                7,
+                                                6
+                                            ],
+                                            "4": [
+                                                1,
+                                                0,
+                                                4,
+                                                7
+                                            ],
+                                            "5": [
+                                                4,
+                                                5,
+                                                6,
+                                                7
+                                            ]
+                                        },
+                                        "facedata": {
+                                            "0": {},
+                                            "1": {},
+                                            "2": {},
+                                            "3": {},
+                                            "4": {},
+                                            "5": {}
+                                        },
+                                        "edgedata": {},
+                                        "max_vertex": 7,
+                                        "max_face": 5
+                                    },
+                                    "inheritance": [],
+                                    "name": "box",
+                                    "guid": "796d955f-6ebb-4e59-9ad8-30709e16d5a0"
+                                },
+                                "shape": {
+                                    "dtype": "compas.geometry/Box",
+                                    "data": {
+                                        "xsize": 0.24,
+                                        "ysize": 0.115,
+                                        "zsize": 0.045,
+                                        "frame": {
+                                            "point": [
+                                                0.0,
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "xaxis": [
+                                                1.0,
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "yaxis": [
+                                                0.0,
+                                                -1.0,
+                                                0.0
+                                            ]
+                                        }
+                                    },
+                                    "name": "box",
+                                    "guid": "1290376b-a0a5-4d6f-8a6a-6e89e386b8c5"
+                                }
+                            },
+                            "key": 14,
+                            "frame": {
+                                "point": [
+                                    -0.5800000000000001,
+                                    0.18000000000000002,
+                                    0.0225
+                                ],
+                                "xaxis": [
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "yaxis": [
+                                    0.0,
+                                    -1.0,
+                                    1.2246467991473532e-16
+                                ]
+                            }
+                        },
+                        "inheritance": [],
+                        "guid": "3f24ea56-8aec-429e-a820-230516597bd7"
+                    },
+                    "x": -0.52,
+                    "y": 0.15000000000000002,
+                    "z": 0.0225,
+                    "course": 0,
+                    "built": true,
+                    "available": true,
+                    "qcode": "Q40089"
+                },
+                "15": {
+                    "part": {
+                        "dtype": "assembly_information_model.part/Part",
+                        "data": {
+                            "attributes": {
+                                "name": "brick_full",
+                                "mesh": {
+                                    "dtype": "compas.datastructures/Mesh",
+                                    "data": {
+                                        "attributes": {},
+                                        "default_vertex_attributes": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "z": 0
+                                        },
+                                        "default_edge_attributes": {},
+                                        "default_face_attributes": {},
+                                        "vertex": {
+                                            "0": {
+                                                "x": -0.12,
+                                                "y": 0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "1": {
+                                                "x": -0.12,
+                                                "y": -0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "2": {
+                                                "x": 0.12,
+                                                "y": -0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "3": {
+                                                "x": 0.12,
+                                                "y": 0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "4": {
+                                                "x": -0.12,
+                                                "y": 0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "5": {
+                                                "x": 0.12,
+                                                "y": 0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "6": {
+                                                "x": 0.12,
+                                                "y": -0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "7": {
+                                                "x": -0.12,
+                                                "y": -0.0575,
+                                                "z": -0.0225
+                                            }
+                                        },
+                                        "face": {
+                                            "0": [
+                                                0,
+                                                1,
+                                                2,
+                                                3
+                                            ],
+                                            "1": [
+                                                0,
+                                                3,
+                                                5,
+                                                4
+                                            ],
+                                            "2": [
+                                                3,
+                                                2,
+                                                6,
+                                                5
+                                            ],
+                                            "3": [
+                                                2,
+                                                1,
+                                                7,
+                                                6
+                                            ],
+                                            "4": [
+                                                1,
+                                                0,
+                                                4,
+                                                7
+                                            ],
+                                            "5": [
+                                                4,
+                                                5,
+                                                6,
+                                                7
+                                            ]
+                                        },
+                                        "facedata": {
+                                            "0": {},
+                                            "1": {},
+                                            "2": {},
+                                            "3": {},
+                                            "4": {},
+                                            "5": {}
+                                        },
+                                        "edgedata": {},
+                                        "max_vertex": 7,
+                                        "max_face": 5
+                                    },
+                                    "inheritance": [],
+                                    "name": "box",
+                                    "guid": "8be69182-5df7-4b4a-a970-a122510115ec"
+                                },
+                                "shape": {
+                                    "dtype": "compas.geometry/Box",
+                                    "data": {
+                                        "xsize": 0.24,
+                                        "ysize": 0.115,
+                                        "zsize": 0.045,
+                                        "frame": {
+                                            "point": [
+                                                0.0,
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "xaxis": [
+                                                1.0,
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "yaxis": [
+                                                0.0,
+                                                -1.0,
+                                                0.0
+                                            ]
+                                        }
+                                    },
+                                    "name": "box",
+                                    "guid": "b6876646-31c1-4e69-a6d2-8733a04ab161"
+                                }
+                            },
+                            "key": 15,
+                            "frame": {
+                                "point": [
+                                    -0.5800000000000001,
+                                    0.33000000000000007,
+                                    0.0225
+                                ],
+                                "xaxis": [
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "yaxis": [
+                                    0.0,
+                                    -1.0,
+                                    1.2246467991473532e-16
+                                ]
+                            }
+                        },
+                        "inheritance": [],
+                        "guid": "b56c5f21-b7e8-47b2-96e4-dd6b58d5c945"
+                    },
+                    "x": -0.52,
+                    "y": 0.30000000000000004,
+                    "z": 0.0225,
+                    "course": 0,
+                    "built": true,
+                    "available": true,
+                    "qcode": "Q40089"
+                },
+                "16": {
+                    "part": {
+                        "dtype": "assembly_information_model.part/Part",
+                        "data": {
+                            "attributes": {
+                                "name": "brick_full",
+                                "mesh": {
+                                    "dtype": "compas.datastructures/Mesh",
+                                    "data": {
+                                        "attributes": {},
+                                        "default_vertex_attributes": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "z": 0
+                                        },
+                                        "default_edge_attributes": {},
+                                        "default_face_attributes": {},
+                                        "vertex": {
+                                            "0": {
+                                                "x": -0.12,
+                                                "y": 0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "1": {
+                                                "x": -0.12,
+                                                "y": -0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "2": {
+                                                "x": 0.12,
+                                                "y": -0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "3": {
+                                                "x": 0.12,
+                                                "y": 0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "4": {
+                                                "x": -0.12,
+                                                "y": 0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "5": {
+                                                "x": 0.12,
+                                                "y": 0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "6": {
+                                                "x": 0.12,
+                                                "y": -0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "7": {
+                                                "x": -0.12,
+                                                "y": -0.0575,
+                                                "z": -0.0225
+                                            }
+                                        },
+                                        "face": {
+                                            "0": [
+                                                0,
+                                                1,
+                                                2,
+                                                3
+                                            ],
+                                            "1": [
+                                                0,
+                                                3,
+                                                5,
+                                                4
+                                            ],
+                                            "2": [
+                                                3,
+                                                2,
+                                                6,
+                                                5
+                                            ],
+                                            "3": [
+                                                2,
+                                                1,
+                                                7,
+                                                6
+                                            ],
+                                            "4": [
+                                                1,
+                                                0,
+                                                4,
+                                                7
+                                            ],
+                                            "5": [
+                                                4,
+                                                5,
+                                                6,
+                                                7
+                                            ]
+                                        },
+                                        "facedata": {
+                                            "0": {},
+                                            "1": {},
+                                            "2": {},
+                                            "3": {},
+                                            "4": {},
+                                            "5": {}
+                                        },
+                                        "edgedata": {},
+                                        "max_vertex": 7,
+                                        "max_face": 5
+                                    },
+                                    "inheritance": [],
+                                    "name": "box",
+                                    "guid": "176fa361-aba4-4f6f-a93b-96a4d3692c57"
+                                },
+                                "shape": {
+                                    "dtype": "compas.geometry/Box",
+                                    "data": {
+                                        "xsize": 0.24,
+                                        "ysize": 0.115,
+                                        "zsize": 0.045,
+                                        "frame": {
+                                            "point": [
+                                                0.0,
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "xaxis": [
+                                                1.0,
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "yaxis": [
+                                                0.0,
+                                                -1.0,
+                                                0.0
+                                            ]
+                                        }
+                                    },
+                                    "name": "box",
+                                    "guid": "e09a1fb8-ae43-4122-ab0d-d5f5b0635d6b"
+                                }
+                            },
+                            "key": 16,
+                            "frame": {
+                                "point": [
+                                    -0.5800000000000001,
+                                    0.4800000000000001,
+                                    0.0225
+                                ],
+                                "xaxis": [
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "yaxis": [
+                                    0.0,
+                                    -1.0,
+                                    1.2246467991473532e-16
+                                ]
+                            }
+                        },
+                        "inheritance": [],
+                        "guid": "fdf29a99-362a-4d6f-9dc3-9f309a536812"
+                    },
+                    "x": -0.52,
+                    "y": 0.45000000000000007,
+                    "z": 0.0225,
+                    "course": 0,
+                    "built": true,
+                    "available": true,
+                    "qcode": "Q40089"
+                },
+                "17": {
+                    "part": {
+                        "dtype": "assembly_information_model.part/Part",
+                        "data": {
+                            "attributes": {
+                                "name": "brick_full",
+                                "mesh": {
+                                    "dtype": "compas.datastructures/Mesh",
+                                    "data": {
+                                        "attributes": {},
+                                        "default_vertex_attributes": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "z": 0
+                                        },
+                                        "default_edge_attributes": {},
+                                        "default_face_attributes": {},
+                                        "vertex": {
+                                            "0": {
+                                                "x": -0.12,
+                                                "y": 0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "1": {
+                                                "x": -0.12,
+                                                "y": -0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "2": {
+                                                "x": 0.12,
+                                                "y": -0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "3": {
+                                                "x": 0.12,
+                                                "y": 0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "4": {
+                                                "x": -0.12,
+                                                "y": 0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "5": {
+                                                "x": 0.12,
+                                                "y": 0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "6": {
+                                                "x": 0.12,
+                                                "y": -0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "7": {
+                                                "x": -0.12,
+                                                "y": -0.0575,
+                                                "z": -0.0225
+                                            }
+                                        },
+                                        "face": {
+                                            "0": [
+                                                0,
+                                                1,
+                                                2,
+                                                3
+                                            ],
+                                            "1": [
+                                                0,
+                                                3,
+                                                5,
+                                                4
+                                            ],
+                                            "2": [
+                                                3,
+                                                2,
+                                                6,
+                                                5
+                                            ],
+                                            "3": [
+                                                2,
+                                                1,
+                                                7,
+                                                6
+                                            ],
+                                            "4": [
+                                                1,
+                                                0,
+                                                4,
+                                                7
+                                            ],
+                                            "5": [
+                                                4,
+                                                5,
+                                                6,
+                                                7
+                                            ]
+                                        },
+                                        "facedata": {
+                                            "0": {},
+                                            "1": {},
+                                            "2": {},
+                                            "3": {},
+                                            "4": {},
+                                            "5": {}
+                                        },
+                                        "edgedata": {},
+                                        "max_vertex": 7,
+                                        "max_face": 5
+                                    },
+                                    "inheritance": [],
+                                    "name": "box",
+                                    "guid": "4d4a83d8-6de4-4e29-a104-d663e42303f8"
+                                },
+                                "shape": {
+                                    "dtype": "compas.geometry/Box",
+                                    "data": {
+                                        "xsize": 0.24,
+                                        "ysize": 0.115,
+                                        "zsize": 0.045,
+                                        "frame": {
+                                            "point": [
+                                                0.0,
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "xaxis": [
+                                                1.0,
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "yaxis": [
+                                                0.0,
+                                                -1.0,
+                                                0.0
+                                            ]
+                                        }
+                                    },
+                                    "name": "box",
+                                    "guid": "e8b41801-e358-43ce-9565-2c09931d0602"
+                                }
+                            },
+                            "key": 17,
+                            "frame": {
+                                "point": [
+                                    -0.5800000000000001,
+                                    0.6300000000000001,
+                                    0.0225
+                                ],
+                                "xaxis": [
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "yaxis": [
+                                    0.0,
+                                    -1.0,
+                                    1.2246467991473532e-16
+                                ]
+                            }
+                        },
+                        "inheritance": [],
+                        "guid": "bd8eb836-e2b7-489d-b869-42b7bc230e2a"
+                    },
+                    "x": -0.52,
+                    "y": 0.6000000000000001,
+                    "z": 0.0225,
+                    "course": 0,
+                    "built": true,
+                    "available": true,
+                    "qcode": "Q40089"
+                },
+                "18": {
+                    "part": {
+                        "dtype": "assembly_information_model.part/Part",
+                        "data": {
+                            "attributes": {
+                                "name": "brick_full",
+                                "mesh": {
+                                    "dtype": "compas.datastructures/Mesh",
+                                    "data": {
+                                        "attributes": {},
+                                        "default_vertex_attributes": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "z": 0
+                                        },
+                                        "default_edge_attributes": {},
+                                        "default_face_attributes": {},
+                                        "vertex": {
+                                            "0": {
+                                                "x": -0.12,
+                                                "y": 0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "1": {
+                                                "x": -0.12,
+                                                "y": -0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "2": {
+                                                "x": 0.12,
+                                                "y": -0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "3": {
+                                                "x": 0.12,
+                                                "y": 0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "4": {
+                                                "x": -0.12,
+                                                "y": 0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "5": {
+                                                "x": 0.12,
+                                                "y": 0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "6": {
+                                                "x": 0.12,
+                                                "y": -0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "7": {
+                                                "x": -0.12,
+                                                "y": -0.0575,
+                                                "z": -0.0225
+                                            }
+                                        },
+                                        "face": {
+                                            "0": [
+                                                0,
+                                                1,
+                                                2,
+                                                3
+                                            ],
+                                            "1": [
+                                                0,
+                                                3,
+                                                5,
+                                                4
+                                            ],
+                                            "2": [
+                                                3,
+                                                2,
+                                                6,
+                                                5
+                                            ],
+                                            "3": [
+                                                2,
+                                                1,
+                                                7,
+                                                6
+                                            ],
+                                            "4": [
+                                                1,
+                                                0,
+                                                4,
+                                                7
+                                            ],
+                                            "5": [
+                                                4,
+                                                5,
+                                                6,
+                                                7
+                                            ]
+                                        },
+                                        "facedata": {
+                                            "0": {},
+                                            "1": {},
+                                            "2": {},
+                                            "3": {},
+                                            "4": {},
+                                            "5": {}
+                                        },
+                                        "edgedata": {},
+                                        "max_vertex": 7,
+                                        "max_face": 5
+                                    },
+                                    "inheritance": [],
+                                    "name": "box",
+                                    "guid": "0b69ca69-dc02-47e8-9529-ae21719e8050"
+                                },
+                                "shape": {
+                                    "dtype": "compas.geometry/Box",
+                                    "data": {
+                                        "xsize": 0.24,
+                                        "ysize": 0.115,
+                                        "zsize": 0.045,
+                                        "frame": {
+                                            "point": [
+                                                0.0,
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "xaxis": [
+                                                1.0,
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "yaxis": [
+                                                0.0,
+                                                -1.0,
+                                                0.0
+                                            ]
+                                        }
+                                    },
+                                    "name": "box",
+                                    "guid": "9080e5fb-1a78-4e8c-815f-0a4336f725b3"
+                                }
+                            },
+                            "key": 18,
+                            "frame": {
+                                "point": [
+                                    -0.5800000000000001,
+                                    0.7800000000000001,
+                                    0.0225
+                                ],
+                                "xaxis": [
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "yaxis": [
+                                    0.0,
+                                    -1.0,
+                                    1.2246467991473532e-16
+                                ]
+                            }
+                        },
+                        "inheritance": [],
+                        "guid": "56e4065a-6491-4de1-8d96-c83ff848dc9a"
+                    },
+                    "x": -0.52,
+                    "y": 0.7500000000000001,
+                    "z": 0.0225,
+                    "course": 0,
+                    "built": true,
+                    "available": true,
+                    "qcode": "Q40089"
+                },
+                "19": {
+                    "part": {
+                        "dtype": "assembly_information_model.part/Part",
+                        "data": {
+                            "attributes": {
+                                "name": "brick_full",
+                                "mesh": {
+                                    "dtype": "compas.datastructures/Mesh",
+                                    "data": {
+                                        "attributes": {},
+                                        "default_vertex_attributes": {
+                                            "x": 0,
+                                            "y": 0,
+                                            "z": 0
+                                        },
+                                        "default_edge_attributes": {},
+                                        "default_face_attributes": {},
+                                        "vertex": {
+                                            "0": {
+                                                "x": -0.12,
+                                                "y": 0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "1": {
+                                                "x": -0.12,
+                                                "y": -0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "2": {
+                                                "x": 0.12,
+                                                "y": -0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "3": {
+                                                "x": 0.12,
+                                                "y": 0.0575,
+                                                "z": 0.0225
+                                            },
+                                            "4": {
+                                                "x": -0.12,
+                                                "y": 0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "5": {
+                                                "x": 0.12,
+                                                "y": 0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "6": {
+                                                "x": 0.12,
+                                                "y": -0.0575,
+                                                "z": -0.0225
+                                            },
+                                            "7": {
+                                                "x": -0.12,
+                                                "y": -0.0575,
+                                                "z": -0.0225
+                                            }
+                                        },
+                                        "face": {
+                                            "0": [
+                                                0,
+                                                1,
+                                                2,
+                                                3
+                                            ],
+                                            "1": [
+                                                0,
+                                                3,
+                                                5,
+                                                4
+                                            ],
+                                            "2": [
+                                                3,
+                                                2,
+                                                6,
+                                                5
+                                            ],
+                                            "3": [
+                                                2,
+                                                1,
+                                                7,
+                                                6
+                                            ],
+                                            "4": [
+                                                1,
+                                                0,
+                                                4,
+                                                7
+                                            ],
+                                            "5": [
+                                                4,
+                                                5,
+                                                6,
+                                                7
+                                            ]
+                                        },
+                                        "facedata": {
+                                            "0": {},
+                                            "1": {},
+                                            "2": {},
+                                            "3": {},
+                                            "4": {},
+                                            "5": {}
+                                        },
+                                        "edgedata": {},
+                                        "max_vertex": 7,
+                                        "max_face": 5
+                                    },
+                                    "inheritance": [],
+                                    "name": "box",
+                                    "guid": "7d685222-19bb-4590-808c-c887b27f1c4e"
+                                },
+                                "shape": {
+                                    "dtype": "compas.geometry/Box",
+                                    "data": {
+                                        "xsize": 0.24,
+                                        "ysize": 0.115,
+                                        "zsize": 0.045,
+                                        "frame": {
+                                            "point": [
+                                                0.0,
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "xaxis": [
+                                                1.0,
+                                                0.0,
+                                                0.0
+                                            ],
+                                            "yaxis": [
+                                                0.0,
+                                                -1.0,
+                                                0.0
+                                            ]
+                                        }
+                                    },
+                                    "name": "box",
+                                    "guid": "d0aedd0f-eaf2-405d-a637-a61ab27284b6"
+                                }
+                            },
+                            "key": 19,
+                            "frame": {
+                                "point": [
+                                    -0.5800000000000001,
+                                    0.9300000000000002,
+                                    0.0225
+                                ],
+                                "xaxis": [
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "yaxis": [
+                                    0.0,
+                                    -1.0,
+                                    1.2246467991473532e-16
+                                ]
+                            }
+                        },
+                        "inheritance": [],
+                        "guid": "5dcdeb28-09e8-4ee2-a8b9-635ce2381c7c"
+                    },
+                    "x": -0.52,
+                    "y": 0.9000000000000001,
+                    "z": 0.0225,
+                    "course": 0,
+                    "built": true,
+                    "available": true,
+                    "qcode": "Q40089"
+                }
+            },
+            "edge": {
+                "0": {},
+                "1": {},
+                "2": {},
+                "3": {},
+                "4": {},
+                "5": {},
+                "6": {},
+                "7": {},
+                "8": {},
+                "9": {},
+                "10": {},
+                "11": {},
+                "12": {},
+                "13": {},
+                "14": {},
+                "15": {},
+                "16": {},
+                "17": {},
+                "18": {},
+                "19": {}
+            },
+            "max_node": 19
+        },
+        "attributes": {}
+    },
+    "inheritance": [],
+    "guid": "f5d17f7b-ce9e-4735-9543-4d1ee3c5f808"
+}
