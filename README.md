@@ -4,41 +4,36 @@
 
 ### Requirements
 
-* Windows 10 Professional
 * Rhino 8 / Grasshopper
-* [Anaconda Python](https://www.anaconda.com/download)
-* [Visual Studio Code](https://code.visualstudio.com/)
 
 ### Installation
 
-#### Installation COMPAS FAB
-    
-    (base)  conda create -n your_env_name -c conda-forge compas_fab
-    (base)  conda activate your_env_name
+#### Installation of COMPAS FAB on Rhino
 
-#### Verify Installation of COMPAS FAB
+1. If this is your first time, open Rhino and Grasshopper, then create a *Python 3 Script* block. This will load your Python path. Now you can close Rhino.
 
-    (your_env_name) python -m compas_fab
-    Yay! COMPAS FAB is installed correctly!   
+2. Find your Rhino Python path, which should look like this: *C:\Users\your_user_name\.rhinocode\py39-rh8\python.exe*
 
-#### Installation of COMPAS FAB on Rhino from PyPI
+3. Replace the path below with your path and run:
 
-    (your_env_name) python -m compas_rhino.print_python_path
-    (your_env_name) C:\Users\your_user_name\.rhinocode\py39-rh8\python.exe -m pip install compas_fab
+        C:\Users\your_user_name\.rhinocode\py39-rh8\python.exe -m pip install compas_fab
 
-#### Installation of assembly information model
+#### Installation of Google GenAI on Rhino
 
-1. Create a Workspace Folder (Recommended)
+1. Similar to above replace path below with your path and run:
 
-Open a terminal or Anaconda Prompt:
+        C:\Users\your_user_name\.rhinocode\py39-rh8\python.exe -m pip install google-genai
 
-    cd %USERPROFILE%
-    mkdir workspace
-    cd workspace
+#### Installation of Assembly Information Model
+
+1. Create a workspace/projects folder by opening a terminal: (Recommended) 
+
+        cd %USERPROFILE%
+        mkdir -p workspace/projects && cd workspace/projects
 
 This will create:
 
-    Users/your_user_name/workspace
+    Users/your_user_name/workspace/projects
 
 2. Clone the Repository
 
@@ -55,42 +50,7 @@ Verify:
 
 You should see compas2 selected.
 
-4. Activate Your Conda Environment
-
-       conda activate your_env_name
-
-5️. Install Development Dependencies
-
-Install the project in editable mode:
-
-    pip install -e .
-
-6. Find the Rhino 8 Python Executable
-
-Run:
-
-    python -m compas_rhino.print_python_path
-
-
-You should see something like:
-
-    C:\Users\your_user_name\.rhinocode\py39-rh8\python.exe
-
-Copy this full path.
-
-7. Install the Repository into Rhino 8
-
-Use the Rhino Python executable to install the package:
-
-    C:\Users\your_user_name\.rhinocode\py39-rh8\python.exe -m pip install -e C:\Users\your_user_name\workspace\assembly_information_model
-
-✅ Final Check
-
-Open Rhino 8 → Python and run:
-
-    import assembly_information_model
-
-If no errors appear, the installation is successful.
+4. Source the assembly_information_model in Rhino by double-clicking any *Python 3 Script* block in Grasshopper, going to Tools on the above menu, then Options. Go to Python 3 tab, below in module search tabs, add the path to the assembly information model like: *C:\Users\your_user_name\workspace\projects\assembly_information_model\src*
 
 Credits
 -------------
