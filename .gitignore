@@ -103,3 +103,7 @@ ENV/
 
 # Visual Studio Code
 .vscode/
+
+# Rhino-Grasshopper
+*.ghuser
+*.3dmbak
