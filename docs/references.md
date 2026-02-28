@@ -4,9 +4,9 @@ title: References
 ---
 
 ### Spatial AI and Foundation Models
-Nakhaee, Ali, Diellza Elshani, and Thomas Wortmann. 2024. “A Vision for Automated Building Code Compliance Checking by Unifying Hybrid Knowledge Graphs and Large Language Models.” In Scalable Disruptors, edited by Peter Eversmann, Christoph Gengnagel, Julian Lienhard, Mette Ramsgaard Thomsen, and Jacob Wurm, 445–457. DMS 2024. Cham: Springer. https://doi.org/10.1007/978-3-031-68275-9_36.
+Nakhaee, Ali, Diellza Elshani, and Thomas Wortmann. 2024. “A Vision for Automated Building Code Compliance Checking by Unifying Hybrid Knowledge Graphs and Large Language Models.” In Scalable Disruptors, edited by Peter Eversmann, Christoph Gengnagel, Julian Lienhard, Mette Ramsgaard Thomsen, and Jacob Wurm, 445–457. DMS 2024. Cham: Springer. [https://doi.org/10.1007/978-3-031-68275-9_36](https://doi.org/10.1007/978-3-031-68275-9_36).
 
-Ploennigs, Joern, Markus Berger, Thomas Wortmann, Jakob Kirchner, Jakob Beetz, Alina Roitberg, Karsten Menzel, and Björn Ommer. 2025. “Building Foundation Models: Potentials, Challenges and Research Directions for Using LLM and LVM in AEC.” In Proceedings of the 2025 European Conference on Computing in Construction (EC3) and CIB W78 Conference on IT in Construction, Porto, Portugal. https://doi.org/10.35490/EC3.2025.268.
+Ploennigs, Joern, Markus Berger, Thomas Wortmann, Jakob Kirchner, Jakob Beetz, Alina Roitberg, Karsten Menzel, and Björn Ommer. 2025. “Building Foundation Models: Potentials, Challenges and Research Directions for Using LLM and LVM in AEC.” In Proceedings of the 2025 European Conference on Computing in Construction (EC3) and CIB W78 Conference on IT in Construction, Porto, Portugal. [https://doi.org/10.35490/EC3.2025.268](https://doi.org/10.35490/EC3.2025.268).
 
 ### Assembly Information Modelling
 Lharchi, A., et al. 2019. “Towards Assembly Information Modeling (AIM).
