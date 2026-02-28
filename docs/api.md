@@ -5,13 +5,13 @@ title: API Keys
 
 ## 10 Sacred Rules for Rhino Grasshopper API Calls
 
-1. Never embed API keys in GH files, scripts, screenshots, or recordings  
-2. One person, one key. No shared master keys  
-3. Never commit secrets. Gitignore key files and run a secret scanner  
-4. Enforce hard daily and monthly spend caps per key  
-5. Rate limit, use backoff, and cap retries. No infinite loops  
-6. Cache static data in sc.sticky to avoid repeat calls  
-7. Only call the API on an explicit button press, not on recompute  
-8. Downscale and compress images. Send the minimum views needed  
-9. Log timestamps, model, input size, output size. Never log keys  
-10. Fail closed on missing key, invalid key, or quota reached  
+1. Never put API keys in GH files, scripts, panels, screenshots, or recordings.  
+2. Use one key per person, never a shared master key.  
+3. Never commit secrets to Git and always gitignore key files.  
+4. Set hard daily and monthly spend limits per key.  
+5. Rate limit requests and throttle bursts from sliders, timers, or trees.  
+6. Use exponential backoff and a strict retry cap, never infinite retries.  
+7. Cache identical results (e.g., via sc.sticky) to avoid duplicate calls.  
+8. Trigger API calls only via an explicit button or “Run” toggle, not recompute.  
+9. Send the smallest payload possible and downscale or crop images.  
+10. Log timing, model, and sizes, but never log keys, and fail closed on errors.
