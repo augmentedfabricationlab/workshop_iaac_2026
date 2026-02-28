@@ -10,6 +10,7 @@ Ploennigs, Joern, Markus Berger, Thomas Wortmann, Jakob Kirchner, Jakob Beetz, A
 
 ### Assembly Information Modelling
 Lharchi, A., et al. 2019. “Towards Assembly Information Modeling (AIM).
+
 Van Mele, T., et al. 2017. “COMPAS: A Framework for Computational Research in Architecture and Structures.”
 
 ### Digital & Augmented Fabrication
