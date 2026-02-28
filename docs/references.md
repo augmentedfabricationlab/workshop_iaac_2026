@@ -3,10 +3,21 @@ layout: page
 title: References
 ---
 
-### Augmented Fabrication
+### Spatial AI and Foundation Models
+Nakhaee, Ali, Diellza Elshani, and Thomas Wortmann. 2024. “A Vision for Automated Building Code Compliance Checking by Unifying Hybrid Knowledge Graphs and Large Language Models.” In Scalable Disruptors, edited by Peter Eversmann, Christoph Gengnagel, Julian Lienhard, Mette Ramsgaard Thomsen, and Jacob Wurm, 445–457. DMS 2024. Cham: Springer. https://doi.org/10.1007/978-3-031-68275-9_36.
+
+Ploennigs, Joern, Markus Berger, Thomas Wortmann, Jakob Kirchner, Jakob Beetz, Alina Roitberg, Karsten Menzel, and Björn Ommer. 2025. “Building Foundation Models: Potentials, Challenges and Research Directions for Using LLM and LVM in AEC.” In Proceedings of the 2025 European Conference on Computing in Construction (EC3) and CIB W78 Conference on IT in Construction, Porto, Portugal. https://doi.org/10.35490/EC3.2025.268.
+
+### Assembly Information Modelling
+Lharchi, A., et al. 2019. “Towards Assembly Information Modeling (AIM).
+Van Mele, T., et al. 2017. “COMPAS: A Framework for Computational Research in Architecture and Structures.”
+
+### Digital & Augmented Fabrication
 Mueller, Stefanie, Anna Seufert, Huaishu Peng, Robert Kovacs, Kevin Reuss, François Guimbretière, and Patrick Baudisch. 2019. “FormFab: Continuous Interactive Fabrication.”
 
-Jahn, Gwyllim, Cameron Newnham, Nick van den Berg, Melissa Iraheta, and Jackson Wells. 2020. “Holographic Construction.” In Impact: Design With All Senses, 314–24. Springer International Publishing
+Jahn, G., Newnham, C., van den Berg, N. 2022. “Depth Camera Feedback for Guided Fabrication in Augmented Reality.” ACADIA.
+
+Atanasova, Lidia, Begüm Saral, Ema Krakovská, et al. 2022. “Collective AR Assisted Assembly of Interlocking Structures.” In Towards Radical Regeneration: Design Modelling Symposium Berlin 2022. Springer.
 
 Mitterberger, Daniela, Kathrin Dörfler, Timothy Sandy, Foteini Salveridou, Marco Hutter, Fabio Gramazio, and Matthias Kohler. 2020. “Augmented Bricklaying: Human–Machine Interaction for in Situ Assembly of Complex Brickwork Using Object-Aware Augmented Reality.” Construction Robotics 4 (3–4): 151–61. [https://doi.org/10.1007/s41693-020-00035-8](https://doi.org/10.1007/s41693-020-00035-8).
 
@@ -24,11 +35,7 @@ Haddadin, Sami, Michael Suppa, Stefan Fuchs, Tim Bodenmüller, Alin Albu-Schäff
 
 Han, Isla Xi, Forrest Meggers, and Stefana Parascho. 2021. “Bridging the Collectives: A Review of Collective Human–Robot Construction.” International Journal of Architectural Computing 19 (4): 512–31. [https://doi.org/10.1177/14780771211025153](https://doi.org/10.1177/14780771211025153).
 
-### Reciprocal Frames
-Song, Peng, Chi-Wing Fu, Prashant Goswami, Jianmin Zheng, Niloy J. Mitra, and Daniel Cohen-Or. 2013. “Reciprocal Frame Structures Made Easy.” ACM Transactions on Graphics 32 (4): 1–13. [https://doi.org/10.1145/2461912.2461915](https://doi.org/10.1145/2461912.2461915).
-
 ### Stability-Aware Design 
 Kao, Gene Ting Chun, Antonino Iannuzzo, Bernhard Thomaszewski, Stelian Coros, Tom Van Mele, and Philippe Block. 2022. “Coupled Rigid-Block Analysis: Stability-Aware Design of Complex Discrete-Element Assemblies.” CAD Computer Aided Design 146 (May). [https://doi.org/10.1016/J.CAD.2022.103216](https://doi.org/10.1016/J.CAD.2022.103216).
  
-
-
+Kao, G. T. C., et al. 2022. “Coupled Rigid Block Analysis: Stability Aware Design of Complex Discrete Element Assemblies.” Computer Aided Design.
