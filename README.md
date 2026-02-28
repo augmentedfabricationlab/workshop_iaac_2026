@@ -24,7 +24,7 @@
 
         C:\Users\your_user_name\.rhinocode\py39-rh8\python.exe -m pip install google-genai
 
-#### Installation of Assembly Information Model
+#### Installation of GitHub repositories
 
 1. Create a workspace/projects folder by opening a terminal: (Recommended) 
 
@@ -35,13 +35,14 @@ This will create:
 
     Users/your_user_name/workspace/projects
 
-2. Clone the Repository
+2. Clone the current repository
+
+        git clone https://github.com/augmentedfabricationlab/workshop_iaac_2026.git
+
+4. Clone the assembly_information_model repository and go to the folder, and switch to the compas2 branch
 
         git clone https://github.com/augmentedfabricationlab/assembly_information_model.git
         cd assembly_information_model
-
-3. Switch to the compas2 branch
-
         git checkout compas2
 
 Verify:
