@@ -3,8 +3,6 @@ layout: page
 title: API Keys
 ---
 
-# API Keys
-
 ## 10 Sacred Rules for Rhino Grasshopper API Calls
 
 1. Never embed API keys in GH files, scripts, screenshots, or recordings  

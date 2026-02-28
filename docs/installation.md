@@ -1,13 +1,7 @@
 ---
 layout: page
-title: API Keys
+title: Installation
 ---
-
-# Installation
-
-# Robotic Disassembly & Reassembly with Spatial Artificial Intelligence
-
-## Workshop IAAC 2-6 March 2026
 
 ### Requirements
 
@@ -59,8 +53,3 @@ Verify:
 You should see compas2 selected.
 
 4. Source the assembly_information_model in Rhino by double-clicking any *Python 3 Script* block in Grasshopper, going to Tools on the above menu, then Options. Go to Python 3 tab, below in module search tabs, add the path to the assembly information model like: *C:\Users\your_user_name\workspace\projects\assembly_information_model\src*
-
-Credits
--------------
-
-This package was created by Begüm Saral <saral.begum@gmail.com> `@begums <https://github.com/begums>`_ at `@augmentedfabricationlab <https://github.com/augmentedfabricationlab>`_
