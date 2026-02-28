@@ -17,39 +17,55 @@ title: Installation
 
 3. Replace the path below with your path and run:
 
-        C:\Users\your_user_name\.rhinocode\py39-rh8\python.exe -m pip install compas_fab
+    ```bash
+    C:\Users\your_user_name\.rhinocode\py39-rh8\python.exe -m pip install compas_fab
+    ```
 
 #### Installation of Google GenAI on Rhino
 
-1. Similar to above replace path below with your path and run:
+1. Similar to above, replace the path below with your path and run:
 
-        C:\Users\your_user_name\.rhinocode\py39-rh8\python.exe -m pip install google-genai
+    ```bash
+    C:\Users\your_user_name\.rhinocode\py39-rh8\python.exe -m pip install google-genai
+    ```
 
 #### Installation of GitHub repositories
 
-1. Create a workspace/projects folder by opening a terminal: (Recommended) 
+1. Create a workspace/projects folder by opening a terminal (recommended)
 
-        cd %USERPROFILE%
-        mkdir -p workspace/projects && cd workspace/projects
+    ```bash
+    cd %USERPROFILE%
+    mkdir -p workspace/projects && cd workspace/projects
+    ```
 
-This will create:
+    This will create:
 
-    Users/your_user_name/workspace/projects
+    `Users/your_user_name/workspace/projects`
 
 2. Clone the current repository
 
-        git clone https://github.com/augmentedfabricationlab/workshop_iaac_2026.git
+    ```bash
+    git clone https://github.com/augmentedfabricationlab/workshop_iaac_2026.git
+    ```
 
-4. Clone the assembly_information_model repository and go to the folder, and switch to the compas2 branch
+3. Clone the assembly_information_model repository, go to the folder, and switch to the compas2 branch
 
-        git clone https://github.com/augmentedfabricationlab/assembly_information_model.git
-        cd assembly_information_model
-        git checkout compas2
+    ```bash
+    git clone https://github.com/augmentedfabricationlab/assembly_information_model.git
+    cd assembly_information_model
+    git checkout compas2
+    ```
 
-Verify:
+4. Verify
 
+    ```bash
     git branch
+    ```
 
-You should see compas2 selected.
+    You should see `compas2` selected.
 
-4. Source the assembly_information_model in Rhino by double-clicking any *Python 3 Script* block in Grasshopper, going to Tools on the above menu, then Options. Go to Python 3 tab, below in module search tabs, add the path to the assembly information model like: *C:\Users\your_user_name\workspace\projects\assembly_information_model\src*
+5. Source the assembly_information_model in Rhino
+
+    In Grasshopper, double-click any *Python 3 Script* block, go to **Tools** in the top menu, then **Options**. Open the **Python 3** tab and in **Module search paths** add:
+
+    `C:\Users\your_user_name\workspace\projects\assembly_information_model\src`
