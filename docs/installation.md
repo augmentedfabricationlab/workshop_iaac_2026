@@ -17,7 +17,7 @@ title: Installation
 
 3. Replace the path below with your path and run:
 
-    ```bash
+    ```text
     C:\Users\your_user_name\.rhinocode\py39-rh8\python.exe -m pip install compas_fab
     ```
 
@@ -25,7 +25,7 @@ title: Installation
 
 1. Similar to above, replace the path below with your path and run:
 
-    ```bash
+    ```text
     C:\Users\your_user_name\.rhinocode\py39-rh8\python.exe -m pip install google-genai
     ```
 
@@ -33,7 +33,7 @@ title: Installation
 
 1. Create a workspace/projects folder by opening a terminal (recommended)
 
-    ```bash
+    ```text
     cd %USERPROFILE%
     mkdir -p workspace/projects && cd workspace/projects
     ```
@@ -44,13 +44,13 @@ title: Installation
 
 2. Clone the current repository
 
-    ```bash
+    ```text
     git clone https://github.com/augmentedfabricationlab/workshop_iaac_2026.git
     ```
 
 3. Clone the assembly_information_model repository, go to the folder, and switch to the compas2 branch
 
-    ```bash
+    ```text
     git clone https://github.com/augmentedfabricationlab/assembly_information_model.git
     cd assembly_information_model
     git checkout compas2
@@ -58,7 +58,7 @@ title: Installation
 
 4. Verify
 
-    ```bash
+    ```text
     git branch
     ```
 
