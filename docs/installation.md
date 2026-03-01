@@ -17,7 +17,7 @@ title: Installation
 
 3. Replace the path below with your path and run:
 
-    ```text
+    ```bash
     C:\Users\your_user_name\.rhinocode\py39-rh8\python.exe -m pip install compas_fab
     ```
 
@@ -25,7 +25,7 @@ title: Installation
 
 1. Similar to above, replace the path below with your path and run:
 
-    ```text
+    ```bash
     C:\Users\your_user_name\.rhinocode\py39-rh8\python.exe -m pip install google-genai
     ```
 
