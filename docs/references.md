@@ -13,30 +13,31 @@ Lharchi, A., et al. 2019. “Towards Assembly Information Modeling (AIM).
 
 Van Mele, T., et al. 2017. “COMPAS: A Framework for Computational Research in Architecture and Structures.”
 
-### Digital & Augmented Fabrication
-Mueller, Stefanie, Anna Seufert, Huaishu Peng, Robert Kovacs, Kevin Reuss, François Guimbretière, and Patrick Baudisch. 2019. “FormFab: Continuous Interactive Fabrication.”
+### Circular Construction
 
-Jahn, G., Newnham, C., van den Berg, N. 2022. “Depth Camera Feedback for Guided Fabrication in Augmented Reality.” ACADIA.
+F. Heisel, J. Minner, W. Augustine-Marceil, D. Cohen, G. Worth (Eds.), Constructing a Circular Economy in New York State: Deconstruction and Building Material Reuse, Cornell Circular Construction  Lab, Cornell Just Places Lab, and CR0WD, Ithaca, NY, 2024. URL: https://labs.aap.cornell.edu/ccl/whitepaper.
 
-Atanasova, Lidia, Begüm Saral, Ema Krakovská, et al. 2022. “Collective AR Assisted Assembly of Interlocking Structures.” In Towards Radical Regeneration: Design Modelling Symposium Berlin 2022. Springer.
+M. Zabek, L. Hildebrand, T. Wirth, S. Brell-Cokcan, Used building materials as secondary resources – identification of valuable building material and automized deconstruction, Journal of Facade Design and Engineering 5 (2017) 29–32. doi:10.7480/jfde.2017.2.1684.
 
-Mitterberger, Daniela, Kathrin Dörfler, Timothy Sandy, Foteini Salveridou, Marco Hutter, Fabio Gramazio, and Matthias Kohler. 2020. “Augmented Bricklaying: Human–Machine Interaction for in Situ Assembly of Complex Brickwork Using Object-Aware Augmented Reality.” Construction Robotics 4 (3–4): 151–61. [https://doi.org/10.1007/s41693-020-00035-8](https://doi.org/10.1007/s41693-020-00035-8).
+P. Entner, D. Stockhammer, From linear to circular construction: Liechtenstein’s building stock as the material bank of the future?, in: D. Stockhammer (Ed.), Upcycling: Reuse and Repurposing as a Design Principle in Architecture, Triest, 2020, pp. 141–143.
 
-Atanasova, Lidia, Daniela Mitterberger, Timothy Sandy, Fabio Gramazio, Matthias Kohler, and Kathrin Dörfler. 2020. “Prototype As Artefact - Design Tool for Open-Ended Collaborative Assembly Processes.” ACADIA 2020.
+F. Heisel, A. Farley-Thomas, Building capacity and knowledge in the local economy: The catherine commons deconstruction project, in: F. Heisel, D. E. Hebel (Eds.), Building Better - Less - Different: Circular Construction and Circular Economy, Birkh¨auser Verlag GmbH, 2022, pp. 38–43.
 
-Mitterberger, Daniela, Lidia Atanasova, Kathrin Dörfler, Fabio Gramazio, and Matthias Kohler. 2022. “Tie a Knot: Human–Robot Cooperative Workflow for Assembling Wooden Structures Using Rope Joints.” Construction Robotics, December. [https://doi.org/10.1007/s41693-022-00083-2](https://doi.org/10.1007/s41693-022-00083-2).
+C. D. Wolf, The Art of Connecting: Reuse of the Huber Pavilions, Birkhäuser, 2025.
 
-### Making Grammars
-Knight, Terry, and George Stiny. 2015. “Making Grammars: From Computing with Shapes to Computing with Things.” Design Studies 41: 8–28. [https://doi.org/10.1016/j.destud.2015.08.006](https://doi.org/10.1016/j.destud.2015.08.006).
+T. Jarmer, J. Sack, Badzellen zerlegen: Rezyklierbarkeit von badzellenkonstruktionen, 2023. URL: www.einfach-bauen.net, wintersemester 2022/23.
 
-Knight, Terry. 2017. “Craft, Performance, and Grammars.” 2nd International Workshop on Cultural DNA, KAIST, Daejoen, South Korea.
+Delta Institute, Deconstruction & building material reuse: A tool for local governments & economic development practitioners, Chicago, IL, 2018. URL: http://www.delta-institute.org, supported by Crown Family Philanthropies, Cook County, Gary, Park Forest, Joliet, Ingham County Land Bank, and others.
 
-### Human-Robot Teams
-Haddadin, Sami, Michael Suppa, Stefan Fuchs, Tim Bodenmüller, Alin Albu-Schäffer, and Gerd Hirzinger. 2011. “Towards the Robotic Co-Worker,” 261–82. [https://doi.org/10.1007/978-3-642-19457-3_16](https://doi.org/10.1007/978-3-642-19457-3_16).
+B. Guy, E. M. Gibeau, A Guide to Deconstruction, Technical Report, Deconstruction Institute, 2003. Florida, USA.
 
-Han, Isla Xi, Forrest Meggers, and Stefana Parascho. 2021. “Bridging the Collectives: A Review of Collective Human–Robot Construction.” International Journal of Architectural Computing 19 (4): 512–31. [https://doi.org/10.1177/14780771211025153](https://doi.org/10.1177/14780771211025153).
+M. Gordon, A. Batall´e, C. D. Wolf, A. Sollazzo, A. Dubor, T. Wang, Automating building element detection for deconstruction planning and material reuse: A case study, Automation in Construction 146 (2023). doi:10.1016/j.autcon.2022.104697.
 
-### Stability-Aware Design 
-Kao, Gene Ting Chun, Antonino Iannuzzo, Bernhard Thomaszewski, Stelian Coros, Tom Van Mele, and Philippe Block. 2022. “Coupled Rigid-Block Analysis: Stability-Aware Design of Complex Discrete-Element Assemblies.” CAD Computer Aided Design 146 (May). [https://doi.org/10.1016/J.CAD.2022.103216](https://doi.org/10.1016/J.CAD.2022.103216).
- 
-Kao, G. T. C., et al. 2022. “Coupled Rigid Block Analysis: Stability Aware Design of Complex Discrete Element Assemblies.” Computer Aided Design.
+J. Devenes, M. Bastien-Masse, C. Fivet, Reusability assessment of reinforced concrete components prior to deconstruction from obsolete buildings, Journal of Building Engineering 84 (2024). doi:10.1016/j.jobe.
+
+E. Lublasser, L. Hildebrand, A. Vollpracht, S. Brell-Cokcan, Robot assisted deconstruction of multi-layered facade constructions on the example of external thermal insulation composite systems, Construction Robotics 1 (2017) 39–47. doi:10.1007/s41693-017-0001-7.
+
+H. J. Lee, S. Brell-Cokcan, Towards controlled semi-autonomous deconstruction, Construction Robotics (2023). URL: https: //link.springer.com/10.1007/s41693-023-00111-9. doi:10.1007/ s41693-023-00111-9.
+
+E. Lublasser, K. Iturralde, T. Linner, S. B. Cokcan, T. Bock, Automated refurbishment & end-of-life processes-research approaches in german and japanese construction, in: Proceedings of the CIB*IAARC W119 CIC 2016 Workshop, 2016.
+
