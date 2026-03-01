@@ -8,11 +8,6 @@ Nakhaee, Ali, Diellza Elshani, and Thomas Wortmann. 2024. “A Vision for Automa
 
 Ploennigs, Joern, Markus Berger, Thomas Wortmann, Jakob Kirchner, Jakob Beetz, Alina Roitberg, Karsten Menzel, and Björn Ommer. 2025. “Building Foundation Models: Potentials, Challenges and Research Directions for Using LLM and LVM in AEC.” In Proceedings of the 2025 European Conference on Computing in Construction (EC3) and CIB W78 Conference on IT in Construction, Porto, Portugal. [https://doi.org/10.35490/EC3.2025.268](https://doi.org/10.35490/EC3.2025.268).
 
-### Assembly Information Modelling
-Lharchi, A., et al. 2019. “Towards Assembly Information Modeling (AIM).
-
-Van Mele, T., et al. 2017. “COMPAS: A Framework for Computational Research in Architecture and Structures.”
-
 ### Circular Construction
 
 F. Heisel, J. Minner, W. Augustine-Marceil, D. Cohen, G. Worth (Eds.), Constructing a Circular Economy in New York State: Deconstruction and Building Material Reuse, Cornell Circular Construction  Lab, Cornell Just Places Lab, and CR0WD, Ithaca, NY, 2024. URL: https://labs.aap.cornell.edu/ccl/whitepaper.
