@@ -6,7 +6,7 @@ title: Workshop program
 ### Day 1 — Introduction & Presentations
 
 10:00–14:00 | Session 1: Workshop Overview & Introduction   
-15:00–19:00 | Session 2: Presentation on Robotic Disassembly & Material EvaluationMethodologies via Spatial AI and VLMs
+15:00–19:00 | Session 2: Presentation on Robotic Disassembly & Material Evaluation Methodologies via Spatial AI and VLMs
 
 ### Day 2 — Robotic Disassembly
 
