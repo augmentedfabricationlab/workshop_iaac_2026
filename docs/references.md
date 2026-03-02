@@ -37,4 +37,4 @@ H. J. Lee, S. Brell-Cokcan, Towards controlled semi-autonomous deconstruction, C
 E. Lublasser, K. Iturralde, T. Linner, S. B. Cokcan, T. Bock, Automated refurbishment & end-of-life processes-research approaches in german and japanese construction, in: Proceedings of the CIB*IAARC W119 CIC 2016 Workshop, 2016.
 
 M. Rinke,A. Tellini, T. V. Olesen, Ephemeral Permanence 1:1, International Design and Build student workshop, Aalborg, Denmark
-, ICSA 2022 URL: https://www.upcyclingarchitecture.it/items/ephemeral-permanence-1-1
+, ICSA 2022 URL: [https://www.upcyclingarchitecture.it/items/ephemeral-permanence-1-1](https://www.upcyclingarchitecture.it/items/ephemeral-permanence-1-1)
