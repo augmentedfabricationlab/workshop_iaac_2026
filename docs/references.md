@@ -41,4 +41,4 @@ M. Rinke,A. Tellini, T. V. Olesen, Ephemeral Permanence 1:1, International Desig
 
 ### Interesting Articles
 
-Industrial Obelisks: Smokestacks/Barcelona URL [https://brianrosa.net/industrialobelisks](https://brianrosa.net/industrialobelisks)
+Industrial Obelisks: Smokestacks/Barcelona URL: [https://brianrosa.net/industrialobelisks](https://brianrosa.net/industrialobelisks)
