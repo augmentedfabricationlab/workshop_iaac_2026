@@ -38,3 +38,7 @@ E. Lublasser, K. Iturralde, T. Linner, S. B. Cokcan, T. Bock, Automated refurbis
 
 M. Rinke,A. Tellini, T. V. Olesen, Ephemeral Permanence 1:1, International Design and Build student workshop, Aalborg, Denmark
 , ICSA 2022 URL: [https://www.upcyclingarchitecture.it/items/ephemeral-permanence-1-1](https://www.upcyclingarchitecture.it/items/ephemeral-permanence-1-1)
+
+### Interesting Articles
+
+Industrial Obelisks: Smokestacks/Barcelona URL: [https://brianrosa.net/industrialobelisks](https://brianrosa.net/industrialobelisks)
