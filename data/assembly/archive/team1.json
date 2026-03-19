@@ -1,0 +1,1931 @@
+{
+  "dtype": "assembly_information_model.assembly/Assembly",
+  "data": {
+    "graph": {
+      "attributes": {},
+      "default_node_attributes": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "default_edge_attributes": {},
+      "node": {
+        "0": {
+          "part": {
+            "dtype": "assembly_information_model.part/Part",
+            "data": {
+              "attributes": {
+                "name": "Part",
+                "shape": {
+                  "dtype": "compas.geometry/Box",
+                  "data": {
+                    "xsize": 0.24,
+                    "ysize": 0.115,
+                    "zsize": 0.045,
+                    "frame": {
+                      "point": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "xaxis": [
+                        1.0,
+                        0.0,
+                        0.0
+                      ],
+                      "yaxis": [
+                        0.0,
+                        1.0,
+                        0.0
+                      ]
+                    }
+                  },
+                  "guid": "61fee204-2c3f-4587-beec-fae9edd34893"
+                },
+                "mesh": {
+                  "dtype": "compas.datastructures/Mesh",
+                  "data": {
+                    "attributes": {},
+                    "default_vertex_attributes": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "default_edge_attributes": {},
+                    "default_face_attributes": {},
+                    "vertex": {
+                      "0": {
+                        "x": -0.12,
+                        "y": -0.0575,
+                        "z": -0.0225
+                      },
+                      "1": {
+                        "x": -0.12,
+                        "y": 0.0575,
+                        "z": -0.0225
+                      },
+                      "2": {
+                        "x": 0.12,
+                        "y": 0.0575,
+                        "z": -0.0225
+                      },
+                      "3": {
+                        "x": 0.12,
+                        "y": -0.0575,
+                        "z": -0.0225
+                      },
+                      "4": {
+                        "x": -0.12,
+                        "y": -0.0575,
+                        "z": 0.0225
+                      },
+                      "5": {
+                        "x": 0.12,
+                        "y": -0.0575,
+                        "z": 0.0225
+                      },
+                      "6": {
+                        "x": 0.12,
+                        "y": 0.0575,
+                        "z": 0.0225
+                      },
+                      "7": {
+                        "x": -0.12,
+                        "y": 0.0575,
+                        "z": 0.0225
+                      }
+                    },
+                    "face": {
+                      "0": [
+                        0,
+                        1,
+                        3,
+                        2
+                      ],
+                      "1": [
+                        4,
+                        5,
+                        7,
+                        6
+                      ],
+                      "2": [
+                        0,
+                        1,
+                        5,
+                        4
+                      ],
+                      "3": [
+                        1,
+                        3,
+                        7,
+                        5
+                      ],
+                      "4": [
+                        3,
+                        2,
+                        6,
+                        7
+                      ],
+                      "5": [
+                        2,
+                        0,
+                        4,
+                        6
+                      ]
+                    },
+                    "facedata": {
+                      "0": {},
+                      "1": {},
+                      "2": {},
+                      "3": {},
+                      "4": {},
+                      "5": {}
+                    },
+                    "edgedata": {},
+                    "max_vertex": 7,
+                    "max_face": 5
+                  },
+                  "inheritance": [],
+                  "guid": "ef028aa6-f402-4ae9-b427-ffdb76efce7b"
+                },
+                "source_id": 1,
+                "origin": [
+                  0.0,
+                  0.0,
+                  0.0225
+                ],
+                "rotation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "dimensions": [
+                  0.24,
+                  0.115,
+                  0.045
+                ]
+              },
+              "key": 0,
+              "frame": {
+                "point": [
+                  0.0,
+                  0.0,
+                  0.0225
+                ],
+                "xaxis": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "yaxis": [
+                  0.0,
+                  1.0,
+                  0.0
+                ]
+              }
+            },
+            "inheritance": [],
+            "name": "1",
+            "guid": "36a52e1c-d34e-49cd-893e-ee830c6e7280"
+          },
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0225,
+          "damages": [],
+          "image_paths": [],
+          "source_stack_key": 1,
+          "source_brick_key": "0",
+          "grading": 2
+        },
+        "1": {
+          "part": {
+            "dtype": "assembly_information_model.part/Part",
+            "data": {
+              "attributes": {
+                "name": "Part",
+                "shape": {
+                  "dtype": "compas.geometry/Box",
+                  "data": {
+                    "xsize": 0.24,
+                    "ysize": 0.115,
+                    "zsize": 0.045,
+                    "frame": {
+                      "point": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "xaxis": [
+                        1.0,
+                        0.0,
+                        0.0
+                      ],
+                      "yaxis": [
+                        0.0,
+                        1.0,
+                        0.0
+                      ]
+                    }
+                  },
+                  "guid": "fc1f8814-59a2-4341-a635-92845a8d7a21"
+                },
+                "mesh": {
+                  "dtype": "compas.datastructures/Mesh",
+                  "data": {
+                    "attributes": {},
+                    "default_vertex_attributes": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "default_edge_attributes": {},
+                    "default_face_attributes": {},
+                    "vertex": {
+                      "0": {
+                        "x": -0.12,
+                        "y": -0.0575,
+                        "z": -0.0225
+                      },
+                      "1": {
+                        "x": -0.12,
+                        "y": 0.0575,
+                        "z": -0.0225
+                      },
+                      "2": {
+                        "x": 0.12,
+                        "y": 0.0575,
+                        "z": -0.0225
+                      },
+                      "3": {
+                        "x": 0.12,
+                        "y": -0.0575,
+                        "z": -0.0225
+                      },
+                      "4": {
+                        "x": -0.12,
+                        "y": -0.0575,
+                        "z": 0.0225
+                      },
+                      "5": {
+                        "x": 0.12,
+                        "y": -0.0575,
+                        "z": 0.0225
+                      },
+                      "6": {
+                        "x": 0.12,
+                        "y": 0.0575,
+                        "z": 0.0225
+                      },
+                      "7": {
+                        "x": -0.12,
+                        "y": 0.0575,
+                        "z": 0.0225
+                      }
+                    },
+                    "face": {
+                      "0": [
+                        0,
+                        1,
+                        3,
+                        2
+                      ],
+                      "1": [
+                        4,
+                        5,
+                        7,
+                        6
+                      ],
+                      "2": [
+                        0,
+                        1,
+                        5,
+                        4
+                      ],
+                      "3": [
+                        1,
+                        3,
+                        7,
+                        5
+                      ],
+                      "4": [
+                        3,
+                        2,
+                        6,
+                        7
+                      ],
+                      "5": [
+                        2,
+                        0,
+                        4,
+                        6
+                      ]
+                    },
+                    "facedata": {
+                      "0": {},
+                      "1": {},
+                      "2": {},
+                      "3": {},
+                      "4": {},
+                      "5": {}
+                    },
+                    "edgedata": {},
+                    "max_vertex": 7,
+                    "max_face": 5
+                  },
+                  "inheritance": [],
+                  "guid": "d4dc320d-fda0-4f18-aec6-7c0e986b50a1"
+                },
+                "source_id": 2,
+                "origin": [
+                  0.0,
+                  0.0,
+                  0.0675
+                ],
+                "rotation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "dimensions": [
+                  0.24,
+                  0.115,
+                  0.045
+                ]
+              },
+              "key": 1,
+              "frame": {
+                "point": [
+                  0.0,
+                  0.0,
+                  0.0675
+                ],
+                "xaxis": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "yaxis": [
+                  0.0,
+                  1.0,
+                  0.0
+                ]
+              }
+            },
+            "inheritance": [],
+            "name": "2",
+            "guid": "edf11d1c-9c62-48eb-a7bf-c256aaa3bdb6"
+          },
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0675,
+          "damages": [],
+          "image_paths": [],
+          "source_stack_key": 1,
+          "source_brick_key": "1",
+          "grading": 4
+        },
+        "2": {
+          "part": {
+            "dtype": "assembly_information_model.part/Part",
+            "data": {
+              "attributes": {
+                "name": "Part",
+                "shape": {
+                  "dtype": "compas.geometry/Box",
+                  "data": {
+                    "xsize": 0.24,
+                    "ysize": 0.115,
+                    "zsize": 0.045,
+                    "frame": {
+                      "point": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "xaxis": [
+                        1.0,
+                        0.0,
+                        0.0
+                      ],
+                      "yaxis": [
+                        0.0,
+                        1.0,
+                        0.0
+                      ]
+                    }
+                  },
+                  "guid": "6f9589a4-a13d-437f-a49b-5bd131e8e733"
+                },
+                "mesh": {
+                  "dtype": "compas.datastructures/Mesh",
+                  "data": {
+                    "attributes": {},
+                    "default_vertex_attributes": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "default_edge_attributes": {},
+                    "default_face_attributes": {},
+                    "vertex": {
+                      "0": {
+                        "x": -0.12,
+                        "y": -0.0575,
+                        "z": -0.0225
+                      },
+                      "1": {
+                        "x": -0.12,
+                        "y": 0.0575,
+                        "z": -0.0225
+                      },
+                      "2": {
+                        "x": 0.12,
+                        "y": 0.0575,
+                        "z": -0.0225
+                      },
+                      "3": {
+                        "x": 0.12,
+                        "y": -0.0575,
+                        "z": -0.0225
+                      },
+                      "4": {
+                        "x": -0.12,
+                        "y": -0.0575,
+                        "z": 0.0225
+                      },
+                      "5": {
+                        "x": 0.12,
+                        "y": -0.0575,
+                        "z": 0.0225
+                      },
+                      "6": {
+                        "x": 0.12,
+                        "y": 0.0575,
+                        "z": 0.0225
+                      },
+                      "7": {
+                        "x": -0.12,
+                        "y": 0.0575,
+                        "z": 0.0225
+                      }
+                    },
+                    "face": {
+                      "0": [
+                        0,
+                        1,
+                        3,
+                        2
+                      ],
+                      "1": [
+                        4,
+                        5,
+                        7,
+                        6
+                      ],
+                      "2": [
+                        0,
+                        1,
+                        5,
+                        4
+                      ],
+                      "3": [
+                        1,
+                        3,
+                        7,
+                        5
+                      ],
+                      "4": [
+                        3,
+                        2,
+                        6,
+                        7
+                      ],
+                      "5": [
+                        2,
+                        0,
+                        4,
+                        6
+                      ]
+                    },
+                    "facedata": {
+                      "0": {},
+                      "1": {},
+                      "2": {},
+                      "3": {},
+                      "4": {},
+                      "5": {}
+                    },
+                    "edgedata": {},
+                    "max_vertex": 7,
+                    "max_face": 5
+                  },
+                  "inheritance": [],
+                  "guid": "13bbb1f4-2af6-4032-9c9d-899313fc0b8f"
+                },
+                "source_id": 3,
+                "origin": [
+                  0.0,
+                  0.0,
+                  0.1125
+                ],
+                "rotation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "dimensions": [
+                  0.24,
+                  0.115,
+                  0.045
+                ]
+              },
+              "key": 2,
+              "frame": {
+                "point": [
+                  0.0,
+                  0.0,
+                  0.1125
+                ],
+                "xaxis": [
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                "yaxis": [
+                  0.0,
+                  1.0,
+                  0.0
+                ]
+              }
+            },
+            "inheritance": [],
+            "name": "3",
+            "guid": "020fc8e8-c3ae-49a1-b8aa-5d1517618dc6"
+          },
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.1125,
+          "damages": [],
+          "image_paths": [],
+          "source_stack_key": 1,
+          "source_brick_key": "2",
+          "grading": 4
+        },
+        "3": {
+          "part": {
+            "dtype": "assembly_information_model.part/Part",
+            "data": {
+              "attributes": {
+                "name": "Part",
+                "shape": {
+                  "dtype": "compas.geometry/Box",
+                  "data": {
+                    "xsize": 0.24,
+                    "ysize": 0.115,
+                    "zsize": 0.045,
+                    "frame": {
+                      "point": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "xaxis": [
+                        1.0,
+                        0.0,
+                        0.0
+                      ],
+                      "yaxis": [
+                        0.0,
+                        1.0,
+                        0.0
+                      ]
+                    }
+                  },
+                  "guid": "3be26d4e-3fae-421a-af90-79ecf67d927c"
+                },
+                "mesh": {
+                  "dtype": "compas.datastructures/Mesh",
+                  "data": {
+                    "attributes": {},
+                    "default_vertex_attributes": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "default_edge_attributes": {},
+                    "default_face_attributes": {},
+                    "vertex": {
+                      "0": {
+                        "x": -0.12,
+                        "y": -0.0575,
+                        "z": -0.0225
+                      },
+                      "1": {
+                        "x": -0.12,
+                        "y": 0.0575,
+                        "z": -0.0225
+                      },
+                      "2": {
+                        "x": 0.12,
+                        "y": 0.0575,
+                        "z": -0.0225
+                      },
+                      "3": {
+                        "x": 0.12,
+                        "y": -0.0575,
+                        "z": -0.0225
+                      },
+                      "4": {
+                        "x": -0.12,
+                        "y": -0.0575,
+                        "z": 0.0225
+                      },
+                      "5": {
+                        "x": 0.12,
+                        "y": -0.0575,
+                        "z": 0.0225
+                      },
+                      "6": {
+                        "x": 0.12,
+                        "y": 0.0575,
+                        "z": 0.0225
+                      },
+                      "7": {
+                        "x": -0.12,
+                        "y": 0.0575,
+                        "z": 0.0225
+                      }
+                    },
+                    "face": {
+                      "0": [
+                        0,
+                        1,
+                        3,
+                        2
+                      ],
+                      "1": [
+                        4,
+                        5,
+                        7,
+                        6
+                      ],
+                      "2": [
+                        0,
+                        1,
+                        5,
+                        4
+                      ],
+                      "3": [
+                        1,
+                        3,
+                        7,
+                        5
+                      ],
+                      "4": [
+                        3,
+                        2,
+                        6,
+                        7
+                      ],
+                      "5": [
+                        2,
+                        0,
+                        4,
+                        6
+                      ]
+                    },
+                    "facedata": {
+                      "0": {},
+                      "1": {},
+                      "2": {},
+                      "3": {},
+                      "4": {},
+                      "5": {}
+                    },
+                    "edgedata": {},
+                    "max_vertex": 7,
+                    "max_face": 5
+                  },
+                  "inheritance": [],
+                  "guid": "94a6aead-4a85-4b9b-91d2-4a936dc795bf"
+                },
+                "source_id": 4,
+                "origin": [
+                  0.0,
+                  0.0,
+                  0.1575
+                ],
+                "rotation": [
+                  0.0,
+                  0.0,
+                  0.2618
+                ],
+                "dimensions": [
+                  0.24,
+                  0.115,
+                  0.045
+                ]
+              },
+              "key": 3,
+              "frame": {
+                "point": [
+                  0.0,
+                  0.0,
+                  0.1575
+                ],
+                "xaxis": [
+                  0.9659256678396477,
+                  0.2588196364430847,
+                  0.0
+                ],
+                "yaxis": [
+                  -0.2588196364430847,
+                  0.9659256678396477,
+                  0.0
+                ]
+              }
+            },
+            "inheritance": [],
+            "name": "4",
+            "guid": "69d6ab2d-f8b3-4512-a41b-7a83f33912b9"
+          },
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.1575,
+          "damages": [],
+          "image_paths": [],
+          "source_stack_key": 1,
+          "source_brick_key": "3",
+          "grading": 4
+        },
+        "4": {
+          "part": {
+            "dtype": "assembly_information_model.part/Part",
+            "data": {
+              "attributes": {
+                "name": "Part",
+                "shape": {
+                  "dtype": "compas.geometry/Box",
+                  "data": {
+                    "xsize": 0.24,
+                    "ysize": 0.115,
+                    "zsize": 0.045,
+                    "frame": {
+                      "point": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "xaxis": [
+                        1.0,
+                        0.0,
+                        0.0
+                      ],
+                      "yaxis": [
+                        0.0,
+                        1.0,
+                        0.0
+                      ]
+                    }
+                  },
+                  "guid": "b0c28428-dfcc-479e-acbf-77420aac2e33"
+                },
+                "mesh": {
+                  "dtype": "compas.datastructures/Mesh",
+                  "data": {
+                    "attributes": {},
+                    "default_vertex_attributes": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "default_edge_attributes": {},
+                    "default_face_attributes": {},
+                    "vertex": {
+                      "0": {
+                        "x": -0.12,
+                        "y": -0.0575,
+                        "z": -0.0225
+                      },
+                      "1": {
+                        "x": -0.12,
+                        "y": 0.0575,
+                        "z": -0.0225
+                      },
+                      "2": {
+                        "x": 0.12,
+                        "y": 0.0575,
+                        "z": -0.0225
+                      },
+                      "3": {
+                        "x": 0.12,
+                        "y": -0.0575,
+                        "z": -0.0225
+                      },
+                      "4": {
+                        "x": -0.12,
+                        "y": -0.0575,
+                        "z": 0.0225
+                      },
+                      "5": {
+                        "x": 0.12,
+                        "y": -0.0575,
+                        "z": 0.0225
+                      },
+                      "6": {
+                        "x": 0.12,
+                        "y": 0.0575,
+                        "z": 0.0225
+                      },
+                      "7": {
+                        "x": -0.12,
+                        "y": 0.0575,
+                        "z": 0.0225
+                      }
+                    },
+                    "face": {
+                      "0": [
+                        0,
+                        1,
+                        3,
+                        2
+                      ],
+                      "1": [
+                        4,
+                        5,
+                        7,
+                        6
+                      ],
+                      "2": [
+                        0,
+                        1,
+                        5,
+                        4
+                      ],
+                      "3": [
+                        1,
+                        3,
+                        7,
+                        5
+                      ],
+                      "4": [
+                        3,
+                        2,
+                        6,
+                        7
+                      ],
+                      "5": [
+                        2,
+                        0,
+                        4,
+                        6
+                      ]
+                    },
+                    "facedata": {
+                      "0": {},
+                      "1": {},
+                      "2": {},
+                      "3": {},
+                      "4": {},
+                      "5": {}
+                    },
+                    "edgedata": {},
+                    "max_vertex": 7,
+                    "max_face": 5
+                  },
+                  "inheritance": [],
+                  "guid": "075f2235-8adb-4f75-85fa-6d684f4dbafc"
+                },
+                "source_id": 5,
+                "origin": [
+                  0.0,
+                  0.0,
+                  0.2025
+                ],
+                "rotation": [
+                  0.0,
+                  0.0,
+                  0.5236
+                ],
+                "dimensions": [
+                  0.24,
+                  0.115,
+                  0.045
+                ]
+              },
+              "key": 4,
+              "frame": {
+                "point": [
+                  0.0,
+                  0.0,
+                  0.2025
+                ],
+                "xaxis": [
+                  0.866024791582939,
+                  0.5000010603626028,
+                  0.0
+                ],
+                "yaxis": [
+                  -0.5000010603626028,
+                  0.866024791582939,
+                  0.0
+                ]
+              }
+            },
+            "inheritance": [],
+            "name": "5",
+            "guid": "df193c0c-7830-4f04-9f50-c242cab4df76"
+          },
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.2025,
+          "damages": [],
+          "image_paths": [],
+          "source_stack_key": 1,
+          "source_brick_key": "4",
+          "grading": 4
+        },
+        "5": {
+          "part": {
+            "dtype": "assembly_information_model.part/Part",
+            "data": {
+              "attributes": {
+                "name": "Part",
+                "shape": {
+                  "dtype": "compas.geometry/Box",
+                  "data": {
+                    "xsize": 0.24,
+                    "ysize": 0.115,
+                    "zsize": 0.045,
+                    "frame": {
+                      "point": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "xaxis": [
+                        1.0,
+                        0.0,
+                        0.0
+                      ],
+                      "yaxis": [
+                        0.0,
+                        1.0,
+                        0.0
+                      ]
+                    }
+                  },
+                  "guid": "fda17197-bcde-4729-a1d2-d52fda325b19"
+                },
+                "mesh": {
+                  "dtype": "compas.datastructures/Mesh",
+                  "data": {
+                    "attributes": {},
+                    "default_vertex_attributes": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "default_edge_attributes": {},
+                    "default_face_attributes": {},
+                    "vertex": {
+                      "0": {
+                        "x": -0.12,
+                        "y": -0.0575,
+                        "z": -0.0225
+                      },
+                      "1": {
+                        "x": -0.12,
+                        "y": 0.0575,
+                        "z": -0.0225
+                      },
+                      "2": {
+                        "x": 0.12,
+                        "y": 0.0575,
+                        "z": -0.0225
+                      },
+                      "3": {
+                        "x": 0.12,
+                        "y": -0.0575,
+                        "z": -0.0225
+                      },
+                      "4": {
+                        "x": -0.12,
+                        "y": -0.0575,
+                        "z": 0.0225
+                      },
+                      "5": {
+                        "x": 0.12,
+                        "y": -0.0575,
+                        "z": 0.0225
+                      },
+                      "6": {
+                        "x": 0.12,
+                        "y": 0.0575,
+                        "z": 0.0225
+                      },
+                      "7": {
+                        "x": -0.12,
+                        "y": 0.0575,
+                        "z": 0.0225
+                      }
+                    },
+                    "face": {
+                      "0": [
+                        0,
+                        1,
+                        3,
+                        2
+                      ],
+                      "1": [
+                        4,
+                        5,
+                        7,
+                        6
+                      ],
+                      "2": [
+                        0,
+                        1,
+                        5,
+                        4
+                      ],
+                      "3": [
+                        1,
+                        3,
+                        7,
+                        5
+                      ],
+                      "4": [
+                        3,
+                        2,
+                        6,
+                        7
+                      ],
+                      "5": [
+                        2,
+                        0,
+                        4,
+                        6
+                      ]
+                    },
+                    "facedata": {
+                      "0": {},
+                      "1": {},
+                      "2": {},
+                      "3": {},
+                      "4": {},
+                      "5": {}
+                    },
+                    "edgedata": {},
+                    "max_vertex": 7,
+                    "max_face": 5
+                  },
+                  "inheritance": [],
+                  "guid": "b70fa035-3e06-4435-814a-0a484e301ec6"
+                },
+                "source_id": 6,
+                "origin": [
+                  0.0,
+                  0.0,
+                  0.2475
+                ],
+                "rotation": [
+                  0.0,
+                  0.0,
+                  1.0472
+                ],
+                "dimensions": [
+                  0.24,
+                  0.115,
+                  0.045
+                ]
+              },
+              "key": 5,
+              "frame": {
+                "point": [
+                  0.0,
+                  0.0,
+                  0.2475
+                ],
+                "xaxis": [
+                  0.4999978792725457,
+                  0.8660266281835431,
+                  0.0
+                ],
+                "yaxis": [
+                  -0.8660266281835431,
+                  0.4999978792725457,
+                  0.0
+                ]
+              }
+            },
+            "inheritance": [],
+            "name": "6",
+            "guid": "4b829d84-94a2-47df-8271-1abe782fd5c5"
+          },
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.2475,
+          "damages": [],
+          "image_paths": [],
+          "source_stack_key": 1,
+          "source_brick_key": "7",
+          "grading": 5
+        },
+        "6": {
+          "part": {
+            "dtype": "assembly_information_model.part/Part",
+            "data": {
+              "attributes": {
+                "name": "Part",
+                "shape": {
+                  "dtype": "compas.geometry/Box",
+                  "data": {
+                    "xsize": 0.24,
+                    "ysize": 0.115,
+                    "zsize": 0.045,
+                    "frame": {
+                      "point": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "xaxis": [
+                        1.0,
+                        0.0,
+                        0.0
+                      ],
+                      "yaxis": [
+                        0.0,
+                        1.0,
+                        0.0
+                      ]
+                    }
+                  },
+                  "guid": "afa6c615-f1e4-4b33-a0f1-385dc7ed7844"
+                },
+                "mesh": {
+                  "dtype": "compas.datastructures/Mesh",
+                  "data": {
+                    "attributes": {},
+                    "default_vertex_attributes": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "default_edge_attributes": {},
+                    "default_face_attributes": {},
+                    "vertex": {
+                      "0": {
+                        "x": -0.12,
+                        "y": -0.0575,
+                        "z": -0.0225
+                      },
+                      "1": {
+                        "x": -0.12,
+                        "y": 0.0575,
+                        "z": -0.0225
+                      },
+                      "2": {
+                        "x": 0.12,
+                        "y": 0.0575,
+                        "z": -0.0225
+                      },
+                      "3": {
+                        "x": 0.12,
+                        "y": -0.0575,
+                        "z": -0.0225
+                      },
+                      "4": {
+                        "x": -0.12,
+                        "y": -0.0575,
+                        "z": 0.0225
+                      },
+                      "5": {
+                        "x": 0.12,
+                        "y": -0.0575,
+                        "z": 0.0225
+                      },
+                      "6": {
+                        "x": 0.12,
+                        "y": 0.0575,
+                        "z": 0.0225
+                      },
+                      "7": {
+                        "x": -0.12,
+                        "y": 0.0575,
+                        "z": 0.0225
+                      }
+                    },
+                    "face": {
+                      "0": [
+                        0,
+                        1,
+                        3,
+                        2
+                      ],
+                      "1": [
+                        4,
+                        5,
+                        7,
+                        6
+                      ],
+                      "2": [
+                        0,
+                        1,
+                        5,
+                        4
+                      ],
+                      "3": [
+                        1,
+                        3,
+                        7,
+                        5
+                      ],
+                      "4": [
+                        3,
+                        2,
+                        6,
+                        7
+                      ],
+                      "5": [
+                        2,
+                        0,
+                        4,
+                        6
+                      ]
+                    },
+                    "facedata": {
+                      "0": {},
+                      "1": {},
+                      "2": {},
+                      "3": {},
+                      "4": {},
+                      "5": {}
+                    },
+                    "edgedata": {},
+                    "max_vertex": 7,
+                    "max_face": 5
+                  },
+                  "inheritance": [],
+                  "guid": "1a4cea3f-cbcf-43ec-b5a7-cbbf98f5817a"
+                },
+                "source_id": 7,
+                "origin": [
+                  0.0,
+                  0.0,
+                  0.2925
+                ],
+                "rotation": [
+                  0.0,
+                  0.0,
+                  1.5708
+                ],
+                "dimensions": [
+                  0.24,
+                  0.115,
+                  0.045
+                ]
+              },
+              "key": 6,
+              "frame": {
+                "point": [
+                  0.0,
+                  0.0,
+                  0.2925
+                ],
+                "xaxis": [
+                  -3.6732051033465744e-06,
+                  0.9999999999932538,
+                  0.0
+                ],
+                "yaxis": [
+                  -0.9999999999932538,
+                  -3.6732051033465744e-06,
+                  0.0
+                ]
+              }
+            },
+            "inheritance": [],
+            "name": "7",
+            "guid": "f89a33ef-ee90-4a51-b1c9-e7ba7a1c1da6"
+          },
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.2925,
+          "damages": [],
+          "image_paths": [],
+          "source_stack_key": 1,
+          "source_brick_key": "9",
+          "grading": 5
+        },
+        "7": {
+          "part": {
+            "dtype": "assembly_information_model.part/Part",
+            "data": {
+              "attributes": {
+                "name": "Part",
+                "shape": {
+                  "dtype": "compas.geometry/Box",
+                  "data": {
+                    "xsize": 0.24,
+                    "ysize": 0.115,
+                    "zsize": 0.045,
+                    "frame": {
+                      "point": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "xaxis": [
+                        1.0,
+                        0.0,
+                        0.0
+                      ],
+                      "yaxis": [
+                        0.0,
+                        1.0,
+                        0.0
+                      ]
+                    }
+                  },
+                  "guid": "fc5f8a73-1c7a-4fdc-8a43-d9f5ddd2ad47"
+                },
+                "mesh": {
+                  "dtype": "compas.datastructures/Mesh",
+                  "data": {
+                    "attributes": {},
+                    "default_vertex_attributes": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "default_edge_attributes": {},
+                    "default_face_attributes": {},
+                    "vertex": {
+                      "0": {
+                        "x": -0.12,
+                        "y": -0.0575,
+                        "z": -0.0225
+                      },
+                      "1": {
+                        "x": -0.12,
+                        "y": 0.0575,
+                        "z": -0.0225
+                      },
+                      "2": {
+                        "x": 0.12,
+                        "y": 0.0575,
+                        "z": -0.0225
+                      },
+                      "3": {
+                        "x": 0.12,
+                        "y": -0.0575,
+                        "z": -0.0225
+                      },
+                      "4": {
+                        "x": -0.12,
+                        "y": -0.0575,
+                        "z": 0.0225
+                      },
+                      "5": {
+                        "x": 0.12,
+                        "y": -0.0575,
+                        "z": 0.0225
+                      },
+                      "6": {
+                        "x": 0.12,
+                        "y": 0.0575,
+                        "z": 0.0225
+                      },
+                      "7": {
+                        "x": -0.12,
+                        "y": 0.0575,
+                        "z": 0.0225
+                      }
+                    },
+                    "face": {
+                      "0": [
+                        0,
+                        1,
+                        3,
+                        2
+                      ],
+                      "1": [
+                        4,
+                        5,
+                        7,
+                        6
+                      ],
+                      "2": [
+                        0,
+                        1,
+                        5,
+                        4
+                      ],
+                      "3": [
+                        1,
+                        3,
+                        7,
+                        5
+                      ],
+                      "4": [
+                        3,
+                        2,
+                        6,
+                        7
+                      ],
+                      "5": [
+                        2,
+                        0,
+                        4,
+                        6
+                      ]
+                    },
+                    "facedata": {
+                      "0": {},
+                      "1": {},
+                      "2": {},
+                      "3": {},
+                      "4": {},
+                      "5": {}
+                    },
+                    "edgedata": {},
+                    "max_vertex": 7,
+                    "max_face": 5
+                  },
+                  "inheritance": [],
+                  "guid": "e42fbf4f-1340-4989-9ef3-fdbd69efe409"
+                },
+                "source_id": 8,
+                "origin": [
+                  0.0,
+                  0.0,
+                  0.3375
+                ],
+                "rotation": [
+                  0.0,
+                  0.0,
+                  2.0944
+                ],
+                "dimensions": [
+                  0.24,
+                  0.115,
+                  0.045
+                ]
+              },
+              "key": 7,
+              "frame": {
+                "point": [
+                  0.0,
+                  0.0,
+                  0.3375
+                ],
+                "xaxis": [
+                  -0.5000042414459136,
+                  0.8660229549706501,
+                  0.0
+                ],
+                "yaxis": [
+                  -0.8660229549706501,
+                  -0.5000042414459136,
+                  0.0
+                ]
+              }
+            },
+            "inheritance": [],
+            "name": "8",
+            "guid": "1b532c8f-03a6-40ea-b1cd-fd5f7f12c606"
+          },
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.3375,
+          "damages": [],
+          "image_paths": [],
+          "source_stack_key": 1,
+          "source_brick_key": "10",
+          "grading": 5
+        },
+        "8": {
+          "part": {
+            "dtype": "assembly_information_model.part/Part",
+            "data": {
+              "attributes": {
+                "name": "Part",
+                "shape": {
+                  "dtype": "compas.geometry/Box",
+                  "data": {
+                    "xsize": 0.24,
+                    "ysize": 0.115,
+                    "zsize": 0.045,
+                    "frame": {
+                      "point": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "xaxis": [
+                        1.0,
+                        0.0,
+                        0.0
+                      ],
+                      "yaxis": [
+                        0.0,
+                        1.0,
+                        0.0
+                      ]
+                    }
+                  },
+                  "guid": "7e61af98-7880-4f1a-88f8-e7b94b22e1e7"
+                },
+                "mesh": {
+                  "dtype": "compas.datastructures/Mesh",
+                  "data": {
+                    "attributes": {},
+                    "default_vertex_attributes": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "default_edge_attributes": {},
+                    "default_face_attributes": {},
+                    "vertex": {
+                      "0": {
+                        "x": -0.12,
+                        "y": -0.0575,
+                        "z": -0.0225
+                      },
+                      "1": {
+                        "x": -0.12,
+                        "y": 0.0575,
+                        "z": -0.0225
+                      },
+                      "2": {
+                        "x": 0.12,
+                        "y": 0.0575,
+                        "z": -0.0225
+                      },
+                      "3": {
+                        "x": 0.12,
+                        "y": -0.0575,
+                        "z": -0.0225
+                      },
+                      "4": {
+                        "x": -0.12,
+                        "y": -0.0575,
+                        "z": 0.0225
+                      },
+                      "5": {
+                        "x": 0.12,
+                        "y": -0.0575,
+                        "z": 0.0225
+                      },
+                      "6": {
+                        "x": 0.12,
+                        "y": 0.0575,
+                        "z": 0.0225
+                      },
+                      "7": {
+                        "x": -0.12,
+                        "y": 0.0575,
+                        "z": 0.0225
+                      }
+                    },
+                    "face": {
+                      "0": [
+                        0,
+                        1,
+                        3,
+                        2
+                      ],
+                      "1": [
+                        4,
+                        5,
+                        7,
+                        6
+                      ],
+                      "2": [
+                        0,
+                        1,
+                        5,
+                        4
+                      ],
+                      "3": [
+                        1,
+                        3,
+                        7,
+                        5
+                      ],
+                      "4": [
+                        3,
+                        2,
+                        6,
+                        7
+                      ],
+                      "5": [
+                        2,
+                        0,
+                        4,
+                        6
+                      ]
+                    },
+                    "facedata": {
+                      "0": {},
+                      "1": {},
+                      "2": {},
+                      "3": {},
+                      "4": {},
+                      "5": {}
+                    },
+                    "edgedata": {},
+                    "max_vertex": 7,
+                    "max_face": 5
+                  },
+                  "inheritance": [],
+                  "guid": "eb3759a7-763e-42ae-8f37-d9b2551cce33"
+                },
+                "source_id": 9,
+                "origin": [
+                  0.0,
+                  0.0,
+                  0.3825
+                ],
+                "rotation": [
+                  0.0,
+                  0.0,
+                  2.618
+                ],
+                "dimensions": [
+                  0.24,
+                  0.115,
+                  0.045
+                ]
+              },
+              "key": 8,
+              "frame": {
+                "point": [
+                  0.0,
+                  0.0,
+                  0.3825
+                ],
+                "xaxis": [
+                  -0.8660284647724625,
+                  0.4999946981757423,
+                  0.0
+                ],
+                "yaxis": [
+                  -0.4999946981757423,
+                  -0.8660284647724625,
+                  0.0
+                ]
+              }
+            },
+            "inheritance": [],
+            "name": "9",
+            "guid": "f5005f90-85a4-4bb0-a77a-485da30ba600"
+          },
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.3825,
+          "damages": [],
+          "image_paths": [],
+          "source_stack_key": 1,
+          "source_brick_key": "11",
+          "grading": 5
+        },
+        "9": {
+          "part": {
+            "dtype": "assembly_information_model.part/Part",
+            "data": {
+              "attributes": {
+                "name": "Part",
+                "shape": {
+                  "dtype": "compas.geometry/Box",
+                  "data": {
+                    "xsize": 0.24,
+                    "ysize": 0.115,
+                    "zsize": 0.045,
+                    "frame": {
+                      "point": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "xaxis": [
+                        1.0,
+                        0.0,
+                        0.0
+                      ],
+                      "yaxis": [
+                        0.0,
+                        1.0,
+                        0.0
+                      ]
+                    }
+                  },
+                  "guid": "cf70040d-112d-4a4d-9620-5c1b7d1380e8"
+                },
+                "mesh": {
+                  "dtype": "compas.datastructures/Mesh",
+                  "data": {
+                    "attributes": {},
+                    "default_vertex_attributes": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "default_edge_attributes": {},
+                    "default_face_attributes": {},
+                    "vertex": {
+                      "0": {
+                        "x": -0.12,
+                        "y": -0.0575,
+                        "z": -0.0225
+                      },
+                      "1": {
+                        "x": -0.12,
+                        "y": 0.0575,
+                        "z": -0.0225
+                      },
+                      "2": {
+                        "x": 0.12,
+                        "y": 0.0575,
+                        "z": -0.0225
+                      },
+                      "3": {
+                        "x": 0.12,
+                        "y": -0.0575,
+                        "z": -0.0225
+                      },
+                      "4": {
+                        "x": -0.12,
+                        "y": -0.0575,
+                        "z": 0.0225
+                      },
+                      "5": {
+                        "x": 0.12,
+                        "y": -0.0575,
+                        "z": 0.0225
+                      },
+                      "6": {
+                        "x": 0.12,
+                        "y": 0.0575,
+                        "z": 0.0225
+                      },
+                      "7": {
+                        "x": -0.12,
+                        "y": 0.0575,
+                        "z": 0.0225
+                      }
+                    },
+                    "face": {
+                      "0": [
+                        0,
+                        1,
+                        3,
+                        2
+                      ],
+                      "1": [
+                        4,
+                        5,
+                        7,
+                        6
+                      ],
+                      "2": [
+                        0,
+                        1,
+                        5,
+                        4
+                      ],
+                      "3": [
+                        1,
+                        3,
+                        7,
+                        5
+                      ],
+                      "4": [
+                        3,
+                        2,
+                        6,
+                        7
+                      ],
+                      "5": [
+                        2,
+                        0,
+                        4,
+                        6
+                      ]
+                    },
+                    "facedata": {
+                      "0": {},
+                      "1": {},
+                      "2": {},
+                      "3": {},
+                      "4": {},
+                      "5": {}
+                    },
+                    "edgedata": {},
+                    "max_vertex": 7,
+                    "max_face": 5
+                  },
+                  "inheritance": [],
+                  "guid": "1b9e77d8-11d7-4c20-ba7a-b0ce2c6a6303"
+                },
+                "source_id": 10,
+                "origin": [
+                  0.0,
+                  0.0,
+                  0.4275
+                ],
+                "rotation": [
+                  0.0,
+                  0.0,
+                  3.1416
+                ],
+                "dimensions": [
+                  0.24,
+                  0.115,
+                  0.045
+                ]
+              },
+              "key": 9,
+              "frame": {
+                "point": [
+                  0.0,
+                  0.0,
+                  0.4275
+                ],
+                "xaxis": [
+                  -0.9999999999730151,
+                  -7.346410206643587e-06,
+                  0.0
+                ],
+                "yaxis": [
+                  7.346410206643587e-06,
+                  -0.9999999999730151,
+                  0.0
+                ]
+              }
+            },
+            "inheritance": [],
+            "name": "10",
+            "guid": "5c1ba086-972f-4670-b85f-39b5674de790"
+          },
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.4275,
+          "damages": [],
+          "image_paths": [],
+          "source_stack_key": 1,
+          "source_brick_key": "12",
+          "grading": 5
+        }
+      },
+      "edge": {
+        "0": {
+          "1": {}
+        },
+        "1": {
+          "0": {},
+          "2": {}
+        },
+        "2": {
+          "1": {},
+          "3": {}
+        },
+        "3": {
+          "2": {},
+          "4": {}
+        },
+        "4": {
+          "3": {},
+          "5": {}
+        },
+        "5": {
+          "4": {},
+          "6": {}
+        },
+        "6": {
+          "5": {},
+          "7": {}
+        },
+        "7": {
+          "6": {},
+          "8": {}
+        },
+        "8": {
+          "7": {},
+          "9": {}
+        },
+        "9": {
+          "8": {}
+        }
+      },
+      "max_node": 9
+    },
+    "attributes": {}
+  },
+  "inheritance": [],
+  "name": "BrickAssembly",
+  "guid": "850f0a9b-e5c2-4669-b8ba-1c4da0073519"
+}

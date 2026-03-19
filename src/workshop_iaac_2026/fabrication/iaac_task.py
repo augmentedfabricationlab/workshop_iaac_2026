@@ -32,7 +32,8 @@ __all__ = [
     "ScanSingleBrickAddNewTask",
     "ScanAllBricksTask",
     "ScanSingleBrickTask",
-    "ReceiveCameraImageTask"
+    "ReceiveCameraImageTask",
+    "SleepTask"
 ]
     
 def slerp_quat(q1, q2, t):
@@ -339,7 +340,7 @@ class ScanStackMarkerTask(ScanMarkersTask):
         self.robot = robot
         self.assembly = assembly
         self.stack_marker_id = stack_marker_id
-        self.position = 0
+        self.position = position
 
     def run(self, stop_thread):
         marker_dict = self.get_detected_markers(stop_thread)
@@ -699,19 +700,26 @@ class ScanSingleBrickTask(ScanBricksTask):
 
         self.log("Updating only the brick {}...".format(self.brick_key_to_update))
 
+        pick_frame = self.assembly.part(self.brick_key_to_update).frame
+        last_marker_frame = None
+        if "stack_key" in self.assembly.graph.attributes.keys():
+            marker_frames_WCF = self.assembly.graph.attributes["marker_frames_WCF"]
+            last_frame_key = max(marker_frames_WCF.keys())
+            last_marker_frame = marker_frames_WCF[last_frame_key]
+        if last_marker_frame is not None:
+            pick_frame = pick_frame.transformed(Transformation.from_change_of_basis(last_marker_frame, Frame.worldXY()))
+
+        target_key = None
+        closest_distance = 0.1
         for brick_id, pose in brick_dict.items():
             pose = self.robot.from_RCF_to_WCF(pose) 
-            
-            target_key = None
             # Compare the pose to each pose in assembly by seeing the distance.
-            closest_distance = 0.1
-            for key in self.assembly.graph.nodes_where({"built": True}):
-                distance = distance_point_point(self.assembly.part(key).frame.point, pose.point)
-                if distance < closest_distance:
-                    self.log("Distance is {}".format(distance))
-                    self.log("Brick {} is the same as id {}".format(key, brick_id))
-                    closest_distance = distance
-                    target_key = key
+            distance = distance_point_point(pick_frame.point, pose.point)
+            self.log("Distance is {}".format(distance))
+            if distance < closest_distance:
+                self.log("Brick {} is the same as id {}".format(self.brick_key_to_update, brick_id))
+                closest_distance = distance
+                target_key = self.brick_key_to_update
 
         # Update pose
         if target_key == self.brick_key_to_update:
@@ -725,9 +733,12 @@ class ScanSingleBrickTask(ScanBricksTask):
                 pose_BCF = self.robot.from_WCF_to_BCF(pose)
                 self.log("I took average.")
 
+            pose = pose.transformed(Transformation.from_change_of_basis(Frame.worldXY(), last_marker_frame))
+            if pose.yaxis.y > 0:
+                pose = pose.transformed(Rotation.from_axis_and_angle(pose.zaxis, math.radians(180), pose.point))
             part = self.assembly.part(self.brick_key_to_update)
             part.frame = pose.copy()
-            self.assembly.graph.node_attribute(self.brick_key_to_update, 'estimated_frame', pose.copy())
+            self.assembly.graph.node_attribute(self.brick_key_to_update, 'stack_estimated_frame', pose.copy())
         else:
             self.log(f"No match found for brick {self.brick_key_to_update}")
                 
@@ -737,7 +748,7 @@ class ScanSingleBrickTask(ScanBricksTask):
 # Camera image task.
 
 class ReceiveCameraImageTask(Task):
-    def __init__(self, robot, brick_key=0, view="A", stack_key=0, data_path="C:/Users/saral/workspace/projects/workshop_iaac_2026/data/images_evaluation", key=None):
+    def __init__(self, robot, brick_key=0, view="A", stack_key=0, data_path="C:/Users/saral/workspace/projects/workshop_iaac_2026/data/images_evaluation", sleep=4, key=None):
         super(ReceiveCameraImageTask, self).__init__(key)
         self.robot = robot
         self.brick_key = brick_key
@@ -745,6 +756,7 @@ class ReceiveCameraImageTask(Task):
         self.data_path = data_path
         self.stack_key = stack_key
         self.img_msg = None
+        self.sleep = sleep
     
     def _receive_message(self, message):
         if self.img_msg is None:
@@ -753,8 +765,8 @@ class ReceiveCameraImageTask(Task):
 
     def run(self, stop_thread):
         self.log('Receiving the view {} for brick {}!'.format(self.view, self.brick_key))
-        self.log("Sleeping for 4 seconds.")
-        time.sleep(4)
+        self.log("Sleeping for {} seconds.".format(self.sleep))
+        time.sleep(self.sleep)
 
         while not stop_thread():
             self.robot.mobile_client.topic_subscribe(
@@ -772,5 +784,16 @@ class ReceiveCameraImageTask(Task):
         np.save(PATH, self.img_msg)
         self.log("Saved image msg.")
 
+        self.is_completed = True
+        return True
+
+class SleepTask(Task):
+    def __init__(self, seconds=0, key=None):
+        super(SleepTask, self).__init__(key)
+        self.seconds = seconds
+        
+    def run(self, stop_thread):
+        self.log('Sleeping for {} secs.'.format(self.seconds))
+        time.sleep(self.seconds)
         self.is_completed = True
         return True
